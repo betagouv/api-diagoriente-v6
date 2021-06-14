@@ -1,7 +1,7 @@
 import { GraphQLObjectType, GraphQLString } from 'graphql';
 
 export const TokenType = new GraphQLObjectType({
-  name: 'token',
+  name: 'Token',
   fields: {
     tokenType: { type: GraphQLString },
     accessToken: {
