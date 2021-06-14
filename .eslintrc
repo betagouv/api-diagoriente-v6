@@ -1,0 +1,66 @@
+{
+    "plugins": [
+        "@typescript-eslint",
+        "import",
+        "promise",
+        "jest"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:jest/recommended",
+        "plugin:promise/recommended",
+        "prettier"
+    ],
+    "rules": {
+        "react/button-has-type": 0,
+        "arrow-parens": [
+            "error",
+            "always",
+            {
+                "requireForBlockBody": false
+            }
+        ],
+        "camelcase": "off",
+        "prefer-arrow-callback": 0,
+        "func-names": 0,
+        "import/prefer-default-export": 0,
+        "implicit-arrow-linebreak": 0,
+        "no-underscore-dangle": 0,
+        "no-array-constructor": "off",
+        "@typescript-eslint/no-array-constructor": "error",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "after-used",
+                "ignoreRestSiblings": true
+            }
+        ],
+        "semi": "off",
+        "@typescript-eslint/semi": [
+            "error",
+            "always"
+        ],
+        "max-len": [
+            1,
+            120
+        ],
+        "prefer-template": "error",
+        "@typescript-eslint/explicit-module-boundary-types": 0,
+        "@typescript-eslint/no-explicit-any": 0
+    },
+    "env": {
+        "node": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": true,
+            "typescript": {}
+        }
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}
