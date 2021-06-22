@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "60cb627ddca6552b5403f72f",
+    "email": "admin@admin.com",
+    "firstName": "admin",
+    "lastName": "test",
+    "password": "Test123&",
+    "role": "admin"
+  },
+  {
+    "_id": "60cb627ddca6552b5403f730",
+    "email": "test@test.com",
+    "firstName": "Test",
+    "lastName": "Test",
+    "password": "Test123&",
+    "role": "user"
+  }
+]

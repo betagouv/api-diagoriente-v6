@@ -12,10 +12,12 @@ if (env === 'development') {
   mongoose.set('debug', true);
 }
 
-mongoose.connect(mongoUri, {
-  keepAlive: true,
-  useNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-});
+export default function connect() {
+  return mongoose.connect(mongoUri, {
+    keepAlive: true,
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+  });
+}
