@@ -1,4 +1,4 @@
-import mongoose, { Document, Model } from 'mongoose';
+import mongoose, { Document, Model, Schema } from 'mongoose';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import moment from 'moment';
@@ -18,6 +18,22 @@ export interface User {
   firstName: string;
   lastName: string;
   role: Role;
+  structure: string;
+  isReferentiel: boolean;
+  tutorialStep: number;
+  lastLogin: string;
+  location: {
+    address: string;
+    lat: number;
+    lng: number;
+    postCode: string;
+  };
+  group: {
+    address: string;
+    lat: number;
+    lng: number;
+    postCode: string;
+  };
 }
 
 export interface UserDocument extends Document, User {
@@ -56,6 +72,35 @@ const userSchema = new mongoose.Schema<UserDocument, UserModel>(
       trim: true,
       max: 30,
     },
+    structure: {
+      type: String,
+      trim: true,
+    },
+    isReferentiel: {
+      type: Boolean,
+    },
+    tutorialStep: {
+      type: Number,
+      default: 0,
+    },
+    location: {
+      address: {
+        type: String,
+      },
+      lat: {
+        type: Number,
+      },
+      lng: {
+        type: Number,
+      },
+      postCode: {
+        type: String,
+      },
+    },
+    group: {
+      type: Schema.Types.ObjectId,
+      ref: 'Group',
+    },
   },
   {
     timestamps: true,
@@ -89,7 +134,7 @@ userSchema.method({
     const expiresIn = moment().add(expirationInterval, 'minutes');
 
     const token = jwt.sign(payload, accessSecret, { expiresIn: expiresIn.unix() });
-
+    // add lastLogin
     return { token, expiresIn: expiresIn.toISOString() };
   },
 

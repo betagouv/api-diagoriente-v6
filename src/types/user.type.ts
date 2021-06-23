@@ -1,4 +1,14 @@
-import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType } from 'graphql';
+import {
+  GraphQLID,
+  GraphQLObjectType,
+  GraphQLString,
+  GraphQLEnumType,
+  GraphQLBoolean,
+  GraphQLInt,
+  GraphQLFloat,
+  GraphQLInputObjectType,
+} from 'graphql';
+import { GraphQLDateTime } from 'graphql-iso-date';
 import { Role } from 'models/user.model';
 
 export const UserRole = new GraphQLEnumType({
@@ -7,6 +17,24 @@ export const UserRole = new GraphQLEnumType({
     [Role.ADMIN]: { value: Role.ADMIN },
     [Role.USER]: { value: Role.USER },
   },
+});
+export const LocationType = new GraphQLObjectType({
+  name: 'LocationUser',
+  fields: () => ({
+    address: { type: GraphQLString },
+    lat: { type: GraphQLFloat },
+    lng: { type: GraphQLFloat },
+    postCode: { type: GraphQLString },
+  }),
+});
+export const LocationTypeInput = new GraphQLInputObjectType({
+  name: 'LocationInput',
+  fields: () => ({
+    address: { type: GraphQLString },
+    lat: { type: GraphQLFloat },
+    lng: { type: GraphQLFloat },
+    postCode: { type: GraphQLString },
+  }),
 });
 
 export const UserType = new GraphQLObjectType({
@@ -17,5 +45,11 @@ export const UserType = new GraphQLObjectType({
     email: { type: GraphQLString },
     firstName: { type: GraphQLString },
     lastName: { type: GraphQLString },
+    structure: { type: GraphQLString },
+    isReferentiel: { type: GraphQLBoolean },
+    tutorialStep: { type: GraphQLInt },
+    location: { type: LocationType },
+    lastLogin: { type: GraphQLDateTime },
+    codeGroupe: { type: GraphQLString },
   },
 });
