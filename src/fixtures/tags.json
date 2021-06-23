@@ -1,0 +1,3069 @@
+[
+  {
+    "_id": "60d3628ea675950e17c82690",
+    "title": "Conduite d'engins agricoles et forestiers",
+    "code": "A1101",
+    "sector": "60d3628ea675950e17c8268f"
+  },
+  {
+    "_id": "60d3628ea675950e17c826a8",
+    "title": "Bûcheronnage et élagage",
+    "code": "A1201",
+    "sector": "60d3628ea675950e17c826a7"
+  },
+  {
+    "_id": "60d3628ea675950e17c826b7",
+    "title": "Entretien des espaces naturels",
+    "code": "A1202",
+    "sector": "60d3628ea675950e17c826a7"
+  },
+  {
+    "_id": "60d3628ea675950e17c826c3",
+    "title": "Aménagement et entretien des espaces verts",
+    "code": "A1203",
+    "sector": "60d3628ea675950e17c826a7"
+  },
+  {
+    "_id": "60d3628ea675950e17c826d1",
+    "title": "Protection du patrimoine naturel",
+    "code": "A1204",
+    "sector": "60d3628ea675950e17c826a7"
+  },
+  { "_id": "60d3628ea675950e17c826e3", "title": "Sylviculture", "code": "A1205", "sector": "60d3628ea675950e17c826a7" },
+  {
+    "_id": "60d3628ea675950e17c826f3",
+    "title": "Conseil et assistance technique en agriculture et environnement naturel",
+    "code": "A1301",
+    "sector": "60d3628ea675950e17c826f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c8271f",
+    "title": "Contrôle et diagnostic technique en agriculture",
+    "code": "A1302",
+    "sector": "60d3628ea675950e17c826f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c82735",
+    "title": "Ingénierie en agriculture et environnement naturel",
+    "code": "A1303",
+    "sector": "60d3628ea675950e17c826f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c8275c",
+    "title": "Aide agricole de production fruitière ou viticole",
+    "code": "A1401",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c8276d",
+    "title": "Aide agricole de production légumière ou végétale",
+    "code": "A1402",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82781",
+    "title": "Aide d'élevage agricole et aquacole",
+    "code": "A1403",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  { "_id": "60d3628ea675950e17c82795", "title": "Aquaculture", "code": "A1404", "sector": "60d3628ea675950e17c8275b" },
+  {
+    "_id": "60d3628ea675950e17c827a8",
+    "title": "Arboriculture et viticulture",
+    "code": "A1405",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c827c2",
+    "title": "Encadrement équipage de la pêche",
+    "code": "A1406",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c827c9",
+    "title": "Élevage bovin ou équin",
+    "code": "A1407",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c827ed",
+    "title": "Élevage d'animaux sauvages ou de compagnie",
+    "code": "A1408",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c8280e",
+    "title": "Élevage de lapins et volailles",
+    "code": "A1409",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82825",
+    "title": "Élevage ovin ou caprin",
+    "code": "A1410",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82841",
+    "title": "Élevage porcin",
+    "code": "A1411",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82858",
+    "title": "Fabrication et affinage de fromages",
+    "code": "A1412",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c8285d",
+    "title": "Fermentation de boissons alcoolisées",
+    "code": "A1413",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c8286d",
+    "title": "Horticulture et maraîchage",
+    "code": "A1414",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c828a2",
+    "title": "Équipage de la pêche",
+    "code": "A1415",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  {
+    "_id": "60d3628ea675950e17c828af",
+    "title": "Polyculture, élevage",
+    "code": "A1416",
+    "sector": "60d3628ea675950e17c8275b"
+  },
+  { "_id": "60d3628ea675950e17c828d0", "title": "Saliculture", "code": "A1417", "sector": "60d3628ea675950e17c8275b" },
+  {
+    "_id": "60d3628ea675950e17c828d7",
+    "title": "Aide aux soins animaux",
+    "code": "A1501",
+    "sector": "60d3628ea675950e17c828d6"
+  },
+  {
+    "_id": "60d3628ea675950e17c828e9",
+    "title": "Podologie animale",
+    "code": "A1502",
+    "sector": "60d3628ea675950e17c828d6"
+  },
+  {
+    "_id": "60d3628ea675950e17c828ed",
+    "title": "Toilettage des animaux",
+    "code": "A1503",
+    "sector": "60d3628ea675950e17c828d6"
+  },
+  {
+    "_id": "60d3628ea675950e17c828f4",
+    "title": "Santé animale",
+    "code": "A1504",
+    "sector": "60d3628ea675950e17c828d6"
+  },
+  {
+    "_id": "60d3628ea675950e17c82901",
+    "title": "Création en arts plastiques",
+    "code": "B1101",
+    "sector": "60d3628ea675950e17c82900"
+  },
+  {
+    "_id": "60d3628ea675950e17c82924",
+    "title": "Réalisation d'objets décoratifs et utilitaires en céramique et matériaux de synthèse",
+    "code": "B1201",
+    "sector": "60d3628ea675950e17c82923"
+  },
+  {
+    "_id": "60d3628ea675950e17c82932",
+    "title": "Décoration d'espaces de vente et d'exposition",
+    "code": "B1301",
+    "sector": "60d3628ea675950e17c82931"
+  },
+  {
+    "_id": "60d3628ea675950e17c82941",
+    "title": "Décoration d'objets d'art et artisanaux",
+    "code": "B1302",
+    "sector": "60d3628ea675950e17c82931"
+  },
+  {
+    "_id": "60d3628ea675950e17c82961",
+    "title": "Gravure - ciselure",
+    "code": "B1303",
+    "sector": "60d3628ea675950e17c82931"
+  },
+  {
+    "_id": "60d3628ea675950e17c8297b",
+    "title": "Réalisation d'objets en lianes, fibres et brins végétaux",
+    "code": "B1401",
+    "sector": "60d3628ea675950e17c8297a"
+  },
+  {
+    "_id": "60d3628ea675950e17c82982",
+    "title": "Reliure et restauration de livres et archives",
+    "code": "B1402",
+    "sector": "60d3628ea675950e17c8297a"
+  },
+  {
+    "_id": "60d3628ea675950e17c8298b",
+    "title": "Fabrication et réparation d'instruments de musique",
+    "code": "B1501",
+    "sector": "60d3628ea675950e17c8298a"
+  },
+  {
+    "_id": "60d3628ea675950e17c829aa",
+    "title": "Métallerie d'art",
+    "code": "B1601",
+    "sector": "60d3628ea675950e17c829a9"
+  },
+  {
+    "_id": "60d3628ea675950e17c829bc",
+    "title": "Réalisation d'objets artistiques et fonctionnels en verre",
+    "code": "B1602",
+    "sector": "60d3628ea675950e17c829a9"
+  },
+  {
+    "_id": "60d3628ea675950e17c829d4",
+    "title": "Réalisation d'ouvrages en bijouterie, joaillerie et orfèvrerie",
+    "code": "B1603",
+    "sector": "60d3628ea675950e17c829a9"
+  },
+  {
+    "_id": "60d3628ea675950e17c829ef",
+    "title": "Réparation - montage en systèmes horlogers",
+    "code": "B1604",
+    "sector": "60d3628ea675950e17c829a9"
+  },
+  {
+    "_id": "60d3628ea675950e17c829fb",
+    "title": "Conservation et reconstitution d'espèces animales",
+    "code": "B1701",
+    "sector": "60d3628ea675950e17c829fa"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a07",
+    "title": "Réalisation d'articles de chapellerie",
+    "code": "B1801",
+    "sector": "60d3628ea675950e17c82a06"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a0e",
+    "title": "Réalisation d'articles en cuir et matériaux souples (hors vêtement)",
+    "code": "B1802",
+    "sector": "60d3628ea675950e17c82a06"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a1f",
+    "title": "Réalisation de vêtements sur mesure ou en petite série",
+    "code": "B1803",
+    "sector": "60d3628ea675950e17c82a06"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a2f",
+    "title": "Réalisation d'ouvrages d'art en fils",
+    "code": "B1804",
+    "sector": "60d3628ea675950e17c82a06"
+  },
+  { "_id": "60d3628ea675950e17c82a4a", "title": "Stylisme", "code": "B1805", "sector": "60d3628ea675950e17c82a06" },
+  {
+    "_id": "60d3628ea675950e17c82a6a",
+    "title": "Tapisserie - décoration en ameublement",
+    "code": "B1806",
+    "sector": "60d3628ea675950e17c82a06"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a77",
+    "title": "Conception - développement produits d'assurances",
+    "code": "C1101",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a7f",
+    "title": "Conseil clientèle en assurances",
+    "code": "C1102",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a92",
+    "title": "Courtage en assurances",
+    "code": "C1103",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a96",
+    "title": "Direction d'exploitation en assurances",
+    "code": "C1104",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82a9d",
+    "title": "Études actuarielles en assurances",
+    "code": "C1105",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82aa5",
+    "title": "Expertise risques en assurances",
+    "code": "C1106",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ab0",
+    "title": "Indemnisations en assurances",
+    "code": "C1107",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ab9",
+    "title": "Management de groupe et de service en assurances",
+    "code": "C1108",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ac0",
+    "title": "Rédaction et gestion en assurances",
+    "code": "C1109",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ae6",
+    "title": "Souscription d'assurances",
+    "code": "C1110",
+    "sector": "60d3628ea675950e17c82a76"
+  },
+  {
+    "_id": "60d3628ea675950e17c82af2",
+    "title": "Accueil et services bancaires",
+    "code": "C1201",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b01",
+    "title": "Analyse de crédits et risques bancaires",
+    "code": "C1202",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b0e",
+    "title": "Relation clients banque/finance",
+    "code": "C1203",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b1a",
+    "title": "Conception et expertise produits bancaires et financiers",
+    "code": "C1204",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b23",
+    "title": "Conseil en gestion de patrimoine financier",
+    "code": "C1205",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b30",
+    "title": "Gestion de clientèle bancaire",
+    "code": "C1206",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b43",
+    "title": "Management en exploitation bancaire",
+    "code": "C1207",
+    "sector": "60d3628ea675950e17c82af1"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b52",
+    "title": "Front office marchés financiers",
+    "code": "C1301",
+    "sector": "60d3628ea675950e17c82b51"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b5d",
+    "title": "Gestion back et middle-office marchés financiers",
+    "code": "C1302",
+    "sector": "60d3628ea675950e17c82b51"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b69",
+    "title": "Gestion de portefeuilles sur les marchés financiers",
+    "code": "C1303",
+    "sector": "60d3628ea675950e17c82b51"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b72",
+    "title": "Gestion en banque et assurance",
+    "code": "C1401",
+    "sector": "60d3628ea675950e17c82b71"
+  },
+  {
+    "_id": "60d3628ea675950e17c82b81",
+    "title": "Gérance immobilière",
+    "code": "C1501",
+    "sector": "60d3628ea675950e17c82b80"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ba5",
+    "title": "Gestion locative immobilière",
+    "code": "C1502",
+    "sector": "60d3628ea675950e17c82b80"
+  },
+  {
+    "_id": "60d3628ea675950e17c82bbe",
+    "title": "Management de projet immobilier",
+    "code": "C1503",
+    "sector": "60d3628ea675950e17c82b80"
+  },
+  {
+    "_id": "60d3628ea675950e17c82be7",
+    "title": "Transaction immobilière",
+    "code": "C1504",
+    "sector": "60d3628ea675950e17c82b80"
+  },
+  { "_id": "60d3628ea675950e17c82c01", "title": "Boucherie", "code": "D1101", "sector": "60d3628ea675950e17c82c00" },
+  {
+    "_id": "60d3628ea675950e17c82c0e",
+    "title": "Boulangerie - viennoiserie",
+    "code": "D1102",
+    "sector": "60d3628ea675950e17c82c00"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c17",
+    "title": "Charcuterie - traiteur",
+    "code": "D1103",
+    "sector": "60d3628ea675950e17c82c00"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c20",
+    "title": "Pâtisserie, confiserie, chocolaterie et glacerie",
+    "code": "D1104",
+    "sector": "60d3628ea675950e17c82c00"
+  },
+  { "_id": "60d3628ea675950e17c82c2f", "title": "Poissonnerie", "code": "D1105", "sector": "60d3628ea675950e17c82c00" },
+  {
+    "_id": "60d3628ea675950e17c82c37",
+    "title": "Vente en alimentation",
+    "code": "D1106",
+    "sector": "60d3628ea675950e17c82c00"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c4e",
+    "title": "Vente en gros de produits frais",
+    "code": "D1107",
+    "sector": "60d3628ea675950e17c82c00"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c59",
+    "title": "Achat vente d'objets d'art, anciens ou d'occasion",
+    "code": "D1201",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  { "_id": "60d3628ea675950e17c82c64", "title": "Coiffure", "code": "D1202", "sector": "60d3628ea675950e17c82c58" },
+  {
+    "_id": "60d3628ea675950e17c82c7b",
+    "title": "Hydrothérapie",
+    "code": "D1203",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c8a",
+    "title": "Location de véhicules ou de matériel de loisirs",
+    "code": "D1204",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82c9f",
+    "title": "Nettoyage d'articles textiles ou cuirs",
+    "code": "D1205",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82cac",
+    "title": "Réparation d'articles en cuir et matériaux souples",
+    "code": "D1206",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82cb4",
+    "title": "Retouches en habillement",
+    "code": "D1207",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82cbb",
+    "title": "Soins esthétiques et corporels",
+    "code": "D1208",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82cd9",
+    "title": "Vente de végétaux",
+    "code": "D1209",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ce2",
+    "title": "Vente en animalerie",
+    "code": "D1210",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82cea",
+    "title": "Vente en articles de sport et loisirs",
+    "code": "D1211",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d0b",
+    "title": "Vente en décoration et équipement du foyer",
+    "code": "D1212",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d32",
+    "title": "Vente en gros de matériel et équipement",
+    "code": "D1213",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d3a",
+    "title": "Vente en habillement et accessoires de la personne",
+    "code": "D1214",
+    "sector": "60d3628ea675950e17c82c58"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d53",
+    "title": "Management de magasin de détail",
+    "code": "D1301",
+    "sector": "60d3628ea675950e17c82d52"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d6c",
+    "title": "Assistanat commercial",
+    "code": "D1401",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82d81",
+    "title": "Relation commerciale grands comptes et entreprises",
+    "code": "D1402",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82da6",
+    "title": "Relation commerciale auprès de particuliers",
+    "code": "D1403",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82dc5",
+    "title": "Relation commerciale en vente de véhicules",
+    "code": "D1404",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82de4",
+    "title": "Conseil en information médicale",
+    "code": "D1405",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82df2",
+    "title": "Management en force de vente",
+    "code": "D1406",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e09",
+    "title": "Relation technico-commerciale",
+    "code": "D1407",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e14",
+    "title": "Téléconseil et télévente",
+    "code": "D1408",
+    "sector": "60d3628ea675950e17c82d6b"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e23",
+    "title": "Animation de vente",
+    "code": "D1501",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e29",
+    "title": "Management/gestion de rayon produits alimentaires",
+    "code": "D1502",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e42",
+    "title": "Management/gestion de rayon produits non alimentaires",
+    "code": "D1503",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e58",
+    "title": "Direction de magasin de grande distribution",
+    "code": "D1504",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e6c",
+    "title": "Personnel de caisse",
+    "code": "D1505",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e79",
+    "title": "Marchandisage",
+    "code": "D1506",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82e83",
+    "title": "Mise en rayon libre-service",
+    "code": "D1507",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ea6",
+    "title": "Encadrement du personnel de caisses",
+    "code": "D1508",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82eae",
+    "title": "Management de département en grande distribution",
+    "code": "D1509",
+    "sector": "60d3628ea675950e17c82e22"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ec8",
+    "title": "Animation de site multimédia",
+    "code": "E1101",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ed4",
+    "title": "Écriture d'ouvrages, de livres",
+    "code": "E1102",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82eeb",
+    "title": "Communication",
+    "code": "E1103",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82f13",
+    "title": "Conception de contenus multimédias",
+    "code": "E1104",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82f2c",
+    "title": "Coordination d'édition",
+    "code": "E1105",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82f3d",
+    "title": "Journalisme et information média",
+    "code": "E1106",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82f70",
+    "title": "Organisation d'évènementiel",
+    "code": "E1107",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  {
+    "_id": "60d3628ea675950e17c82f7c",
+    "title": "Traduction, interprétariat",
+    "code": "E1108",
+    "sector": "60d3628ea675950e17c82ec7"
+  },
+  { "_id": "60d3628ea675950e17c82f93", "title": "Photographie", "code": "E1201", "sector": "60d3628ea675950e17c82f92" },
+  {
+    "_id": "60d3628ea675950e17c82fb4",
+    "title": "Production en laboratoire cinématographique",
+    "code": "E1202",
+    "sector": "60d3628ea675950e17c82f92"
+  },
+  {
+    "_id": "60d3628ea675950e17c82fd1",
+    "title": "Production en laboratoire photographique",
+    "code": "E1203",
+    "sector": "60d3628ea675950e17c82f92"
+  },
+  {
+    "_id": "60d3628ea675950e17c82fe9",
+    "title": "Projection cinéma",
+    "code": "E1204",
+    "sector": "60d3628ea675950e17c82f92"
+  },
+  {
+    "_id": "60d3628ea675950e17c82ff1",
+    "title": "Réalisation de contenus multimédias",
+    "code": "E1205",
+    "sector": "60d3628ea675950e17c82f92"
+  },
+  {
+    "_id": "60d3628ea675950e17c83023",
+    "title": "Conduite de machines d'impression",
+    "code": "E1301",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  {
+    "_id": "60d3628ea675950e17c83056",
+    "title": "Conduite de machines de façonnage routage",
+    "code": "E1302",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  {
+    "_id": "60d3628ea675950e17c83086",
+    "title": "Encadrement des industries graphiques",
+    "code": "E1303",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  {
+    "_id": "60d3628ea675950e17c83090",
+    "title": "Façonnage et routage",
+    "code": "E1304",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  {
+    "_id": "60d3628ea675950e17c830a5",
+    "title": "Préparation et correction en édition et presse",
+    "code": "E1305",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  { "_id": "60d3628ea675950e17c830b9", "title": "Prépresse", "code": "E1306", "sector": "60d3628ea675950e17c83022" },
+  { "_id": "60d3628ea675950e17c830ea", "title": "Reprographie", "code": "E1307", "sector": "60d3628ea675950e17c83022" },
+  {
+    "_id": "60d3628ea675950e17c830fa",
+    "title": "Intervention technique en industrie graphique",
+    "code": "E1308",
+    "sector": "60d3628ea675950e17c83022"
+  },
+  {
+    "_id": "60d3628ea675950e17c83111",
+    "title": "Développement et promotion publicitaire",
+    "code": "E1401",
+    "sector": "60d3628ea675950e17c83110"
+  },
+  {
+    "_id": "60d3628ea675950e17c8311f",
+    "title": "Élaboration de plan média",
+    "code": "E1402",
+    "sector": "60d3628ea675950e17c83110"
+  },
+  {
+    "_id": "60d3628ea675950e17c8313d",
+    "title": "Architecture du BTP et du paysage",
+    "code": "F1101",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8314a",
+    "title": "Conception - aménagement d'espaces intérieurs",
+    "code": "F1102",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c83154",
+    "title": "Contrôle et diagnostic technique du bâtiment",
+    "code": "F1103",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8316c",
+    "title": "Dessin BTP et paysage",
+    "code": "F1104",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c83184",
+    "title": "Études géologiques",
+    "code": "F1105",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c831a9",
+    "title": "Ingénierie et études du BTP",
+    "code": "F1106",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c831d8",
+    "title": "Mesures topographiques",
+    "code": "F1107",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c831ec",
+    "title": "Métré de la construction",
+    "code": "F1108",
+    "sector": "60d3628ea675950e17c8313c"
+  },
+  {
+    "_id": "60d3628ea675950e17c831fc",
+    "title": "Conduite de travaux du BTP et de travaux paysagers",
+    "code": "F1201",
+    "sector": "60d3628ea675950e17c831fb"
+  },
+  {
+    "_id": "60d3628ea675950e17c8321e",
+    "title": "Direction de chantier du BTP",
+    "code": "F1202",
+    "sector": "60d3628ea675950e17c831fb"
+  },
+  {
+    "_id": "60d3628ea675950e17c83230",
+    "title": "Direction et ingénierie d'exploitation de gisements et de carrières",
+    "code": "F1203",
+    "sector": "60d3628ea675950e17c831fb"
+  },
+  {
+    "_id": "60d3628ea675950e17c83246",
+    "title": "Qualité Sécurité Environnement et protection santé du BTP",
+    "code": "F1204",
+    "sector": "60d3628ea675950e17c831fb"
+  },
+  {
+    "_id": "60d3628ea675950e17c83259",
+    "title": "Conduite de grue",
+    "code": "F1301",
+    "sector": "60d3628ea675950e17c83258"
+  },
+  {
+    "_id": "60d3628ea675950e17c83267",
+    "title": "Conduite d'engins de terrassement et de carrière",
+    "code": "F1302",
+    "sector": "60d3628ea675950e17c83258"
+  },
+  {
+    "_id": "60d3628ea675950e17c8329c",
+    "title": "Extraction liquide et gazeuse",
+    "code": "F1401",
+    "sector": "60d3628ea675950e17c8329b"
+  },
+  {
+    "_id": "60d3628ea675950e17c832ad",
+    "title": "Extraction solide",
+    "code": "F1402",
+    "sector": "60d3628ea675950e17c8329b"
+  },
+  {
+    "_id": "60d3628ea675950e17c832d2",
+    "title": "Montage de structures et de charpentes bois",
+    "code": "F1501",
+    "sector": "60d3628ea675950e17c832d1"
+  },
+  {
+    "_id": "60d3628ea675950e17c832e2",
+    "title": "Montage de structures métalliques",
+    "code": "F1502",
+    "sector": "60d3628ea675950e17c832d1"
+  },
+  {
+    "_id": "60d3628ea675950e17c832f3",
+    "title": "Réalisation - installation d'ossatures bois",
+    "code": "F1503",
+    "sector": "60d3628ea675950e17c832d1"
+  },
+  {
+    "_id": "60d3628ea675950e17c832fd",
+    "title": "Application et décoration en plâtre, stuc et staff",
+    "code": "F1601",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c83304",
+    "title": "Électricité bâtiment",
+    "code": "F1602",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c83311",
+    "title": "Installation d'équipements sanitaires et thermiques",
+    "code": "F1603",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c83330",
+    "title": "Montage d'agencements",
+    "code": "F1604",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8334d",
+    "title": "Montage de réseaux électriques et télécoms",
+    "code": "F1605",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8336c",
+    "title": "Peinture en bâtiment",
+    "code": "F1606",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8337e",
+    "title": "Pose de fermetures menuisées",
+    "code": "F1607",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8339e",
+    "title": "Pose de revêtements rigides",
+    "code": "F1608",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833b1",
+    "title": "Pose de revêtements souples",
+    "code": "F1609",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833bc",
+    "title": "Pose et restauration de couvertures",
+    "code": "F1610",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833cb",
+    "title": "Réalisation et restauration de façades",
+    "code": "F1611",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833df",
+    "title": "Taille et décoration de pierres",
+    "code": "F1612",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833ec",
+    "title": "Travaux d'étanchéité et d'isolation",
+    "code": "F1613",
+    "sector": "60d3628ea675950e17c832fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c833fd",
+    "title": "Construction en béton",
+    "code": "F1701",
+    "sector": "60d3628ea675950e17c833fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8341c",
+    "title": "Construction de routes et voies",
+    "code": "F1702",
+    "sector": "60d3628ea675950e17c833fc"
+  },
+  { "_id": "60d3628ea675950e17c83432", "title": "Maçonnerie", "code": "F1703", "sector": "60d3628ea675950e17c833fc" },
+  {
+    "_id": "60d3628ea675950e17c83459",
+    "title": "Préparation du gros oeuvre et des travaux publics",
+    "code": "F1704",
+    "sector": "60d3628ea675950e17c833fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8346c",
+    "title": "Pose de canalisations",
+    "code": "F1705",
+    "sector": "60d3628ea675950e17c833fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c83473",
+    "title": "Préfabrication en béton industriel",
+    "code": "F1706",
+    "sector": "60d3628ea675950e17c833fc"
+  },
+  {
+    "_id": "60d3628ea675950e17c8347d",
+    "title": "Accueil touristique",
+    "code": "G1101",
+    "sector": "60d3628ea675950e17c8347c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8348a",
+    "title": "Promotion du tourisme local",
+    "code": "G1102",
+    "sector": "60d3628ea675950e17c8347c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8349d",
+    "title": "Accompagnement de voyages, d'activités culturelles ou sportives",
+    "code": "G1201",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c834c0",
+    "title": "Animation d'activités culturelles ou ludiques",
+    "code": "G1202",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c834e4",
+    "title": "Animation de loisirs auprès d'enfants ou d'adolescents",
+    "code": "G1203",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c83506",
+    "title": "Éducation en activités sportives",
+    "code": "G1204",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c83532",
+    "title": "Personnel d'attractions ou de structures de loisirs",
+    "code": "G1205",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8354b",
+    "title": "Personnel technique des jeux",
+    "code": "G1206",
+    "sector": "60d3628ea675950e17c8349c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8355c",
+    "title": "Conception de produits touristiques",
+    "code": "G1301",
+    "sector": "60d3628ea675950e17c8355b"
+  },
+  {
+    "_id": "60d3628ea675950e17c83571",
+    "title": "Optimisation de produits touristiques",
+    "code": "G1302",
+    "sector": "60d3628ea675950e17c8355b"
+  },
+  {
+    "_id": "60d3628ea675950e17c8357d",
+    "title": "Vente de voyages",
+    "code": "G1303",
+    "sector": "60d3628ea675950e17c8355b"
+  },
+  {
+    "_id": "60d3628ea675950e17c83597",
+    "title": "Assistance de direction d'hôtel-restaurant",
+    "code": "G1401",
+    "sector": "60d3628ea675950e17c83596"
+  },
+  {
+    "_id": "60d3628ea675950e17c835a3",
+    "title": "Management d'hôtel-restaurant",
+    "code": "G1402",
+    "sector": "60d3628ea675950e17c83596"
+  },
+  {
+    "_id": "60d3628ea675950e17c835b4",
+    "title": "Gestion de structure de loisirs ou d'hébergement touristique",
+    "code": "G1403",
+    "sector": "60d3628ea675950e17c83596"
+  },
+  {
+    "_id": "60d3628ea675950e17c835ee",
+    "title": "Management d'établissement de restauration collective",
+    "code": "G1404",
+    "sector": "60d3628ea675950e17c83596"
+  },
+  {
+    "_id": "60d3628ea675950e17c83601",
+    "title": "Personnel d'étage",
+    "code": "G1501",
+    "sector": "60d3628ea675950e17c83600"
+  },
+  {
+    "_id": "60d3628ea675950e17c83609",
+    "title": "Personnel polyvalent d'hôtellerie",
+    "code": "G1502",
+    "sector": "60d3628ea675950e17c83600"
+  },
+  {
+    "_id": "60d3628ea675950e17c83611",
+    "title": "Management du personnel d'étage",
+    "code": "G1503",
+    "sector": "60d3628ea675950e17c83600"
+  },
+  {
+    "_id": "60d3628ea675950e17c8361e",
+    "title": "Management du personnel de cuisine",
+    "code": "G1601",
+    "sector": "60d3628ea675950e17c8361d"
+  },
+  {
+    "_id": "60d3628ea675950e17c83626",
+    "title": "Personnel de cuisine",
+    "code": "G1602",
+    "sector": "60d3628ea675950e17c8361d"
+  },
+  {
+    "_id": "60d3628ea675950e17c83641",
+    "title": "Personnel polyvalent en restauration",
+    "code": "G1603",
+    "sector": "60d3628ea675950e17c8361d"
+  },
+  {
+    "_id": "60d3628ea675950e17c83655",
+    "title": "Fabrication de crêpes ou pizzas",
+    "code": "G1604",
+    "sector": "60d3628ea675950e17c8361d"
+  },
+  {
+    "_id": "60d3628ea675950e17c8365b",
+    "title": "Plonge en restauration",
+    "code": "G1605",
+    "sector": "60d3628ea675950e17c8361d"
+  },
+  {
+    "_id": "60d3628ea675950e17c83664",
+    "title": "Conciergerie en hôtellerie",
+    "code": "G1701",
+    "sector": "60d3628ea675950e17c83663"
+  },
+  {
+    "_id": "60d3628ea675950e17c8366b",
+    "title": "Personnel du hall",
+    "code": "G1702",
+    "sector": "60d3628ea675950e17c83663"
+  },
+  {
+    "_id": "60d3628ea675950e17c8367b",
+    "title": "Réception en hôtellerie",
+    "code": "G1703",
+    "sector": "60d3628ea675950e17c83663"
+  },
+  {
+    "_id": "60d3628ea675950e17c8368f",
+    "title": "Café, bar brasserie",
+    "code": "G1801",
+    "sector": "60d3628ea675950e17c8368e"
+  },
+  {
+    "_id": "60d3628ea675950e17c836a5",
+    "title": "Management du service en restauration",
+    "code": "G1802",
+    "sector": "60d3628ea675950e17c8368e"
+  },
+  {
+    "_id": "60d3628ea675950e17c836af",
+    "title": "Service en restauration",
+    "code": "G1803",
+    "sector": "60d3628ea675950e17c8368e"
+  },
+  { "_id": "60d3628ea675950e17c836bf", "title": "Sommellerie", "code": "G1804", "sector": "60d3628ea675950e17c8368e" },
+  {
+    "_id": "60d3628ea675950e17c836c5",
+    "title": "Assistance et support technique client",
+    "code": "H1101",
+    "sector": "60d3628ea675950e17c836c4"
+  },
+  {
+    "_id": "60d3628ea675950e17c836d1",
+    "title": "Management et ingénierie d'affaires",
+    "code": "H1102",
+    "sector": "60d3628ea675950e17c836c4"
+  },
+  {
+    "_id": "60d3628ea675950e17c836e1",
+    "title": "Expertise technique couleur en industrie",
+    "code": "H1201",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c836f4",
+    "title": "Conception et dessin de produits électriques et électroniques",
+    "code": "H1202",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83712",
+    "title": "Conception et dessin produits mécaniques",
+    "code": "H1203",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c8374e",
+    "title": "Design industriel",
+    "code": "H1204",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83763",
+    "title": "Études - modèles en industrie des matériaux souples",
+    "code": "H1205",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83775",
+    "title": "Management et ingénierie études, recherche et développement industriel",
+    "code": "H1206",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c837f9",
+    "title": "Rédaction technique",
+    "code": "H1207",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c8380d",
+    "title": "Intervention technique en études et conception en automatisme",
+    "code": "H1208",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83824",
+    "title": "Intervention technique en études et développement électronique",
+    "code": "H1209",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83834",
+    "title": "Intervention technique en études, recherche et développement",
+    "code": "H1210",
+    "sector": "60d3628ea675950e17c836e0"
+  },
+  {
+    "_id": "60d3628ea675950e17c83862",
+    "title": "Inspection de conformité",
+    "code": "H1301",
+    "sector": "60d3628ea675950e17c83861"
+  },
+  {
+    "_id": "60d3628ea675950e17c8387e",
+    "title": "Management et ingénierie Hygiène Sécurité Environnement -HSE- industriels",
+    "code": "H1302",
+    "sector": "60d3628ea675950e17c83861"
+  },
+  {
+    "_id": "60d3628ea675950e17c838aa",
+    "title": "Intervention technique en Hygiène Sécurité Environnement -HSE- industriel",
+    "code": "H1303",
+    "sector": "60d3628ea675950e17c83861"
+  },
+  {
+    "_id": "60d3628ea675950e17c838ba",
+    "title": "Management et ingénierie gestion industrielle et logistique",
+    "code": "H1401",
+    "sector": "60d3628ea675950e17c838b9"
+  },
+  {
+    "_id": "60d3628ea675950e17c838db",
+    "title": "Management et ingénierie méthodes et industrialisation",
+    "code": "H1402",
+    "sector": "60d3628ea675950e17c838b9"
+  },
+  {
+    "_id": "60d3628ea675950e17c838fe",
+    "title": "Intervention technique en gestion industrielle et logistique",
+    "code": "H1403",
+    "sector": "60d3628ea675950e17c838b9"
+  },
+  {
+    "_id": "60d3628ea675950e17c83917",
+    "title": "Intervention technique en méthodes et industrialisation",
+    "code": "H1404",
+    "sector": "60d3628ea675950e17c838b9"
+  },
+  {
+    "_id": "60d3628ea675950e17c83940",
+    "title": "Direction de laboratoire d'analyse industrielle",
+    "code": "H1501",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83959",
+    "title": "Management et ingénierie qualité industrielle",
+    "code": "H1502",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83989",
+    "title": "Intervention technique en laboratoire d'analyse industrielle",
+    "code": "H1503",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c839c0",
+    "title": "Intervention technique en contrôle essai qualité en électricité et électronique",
+    "code": "H1504",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c839f6",
+    "title": "Intervention technique en formulation et analyse sensorielle",
+    "code": "H1505",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83a02",
+    "title": "Intervention technique qualité en mécanique et travail des métaux",
+    "code": "H1506",
+    "sector": "60d3628ea675950e17c8393f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83a2c",
+    "title": "Abattage et découpe des viandes",
+    "code": "H2101",
+    "sector": "60d3628ea675950e17c83a2b"
+  },
+  {
+    "_id": "60d3628ea675950e17c83a43",
+    "title": "Conduite d'équipement de production alimentaire",
+    "code": "H2102",
+    "sector": "60d3628ea675950e17c83a2b"
+  },
+  {
+    "_id": "60d3628ea675950e17c83a76",
+    "title": "Assemblage d'ouvrages en bois",
+    "code": "H2201",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83a8f",
+    "title": "Conduite d'équipement de fabrication de l'ameublement et du bois",
+    "code": "H2202",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ac6",
+    "title": "Conduite d'installation de production de panneaux bois",
+    "code": "H2203",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ae0",
+    "title": "Encadrement des industries de l'ameublement et du bois",
+    "code": "H2204",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83aff",
+    "title": "Première transformation de bois d'oeuvre",
+    "code": "H2205",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b1c",
+    "title": "Réalisation de menuiserie bois et tonnellerie",
+    "code": "H2206",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b2f",
+    "title": "Réalisation de meubles en bois",
+    "code": "H2207",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b3c",
+    "title": "Réalisation d'ouvrages décoratifs en bois",
+    "code": "H2208",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b4e",
+    "title": "Intervention technique en ameublement et bois",
+    "code": "H2209",
+    "sector": "60d3628ea675950e17c83a75"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b71",
+    "title": "Conduite d'équipement de production chimique ou pharmaceutique",
+    "code": "H2301",
+    "sector": "60d3628ea675950e17c83b70"
+  },
+  {
+    "_id": "60d3628ea675950e17c83b92",
+    "title": "Assemblage - montage d'articles en cuirs, peaux",
+    "code": "H2401",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83bb3",
+    "title": "Assemblage - montage de vêtements et produits textiles",
+    "code": "H2402",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83bda",
+    "title": "Conduite de machine de fabrication de produits textiles",
+    "code": "H2403",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83bf1",
+    "title": "Conduite de machine de production et transformation des fils",
+    "code": "H2404",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c0c",
+    "title": "Conduite de machine de textiles nontissés",
+    "code": "H2405",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c16",
+    "title": "Conduite de machine de traitement textile",
+    "code": "H2406",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c38",
+    "title": "Conduite de machine de transformation et de finition des cuirs et peaux",
+    "code": "H2407",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c56",
+    "title": "Conduite de machine d'impression textile",
+    "code": "H2408",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c64",
+    "title": "Coupe cuir, textile et matériaux souples",
+    "code": "H2409",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c7c",
+    "title": "Mise en forme, repassage et finitions en industrie textile",
+    "code": "H2410",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c90",
+    "title": "Montage de prototype cuir et matériaux souples",
+    "code": "H2411",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83c9c",
+    "title": "Patronnage - gradation",
+    "code": "H2412",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ca6",
+    "title": "Préparation de fils, montage de métiers textiles",
+    "code": "H2413",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83cbb",
+    "title": "Préparation et finition d'articles en cuir et matériaux souples",
+    "code": "H2414",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ccc",
+    "title": "Contrôle en industrie du cuir et du textile",
+    "code": "H2415",
+    "sector": "60d3628ea675950e17c83b91"
+  },
+  {
+    "_id": "60d3628ea675950e17c83cef",
+    "title": "Encadrement de production de matériel électrique et électronique",
+    "code": "H2501",
+    "sector": "60d3628ea675950e17c83cee"
+  },
+  {
+    "_id": "60d3628ea675950e17c83d08",
+    "title": "Management et ingénierie de production",
+    "code": "H2502",
+    "sector": "60d3628ea675950e17c83cee"
+  },
+  {
+    "_id": "60d3628ea675950e17c83d55",
+    "title": "Pilotage d'unité élémentaire de production mécanique ou de travail des métaux",
+    "code": "H2503",
+    "sector": "60d3628ea675950e17c83cee"
+  },
+  {
+    "_id": "60d3628ea675950e17c83d66",
+    "title": "Encadrement d'équipe en industrie de transformation",
+    "code": "H2504",
+    "sector": "60d3628ea675950e17c83cee"
+  },
+  {
+    "_id": "60d3628ea675950e17c83d8f",
+    "title": "Encadrement d'équipe ou d'atelier en matériaux souples",
+    "code": "H2505",
+    "sector": "60d3628ea675950e17c83cee"
+  },
+  {
+    "_id": "60d3628ea675950e17c83dac",
+    "title": "Bobinage électrique",
+    "code": "H2601",
+    "sector": "60d3628ea675950e17c83dab"
+  },
+  {
+    "_id": "60d3628ea675950e17c83dbf",
+    "title": "Câblage électrique et électromécanique",
+    "code": "H2602",
+    "sector": "60d3628ea675950e17c83dab"
+  },
+  {
+    "_id": "60d3628ea675950e17c83dd2",
+    "title": "Conduite d'installation automatisée de production électrique, électronique et microélectronique",
+    "code": "H2603",
+    "sector": "60d3628ea675950e17c83dab"
+  },
+  {
+    "_id": "60d3628ea675950e17c83df1",
+    "title": "Montage de produits électriques et électroniques",
+    "code": "H2604",
+    "sector": "60d3628ea675950e17c83dab"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e01",
+    "title": "Montage et câblage électronique",
+    "code": "H2605",
+    "sector": "60d3628ea675950e17c83dab"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e0e",
+    "title": "Pilotage d'installation énergétique et pétrochimique",
+    "code": "H2701",
+    "sector": "60d3628ea675950e17c83e0d"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e31",
+    "title": "Conduite d'équipement de transformation du verre",
+    "code": "H2801",
+    "sector": "60d3628ea675950e17c83e30"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e3e",
+    "title": "Conduite d'installation de production de matériaux de construction",
+    "code": "H2802",
+    "sector": "60d3628ea675950e17c83e30"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e49",
+    "title": "Façonnage et émaillage en industrie céramique",
+    "code": "H2803",
+    "sector": "60d3628ea675950e17c83e30"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e5b",
+    "title": "Pilotage de centrale à béton prêt à l'emploi, ciment, enrobés et granulats",
+    "code": "H2804",
+    "sector": "60d3628ea675950e17c83e30"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e73",
+    "title": "Pilotage d'installation de production verrière",
+    "code": "H2805",
+    "sector": "60d3628ea675950e17c83e30"
+  },
+  {
+    "_id": "60d3628ea675950e17c83e80",
+    "title": "Ajustement et montage de fabrication",
+    "code": "H2901",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ea2",
+    "title": "Chaudronnerie - tôlerie",
+    "code": "H2902",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ebc",
+    "title": "Conduite d'équipement d'usinage",
+    "code": "H2903",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83efa",
+    "title": "Conduite d'équipement de déformation des métaux",
+    "code": "H2904",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83f2c",
+    "title": "Conduite d'équipement de formage et découpage des matériaux",
+    "code": "H2905",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83f62",
+    "title": "Conduite d'installation automatisée ou robotisée de fabrication mécanique",
+    "code": "H2906",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83f82",
+    "title": "Conduite d'installation de production des métaux",
+    "code": "H2907",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83fc0",
+    "title": "Modelage de matériaux non métalliques",
+    "code": "H2908",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83fd7",
+    "title": "Montage-assemblage mécanique",
+    "code": "H2909",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c83ff8",
+    "title": "Moulage sable",
+    "code": "H2910",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84008",
+    "title": "Réalisation de structures métalliques",
+    "code": "H2911",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c8401e",
+    "title": "Réglage d'équipement de production industrielle",
+    "code": "H2912",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c8404a",
+    "title": "Soudage manuel",
+    "code": "H2913",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c8405a",
+    "title": "Réalisation et montage en tuyauterie",
+    "code": "H2914",
+    "sector": "60d3628ea675950e17c83e7f"
+  },
+  {
+    "_id": "60d3628ea675950e17c8406f",
+    "title": "Conduite d'équipement de fabrication de papier ou de carton",
+    "code": "H3101",
+    "sector": "60d3628ea675950e17c8406e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84089",
+    "title": "Conduite d'installation de pâte à papier",
+    "code": "H3102",
+    "sector": "60d3628ea675950e17c8406e"
+  },
+  {
+    "_id": "60d3628ea675950e17c8409d",
+    "title": "Conduite d'équipement de formage des plastiques et caoutchoucs",
+    "code": "H3201",
+    "sector": "60d3628ea675950e17c8409c"
+  },
+  {
+    "_id": "60d3628ea675950e17c840bc",
+    "title": "Réglage d'équipement de formage des plastiques et caoutchoucs",
+    "code": "H3202",
+    "sector": "60d3628ea675950e17c8409c"
+  },
+  {
+    "_id": "60d3628ea675950e17c840df",
+    "title": "Fabrication de pièces en matériaux composites",
+    "code": "H3203",
+    "sector": "60d3628ea675950e17c8409c"
+  },
+  {
+    "_id": "60d3628ea675950e17c840f0",
+    "title": "Conduite d'équipement de conditionnement",
+    "code": "H3301",
+    "sector": "60d3628ea675950e17c840ef"
+  },
+  {
+    "_id": "60d3628ea675950e17c84104",
+    "title": "Opérations manuelles d'assemblage, tri ou emballage",
+    "code": "H3302",
+    "sector": "60d3628ea675950e17c840ef"
+  },
+  {
+    "_id": "60d3628ea675950e17c84119",
+    "title": "Préparation de matières et produits industriels (broyage, mélange, ...)",
+    "code": "H3303",
+    "sector": "60d3628ea675950e17c840ef"
+  },
+  {
+    "_id": "60d3628ea675950e17c8413f",
+    "title": "Conduite de traitement d'abrasion de surface",
+    "code": "H3401",
+    "sector": "60d3628ea675950e17c8413e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84158",
+    "title": "Conduite de traitement par dépôt de surface",
+    "code": "H3402",
+    "sector": "60d3628ea675950e17c8413e"
+  },
+  {
+    "_id": "60d3628ea675950e17c8417d",
+    "title": "Conduite de traitement thermique",
+    "code": "H3403",
+    "sector": "60d3628ea675950e17c8413e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84193",
+    "title": "Peinture industrielle",
+    "code": "H3404",
+    "sector": "60d3628ea675950e17c8413e"
+  },
+  {
+    "_id": "60d3628ea675950e17c841b2",
+    "title": "Direction et ingénierie en entretien infrastructure et bâti",
+    "code": "I1101",
+    "sector": "60d3628ea675950e17c841b1"
+  },
+  {
+    "_id": "60d3628ea675950e17c841ce",
+    "title": "Management et ingénierie de maintenance industrielle",
+    "code": "I1102",
+    "sector": "60d3628ea675950e17c841b1"
+  },
+  {
+    "_id": "60d3628ea675950e17c841ef",
+    "title": "Supervision d'entretien et gestion de véhicules",
+    "code": "I1103",
+    "sector": "60d3628ea675950e17c841b1"
+  },
+  {
+    "_id": "60d3628ea675950e17c84207",
+    "title": "Entretien d'affichage et mobilier urbain",
+    "code": "I1201",
+    "sector": "60d3628ea675950e17c84206"
+  },
+  {
+    "_id": "60d3628ea675950e17c84219",
+    "title": "Entretien et surveillance du tracé routier",
+    "code": "I1202",
+    "sector": "60d3628ea675950e17c84206"
+  },
+  {
+    "_id": "60d3628ea675950e17c84224",
+    "title": "Maintenance des bâtiments et des locaux",
+    "code": "I1203",
+    "sector": "60d3628ea675950e17c84206"
+  },
+  {
+    "_id": "60d3628ea675950e17c84235",
+    "title": "Installation et maintenance d'ascenseurs",
+    "code": "I1301",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84250",
+    "title": "Installation et maintenance d'automatismes",
+    "code": "I1302",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84273",
+    "title": "Installation et maintenance de distributeurs automatiques",
+    "code": "I1303",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c8427f",
+    "title": "Installation et maintenance d'équipements industriels et d'exploitation",
+    "code": "I1304",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c842a8",
+    "title": "Installation et maintenance électronique",
+    "code": "I1305",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c842d9",
+    "title": "Installation et maintenance en froid, conditionnement d'air",
+    "code": "I1306",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c842f7",
+    "title": "Installation et maintenance télécoms et courants faibles",
+    "code": "I1307",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84320",
+    "title": "Maintenance d'installation de chauffage",
+    "code": "I1308",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84333",
+    "title": "Maintenance électrique",
+    "code": "I1309",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84351",
+    "title": "Maintenance mécanique industrielle",
+    "code": "I1310",
+    "sector": "60d3628ea675950e17c84234"
+  },
+  {
+    "_id": "60d3628ea675950e17c84364",
+    "title": "Maintenance informatique et bureautique",
+    "code": "I1401",
+    "sector": "60d3628ea675950e17c84363"
+  },
+  {
+    "_id": "60d3628ea675950e17c8438f",
+    "title": "Réparation de biens électrodomestiques et multimédia",
+    "code": "I1402",
+    "sector": "60d3628ea675950e17c84363"
+  },
+  {
+    "_id": "60d3628ea675950e17c843ac",
+    "title": "Intervention en grande hauteur",
+    "code": "I1501",
+    "sector": "60d3628ea675950e17c843ab"
+  },
+  {
+    "_id": "60d3628ea675950e17c843b7",
+    "title": "Intervention en milieu subaquatique",
+    "code": "I1502",
+    "sector": "60d3628ea675950e17c843ab"
+  },
+  {
+    "_id": "60d3628ea675950e17c843d2",
+    "title": "Intervention en milieux et produits nocifs",
+    "code": "I1503",
+    "sector": "60d3628ea675950e17c843ab"
+  },
+  {
+    "_id": "60d3628ea675950e17c843e8",
+    "title": "Installation et maintenance en nautisme",
+    "code": "I1601",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c843f4",
+    "title": "Maintenance d'aéronefs",
+    "code": "I1602",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c84413",
+    "title": "Maintenance d'engins de chantier, levage, manutention et de machines agricoles",
+    "code": "I1603",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c84428",
+    "title": "Mécanique automobile et entretien de véhicules",
+    "code": "I1604",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c84454",
+    "title": "Mécanique de marine",
+    "code": "I1605",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c84468",
+    "title": "Réparation de carrosserie",
+    "code": "I1606",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c84483",
+    "title": "Réparation de cycles, motocycles et motoculteurs de loisirs",
+    "code": "I1607",
+    "sector": "60d3628ea675950e17c843e7"
+  },
+  {
+    "_id": "60d3628ea675950e17c8449a",
+    "title": "Médecine de prévention",
+    "code": "J1101",
+    "sector": "60d3628ea675950e17c84499"
+  },
+  {
+    "_id": "60d3628ea675950e17c844a6",
+    "title": "Médecine généraliste et spécialisée",
+    "code": "J1102",
+    "sector": "60d3628ea675950e17c84499"
+  },
+  {
+    "_id": "60d3628ea675950e17c844d3",
+    "title": "Médecine dentaire",
+    "code": "J1103",
+    "sector": "60d3628ea675950e17c84499"
+  },
+  {
+    "_id": "60d3628ea675950e17c844da",
+    "title": "Suivi de la grossesse et de l'accouchement",
+    "code": "J1104",
+    "sector": "60d3628ea675950e17c84499"
+  },
+  {
+    "_id": "60d3628ea675950e17c844de",
+    "title": "Biologie médicale",
+    "code": "J1201",
+    "sector": "60d3628ea675950e17c844dd"
+  },
+  { "_id": "60d3628ea675950e17c844e6", "title": "Pharmacie", "code": "J1202", "sector": "60d3628ea675950e17c844dd" },
+  {
+    "_id": "60d3628ea675950e17c844ef",
+    "title": "Personnel polyvalent des services hospitaliers",
+    "code": "J1301",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c844f7",
+    "title": "Analyses médicales",
+    "code": "J1302",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c844fc",
+    "title": "Assistance médico-technique",
+    "code": "J1303",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c84509",
+    "title": "Aide en puériculture",
+    "code": "J1304",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c8450b",
+    "title": "Conduite de véhicules sanitaires",
+    "code": "J1305",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c84515",
+    "title": "Imagerie médicale",
+    "code": "J1306",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c84521",
+    "title": "Préparation en pharmacie",
+    "code": "J1307",
+    "sector": "60d3628ea675950e17c844ee"
+  },
+  {
+    "_id": "60d3628ea675950e17c84527",
+    "title": "Audioprothèses",
+    "code": "J1401",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  { "_id": "60d3628ea675950e17c84529", "title": "Diététique", "code": "J1402", "sector": "60d3628ea675950e17c84526" },
+  { "_id": "60d3628ea675950e17c8452d", "title": "Ergothérapie", "code": "J1403", "sector": "60d3628ea675950e17c84526" },
+  {
+    "_id": "60d3628ea675950e17c8452f",
+    "title": "Kinésithérapie",
+    "code": "J1404",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c84537",
+    "title": "Optique - lunetterie",
+    "code": "J1405",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  { "_id": "60d3628ea675950e17c8453e", "title": "Orthophonie", "code": "J1406", "sector": "60d3628ea675950e17c84526" },
+  { "_id": "60d3628ea675950e17c84542", "title": "Orthoptique", "code": "J1407", "sector": "60d3628ea675950e17c84526" },
+  {
+    "_id": "60d3628ea675950e17c84545",
+    "title": "Ostéopathie et chiropraxie",
+    "code": "J1408",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c8454d",
+    "title": "Pédicurie et podologie",
+    "code": "J1409",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c84551",
+    "title": "Prothèses dentaires",
+    "code": "J1410",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c8455e",
+    "title": "Prothèses et orthèses",
+    "code": "J1411",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c84570",
+    "title": "Rééducation en psychomotricité",
+    "code": "J1412",
+    "sector": "60d3628ea675950e17c84526"
+  },
+  {
+    "_id": "60d3628ea675950e17c84576",
+    "title": "Soins d'hygiène, de confort du patient",
+    "code": "J1501",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c8457c",
+    "title": "Coordination de services médicaux ou paramédicaux",
+    "code": "J1502",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c8458c",
+    "title": "Soins infirmiers spécialisés en anesthésie",
+    "code": "J1503",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c8458f",
+    "title": "Soins infirmiers spécialisés en bloc opératoire",
+    "code": "J1504",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c84598",
+    "title": "Soins infirmiers spécialisés en prévention",
+    "code": "J1505",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c845a0",
+    "title": "Soins infirmiers généralistes",
+    "code": "J1506",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c845b3",
+    "title": "Soins infirmiers spécialisés en puériculture",
+    "code": "J1507",
+    "sector": "60d3628ea675950e17c84575"
+  },
+  {
+    "_id": "60d3628ea675950e17c845bf",
+    "title": "Accompagnement et médiation familiale",
+    "code": "K1101",
+    "sector": "60d3628ea675950e17c845be"
+  },
+  {
+    "_id": "60d3628ea675950e17c845c5",
+    "title": "Aide aux bénéficiaires d'une mesure de protection juridique",
+    "code": "K1102",
+    "sector": "60d3628ea675950e17c845be"
+  },
+  {
+    "_id": "60d3628ea675950e17c845d0",
+    "title": "Développement personnel et bien-être de la personne",
+    "code": "K1103",
+    "sector": "60d3628ea675950e17c845be"
+  },
+  { "_id": "60d3628ea675950e17c845e4", "title": "Psychologie", "code": "K1104", "sector": "60d3628ea675950e17c845be" },
+  {
+    "_id": "60d3628ea675950e17c845f5",
+    "title": "Action sociale",
+    "code": "K1201",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84608",
+    "title": "Éducation de jeunes enfants",
+    "code": "K1202",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c8460f",
+    "title": "Encadrement technique en insertion professionnelle",
+    "code": "K1203",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c8461c",
+    "title": "Médiation sociale et facilitation de la vie en société",
+    "code": "K1204",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84633",
+    "title": "Information sociale",
+    "code": "K1205",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84643",
+    "title": "Intervention socioculturelle",
+    "code": "K1206",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c8465b",
+    "title": "Intervention socioéducative",
+    "code": "K1207",
+    "sector": "60d3628ea675950e17c845f4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84669",
+    "title": "Accompagnement médicosocial",
+    "code": "K1301",
+    "sector": "60d3628ea675950e17c84668"
+  },
+  {
+    "_id": "60d3628ea675950e17c84678",
+    "title": "Assistance auprès d'adultes",
+    "code": "K1302",
+    "sector": "60d3628ea675950e17c84668"
+  },
+  {
+    "_id": "60d3628ea675950e17c8468c",
+    "title": "Assistance auprès d'enfants",
+    "code": "K1303",
+    "sector": "60d3628ea675950e17c84668"
+  },
+  {
+    "_id": "60d3628ea675950e17c846a4",
+    "title": "Services domestiques",
+    "code": "K1304",
+    "sector": "60d3628ea675950e17c84668"
+  },
+  {
+    "_id": "60d3628ea675950e17c846b1",
+    "title": "Intervention sociale et familiale",
+    "code": "K1305",
+    "sector": "60d3628ea675950e17c84668"
+  },
+  {
+    "_id": "60d3628ea675950e17c846b9",
+    "title": "Conception et pilotage de la politique des pouvoirs publics",
+    "code": "K1401",
+    "sector": "60d3628ea675950e17c846b8"
+  },
+  {
+    "_id": "60d3628ea675950e17c846c4",
+    "title": "Conseil en Santé Publique",
+    "code": "K1402",
+    "sector": "60d3628ea675950e17c846b8"
+  },
+  {
+    "_id": "60d3628ea675950e17c846d4",
+    "title": "Management de structure de santé, sociale ou pénitentiaire",
+    "code": "K1403",
+    "sector": "60d3628ea675950e17c846b8"
+  },
+  {
+    "_id": "60d3628ea675950e17c84704",
+    "title": "Mise en oeuvre et pilotage de la politique des pouvoirs publics",
+    "code": "K1404",
+    "sector": "60d3628ea675950e17c846b8"
+  },
+  {
+    "_id": "60d3628ea675950e17c8470f",
+    "title": "Représentation de l'État sur le territoire national ou international",
+    "code": "K1405",
+    "sector": "60d3628ea675950e17c846b8"
+  },
+  {
+    "_id": "60d3628ea675950e17c84717",
+    "title": "Application des règles financières publiques",
+    "code": "K1501",
+    "sector": "60d3628ea675950e17c84716"
+  },
+  {
+    "_id": "60d3628ea675950e17c84725",
+    "title": "Contrôle et inspection des Affaires Sociales",
+    "code": "K1502",
+    "sector": "60d3628ea675950e17c84716"
+  },
+  {
+    "_id": "60d3628ea675950e17c8472e",
+    "title": "Contrôle et inspection des impôts",
+    "code": "K1503",
+    "sector": "60d3628ea675950e17c84716"
+  },
+  {
+    "_id": "60d3628ea675950e17c84736",
+    "title": "Contrôle et inspection du Trésor Public",
+    "code": "K1504",
+    "sector": "60d3628ea675950e17c84716"
+  },
+  {
+    "_id": "60d3628ea675950e17c84743",
+    "title": "Protection des consommateurs et contrôle des échanges commerciaux",
+    "code": "K1505",
+    "sector": "60d3628ea675950e17c84716"
+  },
+  {
+    "_id": "60d3628ea675950e17c8474d",
+    "title": "Gestion de l'information et de la documentation",
+    "code": "K1601",
+    "sector": "60d3628ea675950e17c8474c"
+  },
+  {
+    "_id": "60d3628ea675950e17c8477d",
+    "title": "Gestion de patrimoine culturel",
+    "code": "K1602",
+    "sector": "60d3628ea675950e17c8474c"
+  },
+  {
+    "_id": "60d3628ea675950e17c84794",
+    "title": "Personnel de la Défense",
+    "code": "K1701",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c847bf",
+    "title": "Direction de la sécurité civile et des secours",
+    "code": "K1702",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c847d0",
+    "title": "Direction opérationnelle de la défense",
+    "code": "K1703",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c847e1",
+    "title": "Management de la sécurité publique",
+    "code": "K1704",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c847f2",
+    "title": "Sécurité civile et secours",
+    "code": "K1705",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c8480e",
+    "title": "Sécurité publique",
+    "code": "K1706",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c84824",
+    "title": "Surveillance municipale",
+    "code": "K1707",
+    "sector": "60d3628ea675950e17c84793"
+  },
+  {
+    "_id": "60d3628ea675950e17c84839",
+    "title": "Conseil en emploi et insertion socioprofessionnelle",
+    "code": "K1801",
+    "sector": "60d3628ea675950e17c84838"
+  },
+  {
+    "_id": "60d3628ea675950e17c8484f",
+    "title": "Développement local",
+    "code": "K1802",
+    "sector": "60d3628ea675950e17c84838"
+  },
+  {
+    "_id": "60d3628ea675950e17c84878",
+    "title": "Aide et médiation judiciaire",
+    "code": "K1901",
+    "sector": "60d3628ea675950e17c84877"
+  },
+  {
+    "_id": "60d3628ea675950e17c84884",
+    "title": "Collaboration juridique",
+    "code": "K1902",
+    "sector": "60d3628ea675950e17c84877"
+  },
+  {
+    "_id": "60d3628ea675950e17c848a7",
+    "title": "Défense et conseil juridique",
+    "code": "K1903",
+    "sector": "60d3628ea675950e17c84877"
+  },
+  { "_id": "60d3628ea675950e17c848d7", "title": "Magistrature", "code": "K1904", "sector": "60d3628ea675950e17c84877" },
+  {
+    "_id": "60d3628ea675950e17c848f3",
+    "title": "Conseil en formation",
+    "code": "K2101",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c84901",
+    "title": "Coordination pédagogique",
+    "code": "K2102",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c8490c",
+    "title": "Direction d'établissement et d'enseignement",
+    "code": "K2103",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c84937",
+    "title": "Éducation et surveillance au sein d'établissements d'enseignement",
+    "code": "K2104",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c8494a",
+    "title": "Enseignement artistique",
+    "code": "K2105",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c8496f",
+    "title": "Enseignement des écoles",
+    "code": "K2106",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c84988",
+    "title": "Enseignement général du second degré",
+    "code": "K2107",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c849b4",
+    "title": "Enseignement supérieur",
+    "code": "K2108",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c849c4",
+    "title": "Enseignement technique et professionnel",
+    "code": "K2109",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c849d8",
+    "title": "Formation en conduite de véhicules",
+    "code": "K2110",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c849eb",
+    "title": "Formation professionnelle",
+    "code": "K2111",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a22",
+    "title": "Orientation scolaire et professionnelle",
+    "code": "K2112",
+    "sector": "60d3628ea675950e17c848f2"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a30",
+    "title": "Blanchisserie industrielle",
+    "code": "K2201",
+    "sector": "60d3628ea675950e17c84a2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a3f",
+    "title": "Lavage de vitres",
+    "code": "K2202",
+    "sector": "60d3628ea675950e17c84a2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a47",
+    "title": "Management et inspection en propreté de locaux",
+    "code": "K2203",
+    "sector": "60d3628ea675950e17c84a2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a5a",
+    "title": "Nettoyage de locaux",
+    "code": "K2204",
+    "sector": "60d3628ea675950e17c84a2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a7a",
+    "title": "Distribution et assainissement d'eau",
+    "code": "K2301",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84a93",
+    "title": "Management et inspection en environnement urbain",
+    "code": "K2302",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84aaf",
+    "title": "Nettoyage des espaces urbains",
+    "code": "K2303",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84acd",
+    "title": "Revalorisation de produits industriels",
+    "code": "K2304",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ae0",
+    "title": "Salubrité et traitement de nuisibles",
+    "code": "K2305",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84af3",
+    "title": "Supervision d'exploitation éco-industrielle",
+    "code": "K2306",
+    "sector": "60d3628ea675950e17c84a79"
+  },
+  {
+    "_id": "60d3628ea675950e17c84b11",
+    "title": "Recherche en sciences de l'homme et de la société",
+    "code": "K2401",
+    "sector": "60d3628ea675950e17c84b10"
+  },
+  {
+    "_id": "60d3628ea675950e17c84b43",
+    "title": "Recherche en sciences de l'univers, de la matière et du vivant",
+    "code": "K2402",
+    "sector": "60d3628ea675950e17c84b10"
+  },
+  {
+    "_id": "60d3628ea675950e17c84b88",
+    "title": "Gardiennage de locaux",
+    "code": "K2501",
+    "sector": "60d3628ea675950e17c84b87"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ba7",
+    "title": "Management de sécurité privée",
+    "code": "K2502",
+    "sector": "60d3628ea675950e17c84b87"
+  },
+  {
+    "_id": "60d3628ea675950e17c84bbc",
+    "title": "Sécurité et surveillance privées",
+    "code": "K2503",
+    "sector": "60d3628ea675950e17c84b87"
+  },
+  {
+    "_id": "60d3628ea675950e17c84bf6",
+    "title": "Conduite d'opérations funéraires",
+    "code": "K2601",
+    "sector": "60d3628ea675950e17c84bf5"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c0a",
+    "title": "Conseil en services funéraires",
+    "code": "K2602",
+    "sector": "60d3628ea675950e17c84bf5"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c25",
+    "title": "Thanatopraxie",
+    "code": "K2603",
+    "sector": "60d3628ea675950e17c84bf5"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c2a",
+    "title": "Animation musicale et scénique",
+    "code": "L1101",
+    "sector": "60d3628ea675950e17c84c29"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c32",
+    "title": "Mannequinat et pose artistique",
+    "code": "L1102",
+    "sector": "60d3628ea675950e17c84c29"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c3a",
+    "title": "Présentation de spectacles ou d'émissions",
+    "code": "L1103",
+    "sector": "60d3628ea675950e17c84c29"
+  },
+  { "_id": "60d3628ea675950e17c84c44", "title": "Danse", "code": "L1201", "sector": "60d3628ea675950e17c84c43" },
+  {
+    "_id": "60d3628ea675950e17c84c56",
+    "title": "Musique et chant",
+    "code": "L1202",
+    "sector": "60d3628ea675950e17c84c43"
+  },
+  {
+    "_id": "60d3628ea675950e17c84c99",
+    "title": "Art dramatique",
+    "code": "L1203",
+    "sector": "60d3628ea675950e17c84c43"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ca8",
+    "title": "Arts du cirque et arts visuels",
+    "code": "L1204",
+    "sector": "60d3628ea675950e17c84c43"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ccb",
+    "title": "Mise en scène de spectacles vivants",
+    "code": "L1301",
+    "sector": "60d3628ea675950e17c84cca"
+  },
+  {
+    "_id": "60d3628ea675950e17c84cd4",
+    "title": "Production et administration spectacle, cinéma et audiovisuel",
+    "code": "L1302",
+    "sector": "60d3628ea675950e17c84cca"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d05",
+    "title": "Promotion d'artistes et de spectacles",
+    "code": "L1303",
+    "sector": "60d3628ea675950e17c84cca"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d16",
+    "title": "Réalisation cinématographique et audiovisuelle",
+    "code": "L1304",
+    "sector": "60d3628ea675950e17c84cca"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d2f",
+    "title": "Sportif professionnel",
+    "code": "L1401",
+    "sector": "60d3628ea675950e17c84d2e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d4f",
+    "title": "Coiffure et maquillage spectacle",
+    "code": "L1501",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d6c",
+    "title": "Costume et habillage spectacle",
+    "code": "L1502",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d79",
+    "title": "Décor et accessoires spectacle",
+    "code": "L1503",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84d8f",
+    "title": "Éclairage spectacle",
+    "code": "L1504",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84da3",
+    "title": "Image cinématographique et télévisuelle",
+    "code": "L1505",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84db9",
+    "title": "Machinerie spectacle",
+    "code": "L1506",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84dc7",
+    "title": "Montage audiovisuel et post-production",
+    "code": "L1507",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ddf",
+    "title": "Prise de son et sonorisation",
+    "code": "L1508",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84def",
+    "title": "Régie générale",
+    "code": "L1509",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  {
+    "_id": "60d3628ea675950e17c84dfb",
+    "title": "Films d'animation et effets spéciaux",
+    "code": "L1510",
+    "sector": "60d3628ea675950e17c84d4e"
+  },
+  { "_id": "60d3628ea675950e17c84e14", "title": "Achats", "code": "M1101", "sector": "60d3628ea675950e17c84e13" },
+  {
+    "_id": "60d3628ea675950e17c84e20",
+    "title": "Direction des achats",
+    "code": "M1102",
+    "sector": "60d3628ea675950e17c84e13"
+  },
+  {
+    "_id": "60d3628ea675950e17c84e30",
+    "title": "Analyse et ingénierie financière",
+    "code": "M1201",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84e3d",
+    "title": "Audit et contrôle comptables et financiers",
+    "code": "M1202",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  { "_id": "60d3628ea675950e17c84e4a", "title": "Comptabilité", "code": "M1203", "sector": "60d3628ea675950e17c84e2f" },
+  {
+    "_id": "60d3628ea675950e17c84e77",
+    "title": "Contrôle de gestion",
+    "code": "M1204",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84e92",
+    "title": "Direction administrative et financière",
+    "code": "M1205",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84eb1",
+    "title": "Management de groupe ou de service comptable",
+    "code": "M1206",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ebe",
+    "title": "Trésorerie et financement",
+    "code": "M1207",
+    "sector": "60d3628ea675950e17c84e2f"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ed5",
+    "title": "Direction de grande entreprise ou d'établissement public",
+    "code": "M1301",
+    "sector": "60d3628ea675950e17c84ed4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84eea",
+    "title": "Direction de petite ou moyenne entreprise",
+    "code": "M1302",
+    "sector": "60d3628ea675950e17c84ed4"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f05",
+    "title": "Conduite d'enquêtes",
+    "code": "M1401",
+    "sector": "60d3628ea675950e17c84f04"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f16",
+    "title": "Conseil en organisation et management d'entreprise",
+    "code": "M1402",
+    "sector": "60d3628ea675950e17c84f04"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f3d",
+    "title": "Études et prospectives socio-économiques",
+    "code": "M1403",
+    "sector": "60d3628ea675950e17c84f04"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f5e",
+    "title": "Management et gestion d'enquêtes",
+    "code": "M1404",
+    "sector": "60d3628ea675950e17c84f04"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f64",
+    "title": "Assistanat en ressources humaines",
+    "code": "M1501",
+    "sector": "60d3628ea675950e17c84f63"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f72",
+    "title": "Développement des ressources humaines",
+    "code": "M1502",
+    "sector": "60d3628ea675950e17c84f63"
+  },
+  {
+    "_id": "60d3628ea675950e17c84f9b",
+    "title": "Management des ressources humaines",
+    "code": "M1503",
+    "sector": "60d3628ea675950e17c84f63"
+  },
+  {
+    "_id": "60d3628ea675950e17c84fb4",
+    "title": "Accueil et renseignements",
+    "code": "M1601",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c84fc2",
+    "title": "Opérations administratives",
+    "code": "M1602",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c84fc8",
+    "title": "Distribution de documents",
+    "code": "M1603",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c84fe2",
+    "title": "Assistanat de direction",
+    "code": "M1604",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c84fec",
+    "title": "Assistanat technique et administratif",
+    "code": "M1605",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c84ffc",
+    "title": "Saisie de données",
+    "code": "M1606",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  { "_id": "60d3628ea675950e17c85009", "title": "Secrétariat", "code": "M1607", "sector": "60d3628ea675950e17c84fb3" },
+  {
+    "_id": "60d3628ea675950e17c85017",
+    "title": "Secrétariat comptable",
+    "code": "M1608",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c8501a",
+    "title": "Secrétariat et assistanat médical ou médico-social",
+    "code": "M1609",
+    "sector": "60d3628ea675950e17c84fb3"
+  },
+  {
+    "_id": "60d3628ea675950e17c85023",
+    "title": "Administration des ventes",
+    "code": "M1701",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  {
+    "_id": "60d3628ea675950e17c8502c",
+    "title": "Analyse de tendance",
+    "code": "M1702",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  {
+    "_id": "60d3628ea675950e17c85037",
+    "title": "Management et gestion de produit",
+    "code": "M1703",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  {
+    "_id": "60d3628ea675950e17c85048",
+    "title": "Management relation clientèle",
+    "code": "M1704",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  { "_id": "60d3628ea675950e17c85059", "title": "Marketing", "code": "M1705", "sector": "60d3628ea675950e17c85022" },
+  {
+    "_id": "60d3628ea675950e17c85079",
+    "title": "Promotion des ventes",
+    "code": "M1706",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  {
+    "_id": "60d3628ea675950e17c8507e",
+    "title": "Stratégie commerciale",
+    "code": "M1707",
+    "sector": "60d3628ea675950e17c85022"
+  },
+  {
+    "_id": "60d3628ea675950e17c85089",
+    "title": "Administration de systèmes d'information",
+    "code": "M1801",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c85095",
+    "title": "Expertise et support en systèmes d'information",
+    "code": "M1802",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c850be",
+    "title": "Direction des systèmes d'information",
+    "code": "M1803",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c850e6",
+    "title": "Études et développement de réseaux de télécoms",
+    "code": "M1804",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c850fd",
+    "title": "Études et développement informatique",
+    "code": "M1805",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c85156",
+    "title": "Conseil et maîtrise d'ouvrage en systèmes d'information",
+    "code": "M1806",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c85174",
+    "title": "Exploitation de systèmes de communication et de commandement",
+    "code": "M1807",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c8519b",
+    "title": "Information géographique",
+    "code": "M1808",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c851bc",
+    "title": "Information météorologique",
+    "code": "M1809",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c851d1",
+    "title": "Production et exploitation de systèmes d'information",
+    "code": "M1810",
+    "sector": "60d3628ea675950e17c85088"
+  },
+  {
+    "_id": "60d3628ea675950e17c851f2",
+    "title": "Conduite d'engins de déplacement des charges",
+    "code": "N1101",
+    "sector": "60d3628ea675950e17c851f1"
+  },
+  { "_id": "60d3628ea675950e17c85205", "title": "Déménagement", "code": "N1102", "sector": "60d3628ea675950e17c851f1" },
+  {
+    "_id": "60d3628ea675950e17c8520e",
+    "title": "Magasinage et préparation de commandes",
+    "code": "N1103",
+    "sector": "60d3628ea675950e17c851f1"
+  },
+  {
+    "_id": "60d3628ea675950e17c85237",
+    "title": "Manoeuvre et conduite d'engins lourds de manutention",
+    "code": "N1104",
+    "sector": "60d3628ea675950e17c851f1"
+  },
+  {
+    "_id": "60d3628ea675950e17c85247",
+    "title": "Manutention manuelle de charges",
+    "code": "N1105",
+    "sector": "60d3628ea675950e17c851f1"
+  },
+  {
+    "_id": "60d3628ea675950e17c85256",
+    "title": "Affrètement transport",
+    "code": "N1201",
+    "sector": "60d3628ea675950e17c85255"
+  },
+  {
+    "_id": "60d3628ea675950e17c85263",
+    "title": "Gestion des opérations de circulation internationale des marchandises",
+    "code": "N1202",
+    "sector": "60d3628ea675950e17c85255"
+  },
+  {
+    "_id": "60d3628ea675950e17c85280",
+    "title": "Conception et organisation de la chaîne logistique",
+    "code": "N1301",
+    "sector": "60d3628ea675950e17c8527f"
+  },
+  {
+    "_id": "60d3628ea675950e17c85291",
+    "title": "Direction de site logistique",
+    "code": "N1302",
+    "sector": "60d3628ea675950e17c8527f"
+  },
+  {
+    "_id": "60d3628ea675950e17c8529f",
+    "title": "Intervention technique d'exploitation logistique",
+    "code": "N1303",
+    "sector": "60d3628ea675950e17c8527f"
+  },
+  {
+    "_id": "60d3628ea675950e17c852c4",
+    "title": "Navigation commerciale aérienne",
+    "code": "N2101",
+    "sector": "60d3628ea675950e17c852c3"
+  },
+  {
+    "_id": "60d3628ea675950e17c852cd",
+    "title": "Pilotage et navigation technique aérienne",
+    "code": "N2102",
+    "sector": "60d3628ea675950e17c852c3"
+  },
+  {
+    "_id": "60d3628ea675950e17c852e5",
+    "title": "Personnel d'escale aéroportuaire",
+    "code": "N2201",
+    "sector": "60d3628ea675950e17c852e4"
+  },
+  {
+    "_id": "60d3628ea675950e17c852ed",
+    "title": "Contrôle de la navigation aérienne",
+    "code": "N2202",
+    "sector": "60d3628ea675950e17c852e4"
+  },
+  {
+    "_id": "60d3628ea675950e17c852fc",
+    "title": "Exploitation des pistes aéroportuaires",
+    "code": "N2203",
+    "sector": "60d3628ea675950e17c852e4"
+  },
+  {
+    "_id": "60d3628ea675950e17c8530b",
+    "title": "Préparation des vols",
+    "code": "N2204",
+    "sector": "60d3628ea675950e17c852e4"
+  },
+  {
+    "_id": "60d3628ea675950e17c85324",
+    "title": "Direction d'escale et exploitation aéroportuaire",
+    "code": "N2205",
+    "sector": "60d3628ea675950e17c852e4"
+  },
+  {
+    "_id": "60d3628ea675950e17c85331",
+    "title": "Encadrement de la navigation maritime",
+    "code": "N3101",
+    "sector": "60d3628ea675950e17c85330"
+  },
+  {
+    "_id": "60d3628ea675950e17c8534a",
+    "title": "Équipage de la navigation maritime",
+    "code": "N3102",
+    "sector": "60d3628ea675950e17c85330"
+  },
+  {
+    "_id": "60d3628ea675950e17c8535f",
+    "title": "Navigation fluviale",
+    "code": "N3103",
+    "sector": "60d3628ea675950e17c85330"
+  },
+  {
+    "_id": "60d3628ea675950e17c85377",
+    "title": "Exploitation des opérations portuaires et du transport maritime",
+    "code": "N3201",
+    "sector": "60d3628ea675950e17c85376"
+  },
+  {
+    "_id": "60d3628ea675950e17c8538a",
+    "title": "Exploitation du transport fluvial",
+    "code": "N3202",
+    "sector": "60d3628ea675950e17c85376"
+  },
+  {
+    "_id": "60d3628ea675950e17c85392",
+    "title": "Manutention portuaire",
+    "code": "N3203",
+    "sector": "60d3628ea675950e17c85376"
+  },
+  {
+    "_id": "60d3628ea675950e17c853a3",
+    "title": "Conduite de transport de marchandises sur longue distance",
+    "code": "N4101",
+    "sector": "60d3628ea675950e17c853a2"
+  },
+  {
+    "_id": "60d3628ea675950e17c853b7",
+    "title": "Conduite de transport de particuliers",
+    "code": "N4102",
+    "sector": "60d3628ea675950e17c853a2"
+  },
+  {
+    "_id": "60d3628ea675950e17c853c9",
+    "title": "Conduite de transport en commun sur route",
+    "code": "N4103",
+    "sector": "60d3628ea675950e17c853a2"
+  },
+  {
+    "_id": "60d3628ea675950e17c853e3",
+    "title": "Courses et livraisons express",
+    "code": "N4104",
+    "sector": "60d3628ea675950e17c853a2"
+  },
+  {
+    "_id": "60d3628ea675950e17c853ed",
+    "title": "Conduite et livraison par tournées sur courte distance",
+    "code": "N4105",
+    "sector": "60d3628ea675950e17c853a2"
+  },
+  {
+    "_id": "60d3628ea675950e17c85406",
+    "title": "Direction d'exploitation des transports routiers de marchandises",
+    "code": "N4201",
+    "sector": "60d3628ea675950e17c85405"
+  },
+  {
+    "_id": "60d3628ea675950e17c85410",
+    "title": "Direction d'exploitation des transports routiers de personnes",
+    "code": "N4202",
+    "sector": "60d3628ea675950e17c85405"
+  },
+  {
+    "_id": "60d3628ea675950e17c8541a",
+    "title": "Intervention technique d'exploitation des transports routiers de marchandises",
+    "code": "N4203",
+    "sector": "60d3628ea675950e17c85405"
+  },
+  {
+    "_id": "60d3628ea675950e17c8542a",
+    "title": "Intervention technique d'exploitation des transports routiers de personnes",
+    "code": "N4204",
+    "sector": "60d3628ea675950e17c85405"
+  },
+  {
+    "_id": "60d3628ea675950e17c8543a",
+    "title": "Conduite sur rails",
+    "code": "N4301",
+    "sector": "60d3628ea675950e17c85439"
+  },
+  {
+    "_id": "60d3628ea675950e17c85446",
+    "title": "Contrôle des transports en commun",
+    "code": "N4302",
+    "sector": "60d3628ea675950e17c85439"
+  },
+  {
+    "_id": "60d3628ea675950e17c85454",
+    "title": "Circulation du réseau ferré",
+    "code": "N4401",
+    "sector": "60d3628ea675950e17c85453"
+  },
+  {
+    "_id": "60d3628ea675950e17c85463",
+    "title": "Exploitation et manoeuvre des remontées mécaniques",
+    "code": "N4402",
+    "sector": "60d3628ea675950e17c85453"
+  },
+  {
+    "_id": "60d3628ea675950e17c85471",
+    "title": "Manoeuvre du réseau ferré",
+    "code": "N4403",
+    "sector": "60d3628ea675950e17c85453"
+  }
+]

@@ -33,7 +33,7 @@ function list<T extends Document, Q, A extends { [key: string]: { type: GraphQLT
   model: Model<T, Q extends undefined ? Record<string, never> : Q>,
   type: GraphQLObjectType,
   options: Options<DocumentQuery<T[], T> & Q, A, C> & {
-    args?: { [key: string]: GraphQLType };
+    args?: { [key: string]: { type: GraphQLType } };
   } = {},
 ) {
   let args = {
