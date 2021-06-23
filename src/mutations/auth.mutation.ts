@@ -1,3 +1,4 @@
+import Group from 'models/group.model';
 import { GraphQLError, GraphQLNonNull, GraphQLString } from 'graphql';
 import joi from 'joi';
 
@@ -5,7 +6,7 @@ import apiWrapper from 'crud/apiWrapper';
 import create from 'crud/create';
 import User, { Role } from 'models/user.model';
 import RefreshToken from 'models/refreshToken.model';
-
+import { LocationTypeInput } from 'types/user.type';
 import { AuthType } from 'types/auth.type';
 import { generateTokenResponse, getAgent } from 'utils/authHelpers';
 
@@ -24,6 +25,16 @@ const registerSchema = {
   password: joi.string().min(6).max(30).required(),
   firstName: joi.string().min(1).max(30).trim(true),
   lastName: joi.string().min(1).max(30).trim(true),
+  structure: joi.string(),
+  codeGroup: joi.string(),
+  location: joi
+    .object({
+      address: joi.string().required(),
+      lat: joi.number(),
+      lng: joi.number(),
+      postCode: joi.string(),
+    })
+    .required(),
 };
 
 export default {
@@ -51,10 +62,25 @@ export default {
       password: { type: GraphQLString, required: true },
       firstName: { type: GraphQLString, required: true },
       lastName: { type: GraphQLString, required: true },
+      structure: { type: GraphQLString, required: false },
+      codeGroupe: { type: GraphQLString, required: false },
+      location: { type: LocationTypeInput, required: true },
     },
     AuthType,
+
     {
       validateSchema: registerSchema,
+      pre: async (args) => {
+        if (args.codeGroupe) {
+          const existCode = await Group.findOne({ code: args.codeGroupe });
+          if (!existCode) throw new GraphQLError("code groupe n'existe pas");
+          return { ...args, codeGroupe: existCode.id };
+        }
+        if (args.email) {
+          const existEmail = await User.findOne({ email: args.email });
+          if (existEmail) throw new GraphQLError('email existe déjà');
+        }
+      },
       post: async ({ result: user, request }) => {
         const token = await generateTokenResponse(user, request);
         return { user, token };
