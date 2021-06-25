@@ -18,12 +18,7 @@ import themes from './themes.json';
 import Theme from 'models/theme.model';
 
 async function generateDocs(documents: any[], Model: Model<any>) {
-  await Promise.all(
-    documents.map((d) => {
-      const doc = new Model(d);
-      return doc.save();
-    }),
-  );
+  return Model.insertMany(documents);
 }
 
 async function generate() {
