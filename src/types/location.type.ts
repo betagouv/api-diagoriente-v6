@@ -2,9 +2,10 @@ import { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList, GraphQLFloat 
 export const LocationType = new GraphQLObjectType({
   name: 'Location',
   fields: () => ({
+    id: { type: GraphQLID },
     coordinates: { type: new GraphQLList(GraphQLFloat) },
     city: { type: GraphQLString },
-    cityCode: { type: GraphQLID },
+    cityCode: { type: GraphQLString },
     context: { type: GraphQLString },
     label: { type: GraphQLString },
     name: { type: GraphQLString },
