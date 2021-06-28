@@ -6,8 +6,9 @@
   "scripts": {
     "start": "nodemon",
     "fixtures": "ts-node -r tsconfig-paths/register --files ./src/fixtures/index.ts",
-    "generate": "ts-node -r tsconfig-paths/register --files ./src/generator/index.ts"
-  },
+    "generate": "ts-node -r tsconfig-paths/register --files ./src/generator/index.ts",
+    "start:staging": "NODE_ENV=development ts-node -r tsconfig-paths/register --files src/index.ts"
+ },
   "author": "",
   "license": "ISC",
   "dependencies": {
