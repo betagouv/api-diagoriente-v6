@@ -1,4 +1,4 @@
-import mongoose, { Document, Model, Schema } from 'mongoose';
+import mongoose, { Document, Model, Schema, Types } from 'mongoose';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import moment from 'moment';
@@ -8,9 +8,10 @@ import { env, expirationInterval, accessSecret } from 'config/vars';
 export enum Role {
   USER = 'user',
   ADMIN = 'admin',
+  ADVISOR = 'advisor',
 }
 
-const roles = [Role.USER, Role.ADMIN];
+const roles = [Role.USER, Role.ADMIN, Role.ADVISOR];
 
 export interface User {
   email: string;
@@ -28,12 +29,7 @@ export interface User {
     lng: number;
     postCode: string;
   };
-  group: {
-    address: string;
-    lat: number;
-    lng: number;
-    postCode: string;
-  };
+  group: Types.ObjectId;
 }
 
 export interface UserDocument extends Document, User {

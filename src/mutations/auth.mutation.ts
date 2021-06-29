@@ -26,7 +26,7 @@ const registerSchema = {
   firstName: joi.string().min(1).max(30).trim(true),
   lastName: joi.string().min(1).max(30).trim(true),
   structure: joi.string(),
-  codeGroup: joi.string(),
+  code: joi.string(),
   location: joi
     .object({
       address: joi.string().required(),
@@ -63,23 +63,25 @@ export default {
       firstName: { type: GraphQLString, required: true },
       lastName: { type: GraphQLString, required: true },
       structure: { type: GraphQLString, required: false },
-      codeGroupe: { type: GraphQLString, required: false },
+      code: { type: GraphQLString, required: false },
       location: { type: LocationTypeInput, required: true },
     },
     AuthType,
-
     {
       validateSchema: registerSchema,
       pre: async (args) => {
-        if (args.codeGroupe) {
-          const existCode = await Group.findOne({ code: args.codeGroupe });
-          if (!existCode) throw new GraphQLError("code groupe n'existe pas");
-          return { ...args, codeGroupe: existCode.id };
+        const { code, email, ...rest } = args;
+        let group: string | undefined;
+        if (args.code) {
+          const existCode = await Group.findOne({ code });
+          if (!existCode) throw new GraphQLError("Code groupe n'existe pas");
+          group = existCode.id;
         }
-        if (args.email) {
-          const existEmail = await User.findOne({ email: args.email });
-          if (existEmail) throw new GraphQLError('email existe déjà');
+        if (email) {
+          const existEmail = await User.findOne({ email });
+          if (existEmail) throw new GraphQLError('Email existe déjà');
         }
+        return { ...rest, email, group };
       },
       post: async ({ result: user, request }) => {
         const token = await generateTokenResponse(user, request);
@@ -121,6 +123,6 @@ export default {
     },
     GraphQLString,
     {},
-    { authorizationRoles: [Role.USER, Role.ADMIN] },
+    { authorizationRoles: [Role.USER, Role.ADMIN, Role.ADVISOR] },
   ),
 };

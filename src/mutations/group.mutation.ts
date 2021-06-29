@@ -1,5 +1,5 @@
 import joi from 'joi';
-import { GraphQLString, GraphQLID } from 'graphql';
+import { GraphQLString } from 'graphql';
 
 import create from 'crud/create';
 import update from 'crud/update';
@@ -13,16 +13,10 @@ import { GroupType } from 'types/group.type';
 const createGroupValidation = {
   title: joi.string().required(),
   code: joi.string().required(),
-  advisor: joi
-    .string()
-    .regex(/^[0-9a-fA-F]{24}$/)
-    .required(),
 };
 
 const updateGroupValidation = {
   title: joi.string(),
-  code: joi.string(),
-  advisor: joi.string().regex(/^[0-9a-fA-F]{24}$/),
 };
 
 export default {
@@ -31,14 +25,27 @@ export default {
     {
       title: { type: GraphQLString, required: true },
       code: { type: GraphQLString, required: true },
-      advisor: { type: GraphQLID, required: true },
     },
     GroupType,
-    { validateSchema: createGroupValidation, authorizationRoles: [Role.ADMIN] },
+    {
+      validateSchema: createGroupValidation,
+      authorizationRoles: [Role.ADVISOR],
+      pre: (args, req) => {
+        return { ...args, advisor: req.user?.id };
+      },
+    },
   ),
-  updateGroup: update(Group, { title: GraphQLString, code: GraphQLString, advisor: GraphQLID }, GroupType, {
+  updateGroup: update(Group, { title: GraphQLString }, GroupType, {
     validateSchema: updateGroupValidation,
-    authorizationRoles: [Role.ADMIN],
+    authorizationRoles: [Role.ADVISOR],
+    pre: (args, req) => {
+      return { ...args, query: { advisor: req.user?.id } };
+    },
   }),
-  removeGroup: remove(Group, { authorizationRoles: [Role.ADMIN] }),
+  removeGroup: remove(Group, {
+    authorizationRoles: [Role.ADVISOR],
+    pre: (args, req) => {
+      return { ...args, advisor: req.user?.id };
+    },
+  }),
 };
