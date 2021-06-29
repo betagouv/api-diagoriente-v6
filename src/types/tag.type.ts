@@ -1,4 +1,4 @@
-import { GraphQLID, GraphQLObjectType, GraphQLString } from 'graphql';
+import { GraphQLID, GraphQLList, GraphQLObjectType, GraphQLString } from 'graphql';
 import { SectorType } from 'types/sector.type';
 import { ThemeType } from './theme.type';
 
@@ -9,6 +9,6 @@ export const TagType = new GraphQLObjectType({
     title: { type: GraphQLString },
     code: { type: GraphQLString },
     sector: { type: SectorType },
-    themes: { type: ThemeType },
+    themes: { type: GraphQLList(ThemeType) },
   },
 });

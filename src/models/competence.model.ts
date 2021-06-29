@@ -3,7 +3,8 @@ import mongoose, { Schema, Model, Document } from 'mongoose';
 export interface Competence {
   title: string;
   type: string;
-  niveau: { title: string; subTitle: string }[];
+  levels: { title: string; subTitle: string }[];
+  reference: Schema.Types.ObjectId;
 }
 
 export interface CompetenceDocument extends Document, Competence {}
@@ -12,9 +13,10 @@ export type CompetenceModel = Model<CompetenceDocument>;
 
 const competenceSchema = new Schema<CompetenceDocument, CompetenceModel>(
   {
-    title: { type: String, required: true, maxLength: 150 },
+    title: { type: String, required: true, max: 150 },
     type: { type: String, required: true },
-    niveau: [{ title: { type: String, maxLength: 180 }, subTitle: { type: String, maxLength: 180 } }],
+    levels: [{ title: { type: String, max: 180 }, subTitle: { type: String, max: 180 } }],
+    reference: { type: Schema.Types.ObjectId, required: true, ref: 'reference' },
   },
   {
     timestamps: true,
