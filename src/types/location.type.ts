@@ -1,4 +1,5 @@
 import { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLList, GraphQLFloat } from 'graphql';
+
 export const LocationType = new GraphQLObjectType({
   name: 'Location',
   fields: () => ({

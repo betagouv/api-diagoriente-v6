@@ -6,7 +6,7 @@ import update from 'crud/update';
 import remove from 'crud/remove';
 
 import { Role } from 'models/user.model';
-import Theme, { domains } from 'models/theme.model';
+import Theme, { themeDomains } from 'models/theme.model';
 
 import { ThemeType } from 'types/theme.type';
 
@@ -14,7 +14,7 @@ const createThemeValidation = {
   title: joi.string().required(),
   domain: joi
     .string()
-    .valid(...domains)
+    .valid(...themeDomains)
     .required(),
   code: joi.string().required(),
   tag: joi
@@ -25,7 +25,7 @@ const createThemeValidation = {
 
 const updateThemeValidation = {
   title: joi.string(),
-  domain: joi.string().valid(...domains),
+  domain: joi.string().valid(...themeDomains),
   code: joi.string(),
   tag: joi.string().regex(/^[0-9a-fA-F]{24}$/),
 };

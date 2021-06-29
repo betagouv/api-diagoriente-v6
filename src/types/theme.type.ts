@@ -1,6 +1,7 @@
 import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType } from 'graphql';
 import { ThemeDomain } from 'models/theme.model';
 import { TagType } from 'types/tag.type';
+import { ActivityType } from './activity.type';
 
 export const ThemeDomainType = new GraphQLEnumType({
   name: 'ThemeDomain',
@@ -18,5 +19,6 @@ export const ThemeType = new GraphQLObjectType({
     domain: { type: ThemeDomainType },
     code: { type: GraphQLString },
     tag: { type: TagType },
+    activities: { type: ActivityType },
   },
 });
