@@ -10,7 +10,7 @@ import autoPopulate from 'utils/autoPopulate';
 
 import { Role, UserDocument } from 'models/user.model';
 
-export async function matchResult<T>(
+export async function matchResult<T extends Record<any, any>>(
   result: T,
   info?: SelectionSetNode,
   populateCondition?: Record<string, any>,
@@ -18,11 +18,11 @@ export async function matchResult<T>(
   if (typeof result !== 'object' || !info || isArray(result)) return result;
 
   if (result instanceof Document) {
-    return await result.populate(autoPopulate(result.schema.obj, info, populateCondition)).execPopulate();
+    return await result.populate(autoPopulate(result.schema, info, populateCondition)).execPopulate();
   }
 
   if (result instanceof Query) {
-    return await result.populate(autoPopulate((result as any).schema.obj, info, populateCondition));
+    return await result.populate(autoPopulate((result as any).schema, info, populateCondition));
   }
 
   const newResult = {} as T;

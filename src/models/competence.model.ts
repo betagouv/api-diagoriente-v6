@@ -16,7 +16,7 @@ const competenceSchema = new Schema<CompetenceDocument, CompetenceModel>(
     title: { type: String, required: true, max: 150 },
     type: { type: String, required: true },
     levels: [{ title: { type: String, max: 180 }, subTitle: { type: String, max: 180 } }],
-    reference: { type: Schema.Types.ObjectId, required: true, ref: 'reference' },
+    reference: { type: Schema.Types.ObjectId, required: true, ref: 'Reference' },
   },
   {
     timestamps: true,

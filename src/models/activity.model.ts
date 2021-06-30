@@ -14,7 +14,7 @@ const activitySchema = new Schema<ActivityDocument, ActivityModel>(
   {
     title: { type: String, required: true, unique: true },
     description: { type: String },
-    theme: { type: Schema.Types.ObjectId, required: true, ref: 'theme' },
+    theme: { type: Schema.Types.ObjectId, required: true, ref: 'Theme' },
   },
   {
     timestamps: true,

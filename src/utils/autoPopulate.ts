@@ -18,20 +18,29 @@ function autoPopulate(
     if (node.kind === 'Field' && node.selectionSet) {
       const name = node.name.value;
       const path = parent ? `${parent}.${name}` : name;
-      let type = doc[name];
-      if (isArray(type)) type = findDoc(type);
+      const virtual = doc.virtuals && doc.virtuals[name];
+      if (virtual && virtual.options) {
+        r.push({
+          path: name,
+          populate: autoPopulate(model(virtual.options.ref).schema, node.selectionSet, populateCondition),
+        });
+      } else {
+        let type = doc?.obj[name];
 
-      if (type) {
-        if (type.ref) {
-          const populateObject: PopulateOptions = {
-            path,
-            populate: autoPopulate(model(type.ref).schema.obj, node.selectionSet, populateCondition),
-          };
-          if (populateCondition[name]) {
-            populateObject.match = populateCondition[name];
-          }
-          r.push(populateObject);
-        } else r = [...r, ...autoPopulate(type, node.selectionSet, populateCondition, path)];
+        if (isArray(type)) type = findDoc(type);
+
+        if (type) {
+          if (type.ref) {
+            const populateObject: PopulateOptions = {
+              path,
+              populate: autoPopulate(model(type.ref).schema.obj, node.selectionSet, populateCondition),
+            };
+            if (populateCondition[name]) {
+              populateObject.match = populateCondition[name];
+            }
+            r.push(populateObject);
+          } else r = [...r, ...autoPopulate(type, node.selectionSet, populateCondition, path)];
+        }
       }
     }
   });

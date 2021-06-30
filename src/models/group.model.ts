@@ -14,7 +14,7 @@ const groupSchema = new Schema<GroupDocument, GroupModel>(
   {
     title: { type: String, required: true },
     code: { type: String, required: true, unique: true },
-    advisor: { type: Schema.Types.ObjectId, required: true, ref: 'user' },
+    advisor: { type: Schema.Types.ObjectId, required: true, ref: 'User' },
   },
   {
     timestamps: true,
