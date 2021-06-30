@@ -1,5 +1,4 @@
 import mongoose, { Schema, Model, Document } from 'mongoose';
-import Activity, { ActivityDocument } from './activity.model';
 
 export enum ThemeDomain {
   PERSONAL = 'personal',
@@ -13,7 +12,6 @@ export interface Theme {
   domain: string;
   code: string;
   tag: Schema.Types.ObjectId;
-  activities: Promise<ActivityDocument[]>;
 }
 
 export interface ThemeDocument extends Document, Theme {}
@@ -32,8 +30,10 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
   },
 );
 
-themeSchema.virtual('activities').get(function (this: ThemeDocument) {
-  return Activity.find({ theme: this.id });
+themeSchema.virtual('activities', {
+  ref: 'Activity',
+  localField: '_id',
+  foreignField: 'theme',
 });
 
 export default mongoose.model('Theme', themeSchema);

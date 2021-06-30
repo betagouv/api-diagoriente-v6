@@ -1,7 +1,5 @@
 import mongoose, { Schema, Model, Document } from 'mongoose';
 
-import Theme from 'models/theme.model';
-
 export interface Tag {
   title: string;
   code: string;
@@ -23,8 +21,10 @@ const tagSchema = new Schema<TagDocument, TagModel>(
   },
 );
 
-tagSchema.virtual('themes').get(function (this: TagDocument) {
-  return Theme.find({ tag: this.id });
+tagSchema.virtual('themes', {
+  ref: 'Theme',
+  localField: '_id',
+  foreignField: 'tag',
 });
 
 export default mongoose.model('Tag', tagSchema);

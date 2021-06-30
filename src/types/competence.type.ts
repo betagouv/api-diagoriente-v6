@@ -1,7 +1,5 @@
 import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLList, GraphQLInputObjectType } from 'graphql';
 
-import { ReferenceType } from 'types/reference.type';
-
 export const CompetenceLevelsInputType = new GraphQLInputObjectType({
   name: 'CompetenceLevelsInput',
   fields: {
@@ -25,6 +23,6 @@ export const CompetenceType = new GraphQLObjectType({
     title: { type: GraphQLString },
     type: { type: GraphQLString },
     levels: { type: new GraphQLList(CompetenceLevelsType) },
-    reference: { type: ReferenceType },
+    reference: { type: GraphQLID },
   },
 });

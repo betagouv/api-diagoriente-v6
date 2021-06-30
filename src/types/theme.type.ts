@@ -1,4 +1,4 @@
-import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType } from 'graphql';
+import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType, GraphQLList } from 'graphql';
 import { ThemeDomain } from 'models/theme.model';
 import { ActivityType } from './activity.type';
 
@@ -18,6 +18,6 @@ export const ThemeType = new GraphQLObjectType({
     domain: { type: ThemeDomainType },
     code: { type: GraphQLString },
     tag: { type: GraphQLID },
-    activities: { type: ActivityType },
+    activities: { type: GraphQLList(ActivityType) },
   },
 });
