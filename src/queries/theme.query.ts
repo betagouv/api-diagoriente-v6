@@ -16,10 +16,11 @@ export default {
     args: {
       sector: { type: GraphQLString },
       title: { type: GraphQLString },
+      domain: { type: GraphQLString },
       tags: { type: new GraphQLList(GraphQLString) },
     },
     pre: async (args) => {
-      const { sector, tags, title, ...rest } = args;
+      const { sector, tags, title, domain, ...rest } = args;
       const querySearch = { ...rest };
       if (sector) {
         const extraTags = await Tag.find({ sector });
@@ -31,6 +32,9 @@ export default {
       }
       if (tags?.length) {
         querySearch.tags = { $in: uniq(tags) };
+      }
+      if (domain) {
+        querySearch.domain = domain;
       }
       return { ...querySearch };
     },
