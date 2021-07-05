@@ -1,10 +1,11 @@
-import mongoose, { Schema, Model, Document } from 'mongoose';
+import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
+import { ReferenceDocument } from './reference.model';
 
 export interface Competence {
   title: string;
   type: string;
   levels: { title: string; subTitle: string }[];
-  reference: Schema.Types.ObjectId;
+  reference: PopulatedDoc<ReferenceDocument>;
 }
 
 export interface CompetenceDocument extends Document, Competence {}

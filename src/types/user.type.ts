@@ -7,6 +7,7 @@ import {
   GraphQLInt,
   GraphQLFloat,
   GraphQLInputObjectType,
+  GraphQLList,
 } from 'graphql';
 import { GraphQLDateTime } from 'graphql-iso-date';
 import { Role } from 'models/user.model';
@@ -49,7 +50,7 @@ export const LocationTypeInput = new GraphQLInputObjectType({
   }),
 });
 
-export const UserType: GraphQLObjectType<any, any> = new GraphQLObjectType({
+export const UserType = new GraphQLObjectType({
   name: 'User',
   fields: {
     id: { type: GraphQLID },
@@ -63,5 +64,6 @@ export const UserType: GraphQLObjectType<any, any> = new GraphQLObjectType({
     location: { type: LocationType },
     lastLogin: { type: GraphQLDateTime },
     group: { type: UserGroupType },
+    carriers: { type: GraphQLList(GraphQLID) },
   },
 });

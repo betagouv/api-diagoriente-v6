@@ -1,9 +1,10 @@
-import mongoose, { Schema, Model, Document } from 'mongoose';
+import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
+import { UserDocument } from './user.model';
 
 export interface Group {
   title: string;
   code: string;
-  advisor: Schema.Types.ObjectId;
+  advisor: PopulatedDoc<UserDocument>;
 }
 
 export interface GroupDocument extends Document, Group {}

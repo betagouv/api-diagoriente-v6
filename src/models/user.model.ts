@@ -1,9 +1,12 @@
-import mongoose, { Document, Model, Schema, Types } from 'mongoose';
+import mongoose, { Document, Model, PopulatedDoc, Schema } from 'mongoose';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import moment from 'moment';
 
 import { env, expirationInterval, accessSecret } from 'config/vars';
+import { GroupDocument } from './group.model';
+
+import Carrier from './career.model';
 
 export enum Role {
   USER = 'user',
@@ -29,7 +32,8 @@ export interface User {
     lng: number;
     postCode: string;
   };
-  group: Types.ObjectId;
+  group: PopulatedDoc<GroupDocument>;
+  carriers: Promise<string[]>;
 }
 
 export interface UserDocument extends Document, User {
@@ -102,6 +106,11 @@ const userSchema = new mongoose.Schema<UserDocument, UserModel>(
     timestamps: true,
   },
 );
+
+userSchema.virtual('carriers').get(async function (this: UserDocument) {
+  const carriers = await Carrier.find({ user: this.id });
+  return carriers.map((c) => c.id.toString());
+});
 
 export async function hash(password: string) {
   const rounds = env === 'test' ? 1 : 10;

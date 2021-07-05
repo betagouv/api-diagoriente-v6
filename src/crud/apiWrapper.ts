@@ -1,4 +1,4 @@
-import { GraphQLType, GraphQLError, GraphQLResolveInfo, SelectionSetNode } from 'graphql';
+import { GraphQLType, GraphQLError, GraphQLResolveInfo, SelectionSetNode, GraphQLList } from 'graphql';
 import { Request } from 'express';
 import { Document, Query } from 'mongoose';
 import { isArray } from 'lodash';
@@ -9,6 +9,8 @@ import { isUserAuthenticated } from 'utils/authHelpers';
 import autoPopulate from 'utils/autoPopulate';
 
 import { Role, UserDocument } from 'models/user.model';
+
+type GraphQLToTS<T> = T extends GraphQLList<infer R> ? GraphQLToTS<R>[] : any;
 
 export async function matchResult<T extends Record<any, any>>(
   result: T,
@@ -53,14 +55,14 @@ export interface Options<T, A extends { [key: string]: { type: GraphQLType } }, 
     args: C;
     request: LocalRequest;
     info: GraphQLResolveInfo;
-    initialArgs: { [K in keyof A]: any };
+    initialArgs: { [K in keyof A]: GraphQLToTS<A[K]['type']> };
   }) => any;
-  pre?: (args: { [K in keyof A]: any }, request: LocalRequest) => Promise<C> | C;
+  pre?: (args: { [K in keyof A]: GraphQLToTS<A[K]['type']> }, request: LocalRequest) => Promise<C> | C;
   autoPopulate?: boolean;
   populateConditions?: (p: {
     result: T;
     args: C;
-    initialArgs: { [K in keyof A]: any };
+    initialArgs: { [K in keyof A]: GraphQLToTS<A[K]['type']> };
     request: LocalRequest;
     info: GraphQLResolveInfo;
   }) => Record<string, any>;

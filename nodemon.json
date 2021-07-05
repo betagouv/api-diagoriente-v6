@@ -1,5 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts,js,json",
-  "exec": "ts-node -r tsconfig-paths/register --files ./src/index.ts"
+  "exec": "ts-node -r tsconfig-paths/register --files ./src/index.ts",
+  "ignore": ["src/fixtures"]
 }

@@ -1,8 +1,9 @@
-import mongoose, { Schema, Model, Document } from 'mongoose';
+import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
+import { UserDocument } from './user.model';
 
 export interface Reference {
   title: string;
-  advisor: Schema.Types.ObjectId;
+  advisor: PopulatedDoc<UserDocument>;
   public: boolean;
 }
 

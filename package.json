@@ -6,9 +6,8 @@
   "scripts": {
     "start": "nodemon",
     "fixtures": "ts-node -r tsconfig-paths/register --files ./src/fixtures/index.ts",
-    "generate": "ts-node -r tsconfig-paths/register --files ./src/generator/index.ts",
     "start:staging": "NODE_ENV=development ts-node -r tsconfig-paths/register --files src/index.ts"
- },
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -35,7 +34,8 @@
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "prettier": "^2.3.1",
-    "ua-parser-js": "^0.7.28"
+    "ua-parser-js": "^0.7.28",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -52,6 +52,7 @@
     "@types/passport": "^1.0.6",
     "@types/passport-jwt": "^3.0.5",
     "@types/ua-parser-js": "^0.7.36",
+    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "eslint": "^7.28.0",
