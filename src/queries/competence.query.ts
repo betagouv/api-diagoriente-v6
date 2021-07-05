@@ -7,6 +7,6 @@ import Competence from 'models/competence.model';
 import { CompetenceType } from 'types/competence.type';
 
 export default {
-  competences: list(Competence, CompetenceType, { authorizationRoles: [Role.ADMIN] }),
+  competences: list(Competence, CompetenceType, { authorizationRoles: [Role.ADMIN, Role.USER] }),
   competence: get(Competence, CompetenceType, { authorizationRoles: [Role.ADMIN] }),
 };
