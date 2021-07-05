@@ -1,5 +1,6 @@
 import { connection, Model } from 'mongoose';
 import connect from 'config/mongoose';
+import bcrypt from 'bcryptjs';
 import { env } from 'config/vars';
 
 // user
@@ -55,7 +56,10 @@ async function generate() {
 
   /*** fixtures ***/
   if (env === 'development') {
-    await generateDocs(users, User);
+    await generateDocs(
+      users.map((user) => ({ ...user, password: bcrypt.hashSync(user.password) })),
+      User,
+    );
   }
   await generateDocs(sectors, Sector);
   await generateDocs(tags, Tag);

@@ -55,22 +55,25 @@ const userSchema = new mongoose.Schema<UserDocument, UserModel>(
       match: /^\S+@\S+\.\S+$/,
       trim: true,
       lowercase: true,
-      index: true,
       unique: true,
+      required: true,
     },
     password: {
       type: String,
       trim: true,
+      required: true,
     },
     firstName: {
       type: String,
       trim: true,
       max: 30,
+      required: true,
     },
     lastName: {
       type: String,
       trim: true,
       max: 30,
+      required: true,
     },
     structure: {
       type: String,

@@ -20,7 +20,7 @@ export default {
       tags: { type: new GraphQLList(GraphQLString) },
     },
     pre: async (args) => {
-      const { sector, tags, title, domain, ...rest } = args;
+      const { sector, tags, title, ...rest } = args;
       const querySearch = { ...rest };
       if (sector) {
         const extraTags = await Tag.find({ sector });
@@ -33,10 +33,8 @@ export default {
       if (tags?.length) {
         querySearch.tags = { $in: uniq(tags) };
       }
-      if (domain) {
-        querySearch.domain = domain;
-      }
-      return { ...querySearch };
+
+      return querySearch;
     },
   }),
   theme: get(Theme, ThemeType, { authorizationRoles: [Role.ADMIN, Role.USER] }),

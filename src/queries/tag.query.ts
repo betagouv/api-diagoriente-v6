@@ -8,17 +8,14 @@ import { Role } from 'models/user.model';
 import Tag from 'models/tag.model';
 
 import { TagType } from 'types/tag.type';
-interface Args {
-  title: RegExp;
-}
 
 export default {
   tags: list(Tag, TagType, {
     authorizationRoles: [Role.ADMIN, Role.USER],
     args: { sector: { type: GraphQLString }, title: { type: GraphQLString } },
     pre: async (args) => {
-      const { title } = args;
-      const querySearch = {} as Args;
+      const { title, ...rest } = args;
+      const querySearch = { ...rest };
       if (title) {
         const titleReg = reg(title);
         querySearch.title = titleReg;
