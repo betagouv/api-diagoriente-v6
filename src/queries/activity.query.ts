@@ -8,5 +8,5 @@ import { ActivityType } from 'types/activity.type';
 
 export default {
   activities: list(Activity, ActivityType, { authorizationRoles: [Role.ADMIN] }),
-  activity: get(Activity, ActivityType, { authorizationRoles: [Role.ADMIN] }),
+  activity: get(Activity, ActivityType, { authorizationRoles: [Role.ADMIN, Role.USER] }),
 };
