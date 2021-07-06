@@ -33,7 +33,7 @@ function autoPopulate(
           if (type.ref) {
             const populateObject: PopulateOptions = {
               path,
-              populate: autoPopulate(model(type.ref).schema.obj, node.selectionSet, populateCondition),
+              populate: autoPopulate(model(type.ref).schema, node.selectionSet, populateCondition),
             };
             if (populateCondition[name]) {
               populateObject.match = populateCondition[name];

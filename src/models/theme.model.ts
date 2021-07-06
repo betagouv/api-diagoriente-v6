@@ -30,7 +30,7 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
     code: { type: String, unique: true },
     tag: { type: Schema.Types.ObjectId, ref: 'Tag' },
     image: { type: String },
-    reference: { type: Schema.Types.ObjectId, ref: 'Reference' },
+    reference: { type: Schema.Types.ObjectId, ref: 'Reference', required: true },
   },
   {
     timestamps: true,
