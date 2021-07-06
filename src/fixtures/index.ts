@@ -26,6 +26,22 @@ import activitiesPerso from './activities-perso.json';
 import ActivitiesVoluntary from './activities-voluntary.json';
 import Activity from 'models/activity.model';
 
+// reference
+import references from './references.json';
+import Reference from 'models/reference.model';
+
+// competence
+import competences from './competences.json';
+import Competence from 'models/competence.model';
+
+// question
+import questions from './questions.json';
+import Question from 'models/question.model';
+
+// option
+import options from './options.json';
+import Option from 'models/option.model';
+
 const delay = (ms: number) =>
   new Promise((resolve) => {
     setTimeout(() => resolve(null), ms);
@@ -41,11 +57,14 @@ async function generateDocs(documents: any[], model: Model<any>, counter?: numbe
     }
     await model.insertMany(documents);
   } catch (e) {
+    if (e.message === 'ns not found') {
+      dropped.push(model.collection.name);
+    }
     if (!counter || counter < 5) {
       await delay(1000);
       await generateDocs(documents, model, counter ? counter + 1 : 1);
     } else {
-      console.log(e);
+      console.log(e.message);
       process.exit(1);
     }
   }
@@ -68,6 +87,10 @@ async function generate() {
   await generateDocs(themesVoluntary, Theme);
   await generateDocs(activitiesPerso, Activity);
   await generateDocs(ActivitiesVoluntary, Activity);
+  await generateDocs(references, Reference);
+  await generateDocs(competences, Competence);
+  await generateDocs(questions, Question);
+  await generateDocs(options, Option);
   /*** fixtures ***/
 
   await connection.close();

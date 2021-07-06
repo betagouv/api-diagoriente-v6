@@ -1,0 +1,383 @@
+[
+  {
+    "_id": "5c372676711e83c3faa9034c",
+    "title": "Agir collectivement",
+    "niveau": [
+      { "title": "Je découvre un nouveau groupe", "subTitle": "comment il fonctionne, comment s’y intégrer" },
+      {
+        "title": "Je coopère dans le groupe,",
+        "subTitle": "j'entretiens des relations, j'écoute, je prends des avis."
+      },
+      {
+        "title": "Je fais des propositions au groupe",
+        "subTitle": "j'écoute et prends en compte l'avis de chacun, exprime des avis contraires."
+      },
+      {
+        "title": "J’anime un groupe ou l’équipe,",
+        "subTitle": "je donne des responsabilités (famille, amis ou au sport...)"
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c48913a7d1f224b6b18ba12",
+    "title": "Organiser son activité",
+    "niveau": [
+      {
+        "title": "Je suis les consignes",
+        "subTitle": "je prépare mes affaires pour une activité, je suis les étapes…"
+      },
+      { "title": "Je m’organise en fonction d'imprévus", "subTitle": "je prends quelques initiatives." },
+      {
+        "title": "Je m’organise seul-e en fonction",
+        "subTitle": "des contraintes à la maison, pour mes loisirs, les petits jobs..."
+      },
+      {
+        "title": "J’organise des activités pour d’autres",
+        "subTitle": ": amis, une équipe, la famille, entraînements de sport..."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c48919e310d6b50407b846b",
+    "title": "Prendre en compte les règles",
+    "niveau": [
+      {
+        "title": "Je connais les règles",
+        "subTitle": "et les consignes de sécurité, hygiène… (garde d’enfants, cuisine…)"
+      },
+      {
+        "title": "Je respecte les règles et les consignes",
+        "subTitle": ": se laver les mains, suivre des procédures (coiffure, petits soins, cuisine…)"
+      },
+      {
+        "title": "J'applique toutes les consignes et procédures en autonomie au travail,",
+        "subTitle": "dans les activités manuelles... et j'identifie les risques de non respect"
+      },
+      {
+        "title": "Je fais appliquer des consignes et procédures",
+        "subTitle": "à la maison, au sport, quand j'encadre des enfants, au travail..."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a1feda257d02195bc449",
+    "title": "Utiliser les mathématiques",
+    "niveau": [
+      {
+        "title": "Je fais des calculs simples",
+        "subTitle": ": je rends la monnaie, dose des produits (ménagers, alimentaires, stands, marchés…)"
+      },
+      {
+        "title": "Je fais des opérations et des mesures",
+        "subTitle": "pour des petits travaux, des dosages pour des produits..."
+      },
+      {
+        "title": "J’utilise les maths pour",
+        "subTitle": ": des calculs d'angles, règle de 3, des pourcentages, des volumes, d'aires...pour des achats, petits travaux..."
+      },
+      {
+        "title": "Je résous",
+        "subTitle": "des problèmes mathématiques pour d'autres et vérifie des calculs (informatique, robotique, petits travaux)."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a213da257d02195bc44a",
+    "title": "Utiliser le numérique",
+    "niveau": [
+      {
+        "title": "Je fais des tâches simples",
+        "subTitle": "avec de l’aide : internet, messagerie, traitement texte, applis sur tablette, smartphone"
+      },
+      {
+        "title": "Je fais des tâches variées",
+        "subTitle": "sur tablettes, smartphone, pc, consoles de jeu (créer des fichiers, déplacer des dossiers, installer une application...)"
+      },
+      {
+        "title": "J’utilise le numérique partout",
+        "subTitle": ":loisirs, en formation, établissements scolaires... (réseaux sociaux, vente sur internet...)"
+      },
+      {
+        "title": "J’utilise le numérique de façon complexe",
+        "subTitle": "je crée des tableurs, je code, j'utilise des logiciels de partage..."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a226da257d02195bc44b",
+    "title": "Communiquer à l’oral",
+    "niveau": [
+      {
+        "title": "Je me présente, je comprends et je dis des mots simples",
+        "subTitle": "Je me présente, je comprends et je dis des mots simples"
+      },
+      {
+        "title": "Je communique sur des sujets familiers, je parle de mes activités",
+        "subTitle": "Je communique sur des sujets familiers, je parle de mes activités"
+      },
+      {
+        "title": "Je communique partout",
+        "subTitle": "je raconte, j'argumente, j'explique : en famille, en groupe, en réunion, au tél..."
+      },
+      {
+        "title": "J’anime des discussions en famille, des réunions avec mes amis, au sport…",
+        "subTitle": "J’anime des discussions en famille, des réunions avec mes amis, au sport…"
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a235da257d02195bc44c",
+    "title": "Communiquer à l’écrit",
+    "niveau": [
+      { "title": "Je comprends un texte court", "subTitle": ", je renseigne des documents simples (formulaire)" },
+      { "title": "Je comprends et j’écris des textes courts", "subTitle": ": notes, mail, documents administratifs." },
+      {
+        "title": "J’écris et utilise des textes variés",
+        "subTitle": ", je rédige des textes, je lis des livres, des articles..."
+      },
+      { "title": "J’écris des textes, des résumés, je lis des livres", "subTitle": "et des dossiers documentaires..." }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a248da257d02195bc44d",
+    "title": "Prendre en compte les codes sociaux",
+    "niveau": [
+      {
+        "title": "J’identifie les codes d’un groupe : façon de parler, règles de conduite…",
+        "subTitle": "dans une famille, un club de sport, un pays…"
+      },
+      {
+        "title": "Je m’adapte dans un environnement nouveau:",
+        "subTitle": "tenue vestimentaire, horaires, politesse, comportement…"
+      },
+      {
+        "title": "Je mets en place une manière de fonctionner par ex :",
+        "subTitle": "au sein d'un groupe au sport, dans un camp, une sortie, au travail..."
+      },
+      {
+        "title": "Je fais respecter un fonctionnement, des manières de faire dans un groupe,",
+        "subTitle": "au sport, en tant que délégué-e, au travail..."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a262da257d02195bc44e",
+    "title": "Agir face aux imprévus",
+    "niveau": [
+      {
+        "title": "J’identifie le problème ou l’événement imprévu et j’en parle",
+        "subTitle": "J’identifie le problème ou l’événement imprévu et j’en parle"
+      },
+      {
+        "title": "J’identifie le problème ou l’événement imprévu et je propose une solution",
+        "subTitle": "J’identifie le problème ou l’événement imprévu et je propose une solution"
+      },
+      {
+        "title": "Je choisis des solutions et je les applique pour résoudre le problème",
+        "subTitle": "Je choisis des solutions et je les applique pour résoudre le problème"
+      },
+      {
+        "title": "Je décide en général des solutions pour résoudre les problèmes",
+        "subTitle": "Je décide en général des solutions pour résoudre les problèmes"
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5c49a277da257d02195bc44f",
+    "title": "Gérer les informations",
+    "niveau": [
+      {
+        "title": "J’identifie des informations avec de l’aide",
+        "subTitle": ": notices, annonces, règlements, listes, sites web…"
+      },
+      {
+        "title": "Je vérifie les informations et je complète",
+        "subTitle": "en cherchant : sites web, réseau d'amis ou professionnels..."
+      },
+      {
+        "title": "Je sélectionne des informations",
+        "subTitle": "de lectures de documents, sites internet, échanges et transmets aux autres"
+      },
+      {
+        "title": "Je contrôle l’information",
+        "subTitle": "et j'organise la circulation par mail, sms, notes écrites, affichages, dossiers..."
+      }
+    ],
+    "type": "default",
+    "reference": "608a86725e14d8061297ce5f"
+  },
+  {
+    "_id": "5f2ef890e5ce2e1f1bda49cd",
+    "title": "Mobiliser son engagement dans les principes de l’intérêt général",
+    "niveau": [
+      { "title": "J’identifie les principes d’intérêt général", "subTitle": "." },
+      { "title": "J’illustre l’utilité de ma mission par des exemples d’activités", "subTitle": "." },
+      { "title": "J’explique le lien entre mes activités et les principes mobilisés", "subTitle": "." },
+      { "title": "Je promeus le sens de l’engagement dans les missions d’intérêt général", "subTitle": "." }
+    ],
+    "type": "engagement",
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f36e57a36002631420a2a52",
+    "type": "engagement",
+    "title": "Valoriser l’expérience de service civique dans son parcours",
+    "niveau": [
+      { "title": "Je nomme l’engagement de service civique et identifie ses spécificités", "subTitle": "" },
+      { "title": "Je décris les activités réalisées dans mon service civique", "subTitle": "" },
+      {
+        "title": "J’analyse ce que m’a apporté le service civique (dans mes rapports à moi-même, aux autres et à la société…)",
+        "subTitle": ""
+      },
+      { "title": "Je relie les acquis pendant le service civique à la suite de  mon parcours", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f410f0eae230a223e2ed24b",
+    "type": "engagement",
+    "title": "Accompagner les publics dans le cadre desa mission",
+    "niveau": [
+      { "title": "J’identifie les demandes des publics", "subTitle": "" },
+      { "title": "Je réponds à quelques demandes courantes des publics", "subTitle": "" },
+      {
+        "title": "J’adapte les manières de répondre aux besoins identifiés et aux demandes des publics",
+        "subTitle": ""
+      },
+      { "title": "J’explique le choix de l’accompa- gnement apporté aux publics", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f4110ceae230a223e2ed264",
+    "type": "engagement",
+    "title": "Prendre en compte les codes sociaux dans son activité",
+    "niveau": [
+      {
+        "title": "J’identifie les codes sociaux utilisés au sein de ma structure : tenue vestimentaire, horaires, politesse, comportement...",
+        "subTitle": ""
+      },
+      {
+        "title": "J’applique les codes sociaux dans mes échanges quotidiens au sein de la structure et avec les publics",
+        "subTitle": ""
+      },
+      {
+        "title": "Je choisis les codes sociaux adaptés dans tous mes échanges (à l’intérieur et à l’extérieur de ma structure)",
+        "subTitle": ""
+      },
+      { "title": "J’explique le choix des codes sociaux et leur adaptation aux différentes situations", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f4110ffae230a223e2ed269",
+    "type": "engagement",
+    "title": "Communiquer à l’oral",
+    "niveau": [
+      { "title": "Je communique et j’échange en face à face avec des membres de la structure", "subTitle": "" },
+      {
+        "title": "Je communique sur des sujets familiers de la mission avec les membres de la structure et les publics",
+        "subTitle": ""
+      },
+      { "title": "Je communique partout, avec les membres de la structure et les publics", "subTitle": "" },
+      { "title": "J’explique mes manières de communiquer suivant les enjeux des interactions", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f411124ae230a223e2ed26e",
+    "type": "engagement",
+    "title": "Agir collectivement",
+    "niveau": [
+      {
+        "title": "J’identifie les rôles des personnes de l’équipe avec laquelle l’activité est réalisée et le fonctionnement du groupe",
+        "subTitle": ""
+      },
+      {
+        "title": "Je coopère dans le groupe : je participe aux activités collectives et je partage mes expériences avec les autres membres de l’équipe",
+        "subTitle": ""
+      },
+      { "title": "Je fais des propositions en tenant compte des avis des membres de l’équipe", "subTitle": "" },
+      { "title": "Je co-anime un collectif (réunion, groupes, jeux....)", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f411153ae230a223e2ed273",
+    "type": "engagement",
+    "title": "Prendre en compte les règlements dans le cadre de sa mission",
+    "niveau": [
+      {
+        "title": "J’identifie les règlements associés à ma mission de service civique et au fonctionnement de mon organisme",
+        "subTitle": ""
+      },
+      {
+        "title": "J’identifie les règlements associés à ma mission de service civique et au fonctionnement de mon organisme",
+        "subTitle": ""
+      },
+      { "title": "Je mobilise l’ensemble des règles qui encadrent les activités de ma mission", "subTitle": "" },
+      {
+        "title": "J’explique l’ensemble des règles et des consignes qui s’appliquent dans mon organisme d’accueil",
+        "subTitle": ""
+      }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f411319ae230a223e2ed279",
+    "type": "engagement",
+    "title": "S’organiser dans son activité",
+    "niveau": [
+      {
+        "title": "J’identifie les éléments structurants du cadre et de l’organisation de ma mission avec mon tuteur",
+        "subTitle": ""
+      },
+      {
+        "title": "Je co-construis et j’applique l’organisation prévue avec mon tuteur pour réaliser les activités de ma mission",
+        "subTitle": ""
+      },
+      {
+        "title": "J’adapte mon organisation aux exigences d’une situation particulière et je priorise mes activités",
+        "subTitle": ""
+      },
+      {
+        "title": "Je prévois et j’anticipe l’organi- sation de mon activité dans le  cadre de ma mission",
+        "subTitle": ""
+      }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  },
+  {
+    "_id": "5f41138aae230a223e2ed282",
+    "type": "engagement",
+    "title": "Construire son parcours",
+    "niveau": [
+      { "title": "J’émets une ou plusieurs idées pour mes projets", "subTitle": "" },
+      {
+        "title": "Je confronte mes projets aux contraintes matérielles et aux réalités de ma situation",
+        "subTitle": ""
+      },
+      { "title": "J’explique les conditions de réalisation de mes projets", "subTitle": "" },
+      { "title": "Je planifie la ou les étapes de mise en œuvre de la suite de mon parcours", "subTitle": "" }
+    ],
+    "reference": "608a86725e14d8061297ce60"
+  }
+]
