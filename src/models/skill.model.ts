@@ -1,7 +1,7 @@
 import mongoose, { Schema, Model, Document } from 'mongoose';
 
 export interface Skill {
-  career: Schema.Types.ObjectId;
+  user: Schema.Types.ObjectId;
   theme: Schema.Types.ObjectId;
   activities: Schema.Types.ObjectId[];
   competences: { competence: Schema.Types.ObjectId; value: number; extraActivity: string }[];
@@ -13,7 +13,7 @@ export type SkillModel = Model<SkillDocument>;
 
 const skillSchema = new Schema<SkillDocument, SkillModel>(
   {
-    career: { type: Schema.Types.ObjectId, required: true, ref: 'Career' },
+    user: { type: Schema.Types.ObjectId, required: true, ref: 'User' },
     theme: { type: Schema.Types.ObjectId, required: true, ref: 'Theme' },
     activities: [{ type: Schema.Types.ObjectId, ref: 'Activity' }],
     competences: [
@@ -22,6 +22,8 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
         value: { type: Number, required: true, min: 1, max: 8 },
       },
     ],
+    startDate: { type: Date },
+    endDate: { type: Date },
   },
   {
     timestamps: true,

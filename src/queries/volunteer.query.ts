@@ -2,18 +2,18 @@ import list from 'crud/list';
 import get from 'crud/get';
 
 import { Role } from 'models/user.model';
-import Skill from 'models/skill.model';
+import Volunteer from 'models/volunteer.model';
 
-import { SkillType } from 'types/skill.type';
+import { VolunteerType } from 'types/volunteer.type';
 
 export default {
-  skills: list(Skill, SkillType, {
+  volunteers: list(Volunteer, VolunteerType, {
     authorizationRoles: [Role.USER],
     pre: (args, req) => {
       return { ...args, user: req.user?.id };
     },
   }),
-  skill: get(Skill, SkillType, {
+  volunteer: get(Volunteer, VolunteerType, {
     authorizationRoles: [Role.USER],
     pre: (args, req) => {
       return { ...args, user: req.user?.id };

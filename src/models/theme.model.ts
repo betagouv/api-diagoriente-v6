@@ -2,6 +2,13 @@ import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
 import { ActivityDocument } from './activity.model';
 import { ReferenceDocument } from './reference.model';
 
+export enum ThemeScope {
+  SKILL = 'skill',
+  VOLUNTEER = 'volunteer',
+}
+
+export const themeScopes = [ThemeScope.SKILL, ThemeScope.VOLUNTEER];
+
 export enum ThemeDomain {
   PERSONAL = 'personal',
   PROFESSIONAL = 'professional',
@@ -31,6 +38,7 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
     tag: { type: Schema.Types.ObjectId, ref: 'Tag' },
     image: { type: String },
     reference: { type: Schema.Types.ObjectId, ref: 'Reference', required: true },
+    scope: { type: String, enum: ThemeScope, default: ThemeScope.SKILL },
   },
   {
     timestamps: true,

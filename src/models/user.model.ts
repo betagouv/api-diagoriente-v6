@@ -6,8 +6,6 @@ import moment from 'moment';
 import { env, expirationInterval, accessSecret } from 'config/vars';
 import { GroupDocument } from './group.model';
 
-import Carrier from './career.model';
-
 export enum Role {
   USER = 'user',
   ADMIN = 'admin',
@@ -110,9 +108,16 @@ const userSchema = new mongoose.Schema<UserDocument, UserModel>(
   },
 );
 
-userSchema.virtual('carriers').get(async function (this: UserDocument) {
-  const carriers = await Carrier.find({ user: this.id });
-  return carriers.map((c) => c.id.toString());
+userSchema.virtual('skills', {
+  ref: 'Skill',
+  localField: '_id',
+  foreignField: 'user',
+});
+
+userSchema.virtual('volunteers', {
+  ref: 'Volunteer',
+  localField: '_id',
+  foreignField: 'user',
 });
 
 export async function hash(password: string) {

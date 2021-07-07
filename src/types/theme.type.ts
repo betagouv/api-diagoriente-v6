@@ -1,7 +1,15 @@
 import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType, GraphQLList } from 'graphql';
-import { ThemeDomain } from 'models/theme.model';
+import { ThemeDomain, ThemeScope } from 'models/theme.model';
 import { ActivityType } from './activity.type';
 import { ReferenceType } from './reference.type';
+
+export const ThemeScopeType = new GraphQLEnumType({
+  name: 'ThemeScope',
+  values: {
+    [ThemeScope.SKILL]: { value: ThemeScope.SKILL },
+    [ThemeScope.VOLUNTEER]: { value: ThemeScope.VOLUNTEER },
+  },
+});
 
 export const ThemeDomainType = new GraphQLEnumType({
   name: 'ThemeDomain',
@@ -23,5 +31,6 @@ export const ThemeType = new GraphQLObjectType({
     activities: { type: GraphQLList(ActivityType) },
     reference: { type: ReferenceType },
     image: { type: GraphQLString },
+    scope: { type: ThemeScopeType },
   },
 });

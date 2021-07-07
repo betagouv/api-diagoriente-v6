@@ -51,7 +51,7 @@ refreshTokenSchema.statics = {
     const userEmail = user.email;
     const token = `${userId}.${crypto.randomBytes(40).toString('hex')}`;
     const expires = moment().add(30, 'days').toDate();
-    await this.remove({ agent, userId });
+    await this.deleteOne({ agent, userId });
     const tokenObject = new this({
       token,
       userId,

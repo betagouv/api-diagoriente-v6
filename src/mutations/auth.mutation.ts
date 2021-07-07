@@ -117,7 +117,7 @@ export default {
       const { user } = req;
       const agent = getAgent(req);
       if (user) {
-        await RefreshToken.remove({ userId: user.id, agent });
+        await RefreshToken.deleteOne({ userId: user.id, agent });
       }
       return 'done';
     },

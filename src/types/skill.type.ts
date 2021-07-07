@@ -1,6 +1,6 @@
-import { GraphQLID, GraphQLObjectType, GraphQLList, GraphQLInputObjectType, GraphQLInt } from 'graphql';
+import { GraphQLID, GraphQLObjectType, GraphQLList, GraphQLInputObjectType, GraphQLInt, GraphQLString } from 'graphql';
+import { GraphQLDate } from 'graphql-iso-date';
 
-import { CareerType } from 'types/career.type';
 import { ThemeType } from 'types/theme.type';
 import { ActivityType } from 'types/activity.type';
 import { CompetenceType } from 'types/competence.type';
@@ -21,13 +21,26 @@ export const SkillCompetencesType = new GraphQLObjectType({
   },
 });
 
+export const SkillUserType = new GraphQLObjectType({
+  name: 'SkillUser',
+  fields: {
+    id: { type: GraphQLID },
+    email: { type: GraphQLString },
+    firstName: { type: GraphQLString },
+    lastName: { type: GraphQLString },
+    structure: { type: GraphQLString },
+  },
+});
+
 export const SkillType = new GraphQLObjectType({
   name: 'Skill',
   fields: {
     id: { type: GraphQLID },
-    career: { type: CareerType },
+    user: { type: SkillUserType },
     theme: { type: ThemeType },
     activities: { type: new GraphQLList(ActivityType) },
     competences: { type: new GraphQLList(SkillCompetencesType) },
+    startDate: { type: GraphQLDate },
+    endDate: { type: GraphQLDate },
   },
 });

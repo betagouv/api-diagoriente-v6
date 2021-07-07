@@ -23,7 +23,7 @@ const updateOptionValidation = {
 };
 
 export default {
-  addOption: create(
+  createOption: create(
     Option,
     {
       title: { type: GraphQLString, required: true },
