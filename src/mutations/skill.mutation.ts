@@ -109,7 +109,7 @@ export default {
         if (!theme) throw new GraphQLError('Theme introuvable');
         await validateSkillData(args, theme);
 
-        return { ...args, user: user?.id };
+        return { ...args, domain: theme.domain, user: user?.id };
       },
     },
   ),

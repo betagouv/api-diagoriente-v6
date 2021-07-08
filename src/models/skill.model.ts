@@ -1,5 +1,5 @@
 import mongoose, { Schema, Model, Document } from 'mongoose';
-
+import { themeDomains } from 'models/theme.model';
 export interface Skill {
   user: Schema.Types.ObjectId;
   theme: Schema.Types.ObjectId;
@@ -22,6 +22,7 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
         value: { type: Number, required: true, min: 1, max: 8 },
       },
     ],
+    domaine: { type: String, enum: themeDomains, required: true },
     startDate: { type: Date },
     endDate: { type: Date },
   },

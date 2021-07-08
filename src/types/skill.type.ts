@@ -1,7 +1,7 @@
 import { GraphQLID, GraphQLObjectType, GraphQLList, GraphQLInputObjectType, GraphQLInt, GraphQLString } from 'graphql';
 import { GraphQLDate } from 'graphql-iso-date';
 
-import { ThemeType } from 'types/theme.type';
+import { ThemeType, ThemeDomainType } from 'types/theme.type';
 import { ActivityType } from 'types/activity.type';
 import { CompetenceType } from 'types/competence.type';
 
@@ -40,6 +40,7 @@ export const SkillType = new GraphQLObjectType({
     theme: { type: ThemeType },
     activities: { type: new GraphQLList(ActivityType) },
     competences: { type: new GraphQLList(SkillCompetencesType) },
+    domain: { type: ThemeDomainType },
     startDate: { type: GraphQLDate },
     endDate: { type: GraphQLDate },
   },
