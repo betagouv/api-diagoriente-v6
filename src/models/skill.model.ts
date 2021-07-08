@@ -1,10 +1,11 @@
 import mongoose, { Schema, Model, Document } from 'mongoose';
-import { themeDomains } from 'models/theme.model';
+import { themeDomains, ThemeDomain } from 'models/theme.model';
 export interface Skill {
   user: Schema.Types.ObjectId;
   theme: Schema.Types.ObjectId;
   activities: Schema.Types.ObjectId[];
   competences: { competence: Schema.Types.ObjectId; value: number; extraActivity: string }[];
+  domain: ThemeDomain;
 }
 
 export interface SkillDocument extends Document, Skill {}
@@ -22,7 +23,7 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
         value: { type: Number, required: true, min: 1, max: 8 },
       },
     ],
-    domaine: { type: String, enum: themeDomains, required: true },
+    domain: { type: String, enum: themeDomains, required: true },
     startDate: { type: Date },
     endDate: { type: Date },
   },
