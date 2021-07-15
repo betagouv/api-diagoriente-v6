@@ -1,10 +1,13 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
+import { TagDocument } from './tag.model';
 import { ThemeDocument } from './theme.model';
 
 export interface Activity {
   title: string;
-  description: string;
-  theme: PopulatedDoc<ThemeDocument>;
+  description?: string;
+  theme?: PopulatedDoc<ThemeDocument>;
+  tag?: PopulatedDoc<TagDocument>;
+  code?: string;
 }
 
 export interface ActivityDocument extends Document, Activity {}
@@ -15,7 +18,9 @@ const activitySchema = new Schema<ActivityDocument, ActivityModel>(
   {
     title: { type: String, required: true, unique: true, trim: true },
     description: { type: String, trim: true },
-    theme: { type: Schema.Types.ObjectId, required: true, ref: 'Theme' },
+    code: { type: String, trim: true },
+    theme: { type: Schema.Types.ObjectId, ref: 'Theme' },
+    tag: { type: Schema.Types.ObjectId, ref: 'Tag' },
   },
   {
     timestamps: true,

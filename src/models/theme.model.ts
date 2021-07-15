@@ -1,6 +1,7 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
-import { ActivityDocument } from './activity.model';
+import Activity, { ActivityDocument } from './activity.model';
 import { ReferenceDocument } from './reference.model';
+import { TagDocument } from './tag.model';
 
 export enum ThemeScope {
   SKILL = 'skill',
@@ -21,9 +22,12 @@ export interface Theme {
   title: string;
   domain: string;
   code: string;
-  tag: Schema.Types.ObjectId;
+  tag: PopulatedDoc<TagDocument>;
+  image: string;
   activities?: ActivityDocument[];
   reference: PopulatedDoc<ReferenceDocument>;
+  scope: ThemeScope;
+  level: number;
 }
 
 export interface ThemeDocument extends Document, Theme {}
@@ -39,16 +43,15 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
     image: { type: String },
     reference: { type: Schema.Types.ObjectId, ref: 'Reference', required: true },
     scope: { type: String, enum: ThemeScope, default: ThemeScope.SKILL },
+    level: { type: Number },
   },
   {
     timestamps: true,
   },
 );
 
-themeSchema.virtual('activities', {
-  ref: 'Activity',
-  localField: '_id',
-  foreignField: 'theme',
+themeSchema.virtual('activities').get(function (this: ThemeDocument) {
+  return Activity.find({ $or: [{ theme: this._id }, { tag: this.tag }] });
 });
 
 export default mongoose.model('Theme', themeSchema);

@@ -1,0 +1,349 @@
+[
+  {
+    "title": "Affaires - Assistance",
+    "cursors": [
+      [
+        { "title": "Travailler à mon compte" },
+        { "title": "Piloter les coûts, la rentabilité" },
+        { "title": "Gérer un service de grande entreprise" },
+        { "title": "Gérer une salle de sport" },
+        { "title": "Gérer un hôtel" },
+        { "title": "Inspirer et motiver ses collaborateurs" },
+        { "title": "Créer un projet entrepreneurial" },
+        { "title": "Prendre des risques" },
+        { "title": "Donner des discours" },
+        { "title": "Gérer une salle de sport ou une salle de jeux" }
+      ],
+      [
+        { "title": "Décider, Argumenter" },
+        { "title": "Vendre ou louer des maisons" },
+        { "title": "Gérer un salon de coiffure" },
+        { "title": "Gérer un salon de beauté" },
+        { "title": "Inspirer et motiver" },
+        { "title": "Gérer des actifs, un patrimoine" },
+        { "title": "Développer un territoire économique" },
+        { "title": "Gérer et entretenir un site, une infrastructure" },
+        { "title": "Piloter un budget" }
+      ],
+      [
+        { "title": "Atteindre des objectifs ambitieux" },
+        { "title": "Apprendre la lecture à des enfants" },
+        { "title": "Accueillir et renseigner" },
+        { "title": "Organiser une équipe" },
+        { "title": "Servir un client" },
+        { "title": "Favoriser l'insertion" },
+        { "title": "Gérer le climat social" }
+      ],
+      [
+        { "title": "Aider les autres " },
+        { "title": "Travailler pour des associations" },
+        { "title": "Enseigner dans une école primaire" },
+        { "title": "Prendre soin des animaux" },
+        { "title": "Coacher" },
+        { "title": "Travailler en magasin" },
+        { "title": "Réaliser un accompagnement psychologique" },
+        { "title": "S'occuper des enfants dans une garderie" },
+        { "title": "Travailler au domicile d'un particulier" },
+        { "title": "Enseigner à une classe de lycée" }
+      ],
+      [
+        { "title": "M'occuper de la santé des autres " },
+        { "title": "Aider les personnes ayant des problèmes familiaux" },
+        { "title": "Aider les personnes ayant des problèmes d'addiction" },
+        { "title": "Apprendre à des personnes handicapées à travailler en autonomie" },
+        { "title": "Organiser des sorties pédagogiques avec des personnes handicapées" },
+        { "title": "Protéger l'environnement" },
+        { "title": "Assurer une médiation, une action sociale" }
+      ]
+    ]
+  },
+  {
+    "title": "Innovation - Réglementation",
+    "cursors": [
+      [
+        { "title": "Concevoir des contenus, des supports de communication" },
+        { "title": "Gérer le marketing et piloter l'image de marque" },
+        { "title": "Donner des discours" },
+        { "title": "Animer la communication interne" },
+        { "title": "Inspirer et motiver ses collaborateurs" },
+        { "title": "Assurer une veille technologique" },
+        { "title": "Découvrir d'autres cultures" }
+      ],
+      [
+        { "title": "Elaborer une stratégie commerciale" },
+        { "title": "Améliorer la qualité de service, fidéliser les clients" },
+        { "title": "Créer un projet entrepreneurial" },
+        { "title": "Travailler à mon compte" },
+        { "title": "Concevoir des supports de formation" },
+        { "title": "Vendre, commercialiser" }
+      ],
+      [
+        { "title": "Décider" },
+        { "title": "Gérer la relation client" },
+        { "title": "Elaborer une offre commerciale, répondre à un appel d'offre" },
+        { "title": "Gérer un service de grande entreprise" },
+        { "title": "Protéger l'environnement" },
+        { "title": "Traduire" },
+        { "title": "Modéliser / Prototyper" }
+      ],
+      [
+        { "title": "Gérer des actifs, un patrimoine " },
+        { "title": "Tenir le registre des transactions financières d'une entreprise" },
+        { "title": "Elaborer et faire respecter des consignes" },
+        { "title": "Assurer la gestion administrative" },
+        { "title": "Calculer le salaire des employés" },
+        { "title": "Classer, collecter" },
+        { "title": "Gérer la comptabilité" },
+        { "title": "Transférer des fonds entre banques" },
+        { "title": "Protéger les personnes et les biens" }
+      ],
+      [
+        { "title": "Faire respecter les lois" },
+        { "title": "Participer à des procès" },
+        { "title": "Rédiger des contrats" },
+        { "title": "Négocier des contrats" },
+        { "title": "Respecter les règles" },
+        { "title": "Respecter un cadre juridique" },
+        { "title": "Juger" },
+        { "title": "Gérer les finances publiques" },
+        { "title": "Cultiver, récolter" }
+      ]
+    ]
+  },
+  {
+    "title": "Travail collectif - Travail individuel ",
+    "cursors": [
+      [
+        { "title": "Travailler en collectif " },
+        { "title": "Communiquer, accueuillir" },
+        { "title": "Ecouter et dialoguer avec ses collaborateurs" },
+        { "title": "Diriger une chorale" },
+        { "title": "Cuisiner" },
+        { "title": "S'éloigner du domicile plusieurs mois" },
+        { "title": "Surveiller des fonds dans un véhicule blindé" },
+        { "title": "Se déplacer en tournées" }
+      ],
+      [
+        { "title": "Développer les relations internationales" },
+        { "title": "Travailler en réseau" },
+        { "title": "Découvrir d'autres cultures" },
+        { "title": "Faire de la recherche scientifique" },
+        { "title": "Développer des programmes informatiques" },
+        { "title": "Animer la communication interne" },
+        { "title": "Aider les autres" },
+        { "title": "Organiser une équipe" },
+        { "title": "Gérer le climat social" },
+        { "title": "Inspirer et motiver ses collaborateurs" }
+      ],
+      [
+        { "title": "S'occuper de la carrière de quelqu'un " },
+        { "title": "Gérer les stocks et les approvisionnements" },
+        { "title": "Construire, fabriquer" },
+        { "title": "Entretenir des jardins et des espaces verts" },
+        { "title": "Dessiner" },
+        { "title": "Donner des discours" },
+        { "title": "Résoudre des énigmes et des problèmes" },
+        { "title": "Créer un projet entrepreneurial" }
+      ],
+      [
+        { "title": "Faire des tâches minutieuses, de précision" },
+        { "title": "Assurer un transport" },
+        { "title": "Ecrire des chansons" },
+        { "title": "Repérer les erreurs, observer, contrôler" },
+        { "title": "Maîtriser une documentation technique" },
+        { "title": "Poser du parquet ou du carrelage" }
+      ],
+      [
+        { "title": "Travailler seul " },
+        { "title": "Assurer une gestion documentaire" },
+        { "title": "Assurer la maintenance technique" },
+        { "title": "Réparer et installer des serrures" },
+        { "title": "Assembler des pièces électroniques" },
+        { "title": "Réparer des robinets" }
+      ]
+    ]
+  },
+  {
+    "title": "Liberté créative - Cadre",
+    "cursors": [
+      [
+        { "title": "Travailler dans l'art ou dans la musique " },
+        { "title": "Composer, mettre en scène" },
+        { "title": "Créer une oeuvre, designer" },
+        { "title": "Ecrire des livres" },
+        { "title": "Ecrire des scénarios de films ou séries" },
+        { "title": "Distraire, animer, divertir" },
+        { "title": "Chanter, jouer d'un instrument" },
+        { "title": "Prendre des risques" }
+      ],
+      [
+        { "title": "Concervoir une offre de produits / services " },
+        { "title": "Concevoir des contenus supports de communication" },
+        { "title": "Faire des illustrations de magazines" },
+        { "title": "Réaliser une performance, une représentation artistique" },
+        { "title": "Diriger une pièce de théâtre" },
+        { "title": "Diriger une chorale" },
+        { "title": "Gérer le marketing et piloter l'image de marque" }
+      ],
+      [
+        { "title": "Travailler de mes mains" },
+        { "title": "Se déplacer pour faire des reportages" },
+        { "title": "S'occuper de la carrière de quelqu'un" },
+        { "title": "Créer un projet entrepreneurial" },
+        { "title": "Donner des discours" },
+        { "title": "Cuisiner" }
+      ],
+      [
+        { "title": "Décider " },
+        { "title": "M'occuper de la santé des autres" },
+        { "title": "Aider les personnes ayant des problèmes familiaux" },
+        { "title": "Aider les personnes ayant des problèmes d'addiction" },
+        { "title": "Manipuler des matières premières" },
+        { "title": "Travailler à mon compte" },
+        { "title": "Gérer un salon de coiffure" },
+        { "title": "Gérer un salon de beauté" }
+      ],
+      [
+        { "title": "Respecter les règles " },
+        { "title": "Surveiller des fonds dans un véhicule blindé" },
+        { "title": "Jouer un rôle dans une série ou un film" },
+        { "title": "S'occuper des enfants dans une garderie" },
+        { "title": "Gérer un service de grande entreprise" },
+        { "title": "Gérer un hôtel" },
+        { "title": "Faire de la recherche scientifique" }
+      ]
+    ]
+  },
+  {
+    "title": "Confort - Effort physique ",
+    "cursors": [
+      [
+        { "title": "Travailler dans un bureau " },
+        { "title": "Faire de la recherche scientifique" },
+        { "title": "Ecrire des livres" },
+        { "title": "Assurer une gestion documentaire" },
+        { "title": "Maîtriser une documentation technique" },
+        { "title": "Gérer les stocks et les approvisionnements" },
+        { "title": "Développer les relations internationales" },
+        { "title": "Piloter des indicateurs" },
+        { "title": "Décider" }
+      ],
+      [
+        { "title": "Organiser des fichiers, des bureaux " },
+        { "title": "Dessiner" },
+        { "title": "Ecouter et dialoguer avec ses collaborateurs" },
+        { "title": "Travailler en collectif" },
+        { "title": "Communiquer, accueillir" },
+        { "title": "Décider, Argumenter" },
+        { "title": "Animer la communication interne" },
+        { "title": "Tenir des registres d'inventaire" }
+      ],
+      [
+        { "title": "Aider les autres " },
+        { "title": "Favoriser l'insertion" },
+        { "title": "Enseigner à une classe de lycée" },
+        { "title": "Enseigner dans une école primaire" },
+        { "title": "Accueillir et renseigner" },
+        { "title": "Prendre soin des animaux" },
+        { "title": "Servir un client" },
+        { "title": "Favoriser l'insertion" }
+      ],
+      [
+        { "title": "Travailler de mes mains" },
+        { "title": "Travailler dans l'art ou dans la musique" },
+        { "title": "Utiliser une machine sur une chaîne de production" },
+        { "title": "Assembler des pièces électroniques" },
+        { "title": "Inventorier des stocks" },
+        { "title": "Assurer la maintenance technique" },
+        { "title": "S'occuper des enfants dans une garderie" }
+      ],
+      [
+        { "title": "Faire un travail physique, fatiguant" },
+        { "title": "Travailler sur des voitures" },
+        { "title": "Réparer, nettoyer, entretenir" },
+        { "title": "Poser du parquet ou du carrelage" },
+        { "title": "Poser des murs ou des toits" },
+        { "title": "Réparer des robinets" },
+        { "title": "Cultiver, récolter" },
+        { "title": "Livrer, transporter, conduire, manoeuvrer" },
+        { "title": "Porter ou manipuler des charges lourdes" },
+        { "title": "M'occuper de la santé des autres" }
+      ]
+    ]
+  },
+  {
+    "title": "Conceptuel - Concret",
+    "cursors": [
+      [
+        { "title": "Faire de la recherche scientifique" },
+        { "title": "Développer des nouveaux traitements médicaux" },
+        { "title": "Etudier le mouvement des planètes" },
+        { "title": "Etudier la génétique" },
+        { "title": "Elaborer une offre commerciale / Répondre à un appel d'offre" },
+        { "title": "Rechercher et analyser des informations" },
+        { "title": "Etudier la structure du corps humain" },
+        { "title": "Concevoir, administrer, évaluer une politique publique" },
+        { "title": "Etudier le comportement animal" },
+        { "title": "Faire des expériences, des tests" },
+        { "title": "Concevoir une offre de produits / services" }
+      ],
+      [
+        { "title": "Contrôler la qualité " },
+        { "title": "Cartographier le fond des océans" },
+        { "title": "Ecrire des chansons" },
+        { "title": "Réaliser une veille de marché" },
+        { "title": "Etudier des solutions pour réduire la pollution de l'eau" },
+        { "title": "Gérer les stocks et les approvisionnements" },
+        { "title": "Développer des programmes informatiques" },
+        { "title": "Résoudre des énigmes et des problèmes" },
+        { "title": "Enquêter" },
+        { "title": "Concevoir des contenus, des supports de communication" },
+        { "title": "Accompagner le changement" },
+        { "title": "Enseigner à une classe de lycée" },
+        { "title": "Elaborer une feuille de calcul à l'aide d'un logiciel" },
+        { "title": "Assurer une veille technologique" },
+        { "title": "Traduire" }
+      ],
+      [
+        { "title": "Construire, fabriquer" },
+        { "title": "Assurer un transport" },
+        { "title": "Aménager un espace" },
+        { "title": "Maîtriser un savoir faire technique" },
+        { "title": "Utiliser des machines, des outils, des logiciels" },
+        { "title": "Faire des tâches minutieuses, de précision" },
+        { "title": "Repérer les erreurs, observer, contrôler" },
+        { "title": "Gérer une architechture logicielle, un système technique" },
+        { "title": "Gérer la logistique" },
+        { "title": "Assurer une gestion documentaire" },
+        { "title": "Modéliser / Prototyper" },
+        { "title": "Maîtriser une documentation technique" },
+        { "title": "Examiner des échantillons de sang à l'aide d'un microscope" }
+      ],
+      [
+        { "title": "Poser du parquet ou du carrelage" },
+        { "title": "Réparer et installer des serrures" },
+        { "title": "Assurer la maintenance technique" },
+        { "title": "Assembler des pièces électroniques" },
+        { "title": "Réparer, nettoyer, entretenir" },
+        { "title": "Utiliser une machine sur une chaîne de production" },
+        { "title": "Entretenir des jardins et des espaces verts" },
+        { "title": "Faire un travail physique, fatiguant" },
+        { "title": "Se rendre sur des chantiers" },
+        { "title": "Inventorier des stocks" },
+        { "title": "Travailler sur des voitures" }
+      ],
+      [
+        { "title": "Extraire, exploiter des ressources" },
+        { "title": "Conditionner, manutentionner des produits" },
+        { "title": "Réparer des appareils électroménagers" },
+        { "title": "Cultiver, récolter" },
+        { "title": "Réparer des robinets" },
+        { "title": "Poser des murs ou des toits" },
+        { "title": "Manipuler des matières premières" },
+        { "title": "Monter des placards de cuisine" },
+        { "title": "Travailler de mes mains" },
+        { "title": "Dessiner" }
+      ]
+    ]
+  }
+]

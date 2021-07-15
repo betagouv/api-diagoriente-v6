@@ -1,5 +1,5 @@
 import joi from 'joi';
-import { GraphQLString, GraphQLID } from 'graphql';
+import { GraphQLString, GraphQLID, GraphQLInt } from 'graphql';
 import { GraphQLUpload } from 'graphql-upload';
 
 import create from 'crud/create';
@@ -27,6 +27,7 @@ const createThemeValidation = {
     .string()
     .regex(/^[0-9a-fA-F]{24}$/)
     .required(),
+  level: joi.number().required(),
 };
 
 const updateThemeValidation = {
@@ -35,6 +36,7 @@ const updateThemeValidation = {
   code: joi.string(),
   tag: joi.string().regex(/^[0-9a-fA-F]{24}$/),
   reference: joi.string().regex(/^[0-9a-fA-F]{24}$/),
+  level: joi.number(),
 };
 
 export default {
@@ -47,6 +49,7 @@ export default {
       tag: { type: GraphQLID, required: true },
       reference: { type: GraphQLID, required: true },
       image: { type: GraphQLUpload, required: false },
+      level: { type: GraphQLInt, required: true },
     },
     ThemeType,
     {
@@ -73,6 +76,7 @@ export default {
       tag: GraphQLID,
       reference: GraphQLID,
       image: GraphQLUpload,
+      level: GraphQLInt,
     },
     ThemeType,
     {

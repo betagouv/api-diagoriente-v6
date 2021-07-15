@@ -24,6 +24,7 @@ import Theme from 'models/theme.model';
 // activity
 import activitiesPerso from './activities-perso.json';
 import ActivitiesVoluntary from './activities-voluntary.json';
+import ActivitiesPro from './activities-pro.json';
 import Activity from 'models/activity.model';
 
 // reference
@@ -41,6 +42,10 @@ import Question from 'models/question.model';
 // option
 import options from './options.json';
 import Option from 'models/option.model';
+
+// interest
+import interests from './interests.json';
+import Interest from 'models/interest.model';
 
 const delay = (ms: number) =>
   new Promise((resolve) => {
@@ -87,10 +92,12 @@ async function generate() {
   await generateDocs(themesVoluntary, Theme);
   await generateDocs(activitiesPerso, Activity);
   await generateDocs(ActivitiesVoluntary, Activity);
+  await generateDocs(ActivitiesPro, Activity);
   await generateDocs(references, Reference);
   await generateDocs(competences, Competence);
   await generateDocs(questions, Question);
   await generateDocs(options, Option);
+  await generateDocs(interests, Interest);
   /*** fixtures ***/
 
   await connection.close();

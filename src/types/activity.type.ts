@@ -7,5 +7,7 @@ export const ActivityType = new GraphQLObjectType({
     title: { type: GraphQLString },
     description: { type: GraphQLString },
     theme: { type: GraphQLID },
+    tag: { type: GraphQLID },
+    code: { type: GraphQLString },
   },
 });

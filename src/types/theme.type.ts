@@ -1,4 +1,4 @@
-import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType, GraphQLList } from 'graphql';
+import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLEnumType, GraphQLList, GraphQLInt } from 'graphql';
 import { ThemeDomain, ThemeScope } from 'models/theme.model';
 import { ActivityType } from './activity.type';
 import { ReferenceType } from './reference.type';
@@ -32,5 +32,6 @@ export const ThemeType = new GraphQLObjectType({
     reference: { type: ReferenceType },
     image: { type: GraphQLString },
     scope: { type: ThemeScopeType },
+    level: { type: GraphQLInt },
   },
 });
