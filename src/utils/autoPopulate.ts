@@ -19,7 +19,7 @@ function autoPopulate(
       const name = node.name.value;
       const path = parent ? `${parent}.${name}` : name;
       const virtual = doc.virtuals && doc.virtuals[name];
-      if (virtual && virtual.options) {
+      if (virtual && virtual.options && virtual.options.ref) {
         r.push({
           path: name,
           populate: autoPopulate(model(virtual.options.ref).schema, node.selectionSet, populateCondition),
