@@ -47,6 +47,10 @@ import Option from 'models/option.model';
 import interests from './interests.json';
 import Interest from 'models/interest.model';
 
+// level
+import levels from './levels.json';
+import Level from 'models/level.model';
+
 const delay = (ms: number) =>
   new Promise((resolve) => {
     setTimeout(() => resolve(null), ms);
@@ -98,6 +102,7 @@ async function generate() {
   await generateDocs(questions, Question);
   await generateDocs(options, Option);
   await generateDocs(interests, Interest);
+  await generateDocs(levels, Level);
   /*** fixtures ***/
 
   await connection.close();

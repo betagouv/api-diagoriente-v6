@@ -31,7 +31,6 @@ export interface User {
     postCode: string;
   };
   group: PopulatedDoc<GroupDocument>;
-  carriers: Promise<string[]>;
 }
 
 export interface UserDocument extends Document, User {

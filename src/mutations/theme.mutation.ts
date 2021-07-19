@@ -27,7 +27,7 @@ const createThemeValidation = {
     .string()
     .regex(/^[0-9a-fA-F]{24}$/)
     .required(),
-  level: joi.number().required(),
+  level: joi.number().min(2).max(7).required(),
 };
 
 const updateThemeValidation = {
@@ -36,7 +36,7 @@ const updateThemeValidation = {
   code: joi.string(),
   tag: joi.string().regex(/^[0-9a-fA-F]{24}$/),
   reference: joi.string().regex(/^[0-9a-fA-F]{24}$/),
-  level: joi.number(),
+  level: joi.number().min(2).max(7),
 };
 
 export default {

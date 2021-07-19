@@ -1,228 +1,217 @@
 [
   {
-    "_id": "5c372676711e83c3faa9034c",
-    "title": "Agir collectivement",
+    "_id": "60b6502d43eb9816f1ae6693",
+    "title": "PILOTER ET/OU ORGANISER L'ACTIVITÉ",
+    "type": "organizational",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
-      { "title": "Je découvre un nouveau groupe", "subTitle": "comment il fonctionne, comment s’y intégrer" },
-      {
-        "title": "Je coopère dans le groupe,",
-        "subTitle": "j'entretiens des relations, j'écoute, je prends des avis."
-      },
-      {
-        "title": "Je fais des propositions au groupe",
-        "subTitle": "j'écoute et prends en compte l'avis de chacun, exprime des avis contraires."
-      },
-      {
-        "title": "J’anime un groupe ou l’équipe,",
-        "subTitle": "je donne des responsabilités (famille, amis ou au sport...)"
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Identifie les éléments structurant l'organisation de l'activité prévue" },
+      { "title": "Applique l'organisation prévue pour son activité" },
+      { "title": "Adapte son organisation aux exigences d'une situation" },
+      { "title": "Prévoit et organise son activité et/ ou celle de son équipe" },
+      { "title": "Coordonne et suit les activités de son équipe" },
+      { "title": "Planifie et supervise l'activité d'une ou plusieurs équipes" },
+      { "title": "Elabore les orientations stratégiques de l'organisation et garantit leur mise en œuvre" },
+      { "title": "conçoit et/ ou valide des perspectives stratégiques globales" }
+    ]
   },
   {
-    "_id": "5c48913a7d1f224b6b18ba12",
-    "title": "Organiser son activité",
+    "_id": "60b654c643eb9816f1ae66ad",
+    "title": "AGIR FACE À L'IMPRÉVU",
+    "type": "organizational",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
-      {
-        "title": "Je suis les consignes",
-        "subTitle": "je prépare mes affaires pour une activité, je suis les étapes…"
-      },
-      { "title": "Je m’organise en fonction d'imprévus", "subTitle": "je prends quelques initiatives." },
-      {
-        "title": "Je m’organise seul-e en fonction",
-        "subTitle": "des contraintes à la maison, pour mes loisirs, les petits jobs..."
-      },
-      {
-        "title": "J’organise des activités pour d’autres",
-        "subTitle": ": amis, une équipe, la famille, entraînements de sport..."
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Identifie et alerte sur la présence d'un problème ou d'un événement imprévu" },
+      { "title": "Identifie la procédure et propose une solution aux imprévus" },
+      { "title": "Met en œuvre la procédure adaptée aux problèmes courants liés à son activité" },
+      { "title": "Résout des problèmes courants dans son activité et/ ou celle de son équipe" },
+      { "title": "Identifie et évalue des situations-problèmes imprévues, préconise des solutions" },
+      { "title": "Evalue et entérine des solutions relatives aux situations-problèmes imprévues" },
+      { "title": "Elabore des procédures adaptées aux situations exceptionnelles" },
+      { "title": "Crée des stratégies d'anticipation et de gestion de risques nouveaux ou émergents" }
+    ]
   },
   {
-    "_id": "5c48919e310d6b50407b846b",
-    "title": "Prendre en compte les règles",
+    "_id": "60b6557443eb9816f1ae66c0",
+    "title": "COOPÉRER ET FAVORISER LA COLLABORATION",
+    "type": "organizational",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
-      {
-        "title": "Je connais les règles",
-        "subTitle": "et les consignes de sécurité, hygiène… (garde d’enfants, cuisine…)"
-      },
-      {
-        "title": "Je respecte les règles et les consignes",
-        "subTitle": ": se laver les mains, suivre des procédures (coiffure, petits soins, cuisine…)"
-      },
-      {
-        "title": "J'applique toutes les consignes et procédures en autonomie au travail,",
-        "subTitle": "dans les activités manuelles... et j'identifie les risques de non respect"
-      },
-      {
-        "title": "Je fais appliquer des consignes et procédures",
-        "subTitle": "à la maison, au sport, quand j'encadre des enfants, au travail..."
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Identifie les modalités de fonctionnement d'une équipe" },
+      { "title": "Situe le rôle des participants et sa position dans le groupe" },
+      { "title": "Fait des propositions et prend en compte les avis des membres de l'équipe" },
+      { "title": "Anime et développe le travail collectif, peut varier sa place et son rôle" },
+      { "title": "Favorise l'implication individuelle au services de son collectif de travail" },
+      { "title": "Assure la coopération entre équipes et concourt à la distribution des rôles" },
+      { "title": "Co-construit des méthodologies destinées à améliorer les dispositifs de collaboration" },
+      { "title": "Crée des stratégies pour promouvoir la coopération des réseaux internes ou externes" }
+    ]
   },
   {
-    "_id": "5c49a1feda257d02195bc449",
-    "title": "Utiliser les mathématiques",
+    "_id": "60b6560c43eb9816f1ae66da",
+    "title": "GÉRER DES DONNÉES MATHÉMATIQUES, BUDGÉTAIRES ET STATISTIQUES",
+    "type": "organizational",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
-      {
-        "title": "Je fais des calculs simples",
-        "subTitle": ": je rends la monnaie, dose des produits (ménagers, alimentaires, stands, marchés…)"
-      },
-      {
-        "title": "Je fais des opérations et des mesures",
-        "subTitle": "pour des petits travaux, des dosages pour des produits..."
-      },
-      {
-        "title": "J’utilise les maths pour",
-        "subTitle": ": des calculs d'angles, règle de 3, des pourcentages, des volumes, d'aires...pour des achats, petits travaux..."
-      },
-      {
-        "title": "Je résous",
-        "subTitle": "des problèmes mathématiques pour d'autres et vérifie des calculs (informatique, robotique, petits travaux)."
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Effectue des calculs simples liés à des situations récurrentes" },
+      { "title": "Applique les opérations et les mesures dans des situations de calcul liées à son environnement" },
+      { "title": "Choisit des raisonnements mathématiques adaptés à une situation donnée" },
+      { "title": "Adopte des raisonnements mathématiques appropries à des situations diversinees" },
+      { "title": "Recense et contrôle les résultats quantitatifs et qualitatifs d'un budget" },
+      { "title": "Analyse et contrôle des données statistiques et budgétaires" },
+      { "title": "Elabore de nouvelles formes de traitement des données" },
+      { "title": "Conçoit des méthodologies pour le contrôle et le suivi des données" }
+    ]
   },
   {
-    "_id": "5c49a213da257d02195bc44a",
-    "title": "Utiliser le numérique",
+    "_id": "60b657e243eb9816f1ae66fb",
+    "title": "COMMUNIQUER À L'ORALE EN UNE OU PLUSIEURS LANGUES",
+    "type": "communication",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
+      { "title": "Communique très partiellement en situation d'échange de face à face" },
+      { "title": "Communique dans des interactions concernant des sujets familiers" },
+      { "title": "Communique en fonction de ses besoins dans des situations variées" },
+      { "title": "Adapte sa manière de communiquer aux enjeux des interactions" },
       {
-        "title": "Je fais des tâches simples",
-        "subTitle": "avec de l’aide : internet, messagerie, traitement texte, applis sur tablette, smartphone"
+        "title": "Construit et anime des présentations liés à son champ d'action. Gère des interactions courantes, internes et externes"
       },
       {
-        "title": "Je fais des tâches variées",
-        "subTitle": "sur tablettes, smartphone, pc, consoles de jeu (créer des fichiers, déplacer des dossiers, installer une application...)"
+        "title": "Explicite des choix argumentés sur l'évolution de l'activité. Gère des points  de vue contradictoires et facilite la construction de consensus"
       },
       {
-        "title": "J’utilise le numérique partout",
-        "subTitle": ":loisirs, en formation, établissements scolaires... (réseaux sociaux, vente sur internet...)"
+        "title": "Mobilise et élabore des stratégies de prise de parole. Adapte ses interventions à la multiplicité des objectifs, enjeux et auditoires visés"
       },
       {
-        "title": "J’utilise le numérique de façon complexe",
-        "subTitle": "je crée des tableurs, je code, j'utilise des logiciels de partage..."
+        "title": "Conçoit des argumentaires adaptés aux objectifs, enjeux et auditoires visés. Mène et arbitre des échanges à forts enjeux stratégiques sociétaux et internationaux"
       }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+    ]
   },
   {
-    "_id": "5c49a226da257d02195bc44b",
-    "title": "Communiquer à l’oral",
+    "_id": "60b657e243eb9816f1ae670d",
+    "title": "COMMUNIQUER À L'ÉCRIT EN UNE OU PLUSIEURS LANGUES",
+    "type": "communication",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
       {
-        "title": "Je me présente, je comprends et je dis des mots simples",
-        "subTitle": "Je me présente, je comprends et je dis des mots simples"
+        "title": "Identifie les éléments clés d'un écrit informatif très court \nÉcrit quelques mots relatifs à son contexte"
       },
       {
-        "title": "Je communique sur des sujets familiers, je parle de mes activités",
-        "subTitle": "Je communique sur des sujets familiers, je parle de mes activités"
+        "title": "Identifie les informations pertinentes dans des textes courts de son environnement \nÉcrit de textes informatifs courts relatifs à son contexte"
       },
       {
-        "title": "Je communique partout",
-        "subTitle": "je raconte, j'argumente, j'explique : en famille, en groupe, en réunion, au tél..."
+        "title": "Utilise la plupart des écrits nécessaires à son activité rédige des documents relatifs à son activité et à son contexte"
       },
-      {
-        "title": "J’anime des discussions en famille, des réunions avec mes amis, au sport…",
-        "subTitle": "J’anime des discussions en famille, des réunions avec mes amis, au sport…"
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Gère et traite des textes complexes et variés . Produit des écrits élaborés" },
+      { "title": "Produit des textes informatifs et explicatifs pour son périmètre d'action" },
+      { "title": "Traite et produit des documents relevant de son domaine d'intervention" },
+      { "title": "Elabore des textes à visées multiples ou exposant des connaissances nouvelles" },
+      { "title": "Crée et diffuse des textes sur des connaissances inédites ou faisant référence" }
+    ]
   },
   {
-    "_id": "5c49a235da257d02195bc44c",
-    "title": "Communiquer à l’écrit",
+    "_id": "60b657e243eb9816f1ae6704",
+    "title": "PRENDRE EN COMPTE LES USAGES SOCIAUX ET CULTURELS",
+    "type": "communication",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
-      { "title": "Je comprends un texte court", "subTitle": ", je renseigne des documents simples (formulaire)" },
-      { "title": "Je comprends et j’écris des textes courts", "subTitle": ": notes, mail, documents administratifs." },
-      {
-        "title": "J’écris et utilise des textes variés",
-        "subTitle": ", je rédige des textes, je lis des livres, des articles..."
-      },
-      { "title": "J’écris des textes, des résumés, je lis des livres", "subTitle": "et des dossiers documentaires..." }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Identifie les usage élémentaires liés à son environnement professionnel" },
+      { "title": "Applique les conventions en usage dans son environnement professionnel" },
+      { "title": "Met en œuvre les conventions dans toutes les situations liées à l'activité confiée" },
+      { "title": "Assure l'adaptation aux différents usages. Y compris implicites" },
+      { "title": "Facilite la compréhension individuelle et collective des usages liés à son activité" },
+      { "title": "Formalise des usages en fonction de la diversité des rôles et des contextes" },
+      { "title": "Elabore des stratégies pour la prise en compte de contextes culturels variés" },
+      { "title": "Valorise la diversité et construit des consensus d'usage" }
+    ]
   },
   {
-    "_id": "5c49a248da257d02195bc44d",
-    "title": "Prendre en compte les codes sociaux",
+    "_id": "60b6587043eb9816f1ae6737",
+    "title": "UTILISER LES RESSOURCES NUMÉRIQUES",
+    "type": "communication",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
+      { "title": "Réalise des tâches élémentaires sur ou avec un outil numérique connu" },
+      { "title": "Utilise des fonctions de base de quelques outils numériques" },
+      { "title": "Utilise régulièrement les ressources numériques en fonction de l'activité et du contexte" },
+      { "title": "Personnalise les ressources numériques au service de sa situation et de ses besoins" },
+      { "title": "Propose des ressources numériques à autrui et accompagne leur appropriation" },
       {
-        "title": "J’identifie les codes d’un groupe : façon de parler, règles de conduite…",
-        "subTitle": "dans une famille, un club de sport, un pays…"
+        "title": "Evalue le choix et l'utilisation des ressources numériques mobilisées dans les activités des équipes"
       },
-      {
-        "title": "Je m’adapte dans un environnement nouveau:",
-        "subTitle": "tenue vestimentaire, horaires, politesse, comportement…"
-      },
-      {
-        "title": "Je mets en place une manière de fonctionner par ex :",
-        "subTitle": "au sein d'un groupe au sport, dans un camp, une sortie, au travail..."
-      },
-      {
-        "title": "Je fais respecter un fonctionnement, des manières de faire dans un groupe,",
-        "subTitle": "au sport, en tant que délégué-e, au travail..."
-      }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+      { "title": "Définit des dispositifs pour accompagner l'impact du numérique dans une organisation" },
+      { "title": "Supervise l'élaboration de solutions inédites en lien avec la stratégie" }
+    ]
   },
   {
-    "_id": "5c49a262da257d02195bc44e",
-    "title": "Agir face aux imprévus",
+    "_id": "60b6590a43eb9816f1ae6778",
+    "title": "TRAITER DES INFORMATIONS ET DES SAVOIRS",
+    "type": "reflective",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
+      { "title": "Identifie les informations mises à disposition pour son activité" },
+      { "title": "Vérifie la disponibilité des informations nécessaires à son activité" },
+      { "title": "Sélectionne des informations en fonction des objectifs et des circonstances de l'activité" },
+      { "title": "Evalue la pertinence de l'information et la diffuse de façon appropriée" },
+      { "title": "Sélectionne et organise la diffusion de l'information nécessaire à l'activité en interne" },
+      { "title": "Mobilise un système de veille et organise la circulation de l'information en interne et externe" },
+      { "title": "Elabore des formats de vulgarisation et diffusion au service de la vision stratégique" },
       {
-        "title": "J’identifie le problème ou l’événement imprévu et j’en parle",
-        "subTitle": "J’identifie le problème ou l’événement imprévu et j’en parle"
-      },
-      {
-        "title": "J’identifie le problème ou l’événement imprévu et je propose une solution",
-        "subTitle": "J’identifie le problème ou l’événement imprévu et je propose une solution"
-      },
-      {
-        "title": "Je choisis des solutions et je les applique pour résoudre le problème",
-        "subTitle": "Je choisis des solutions et je les applique pour résoudre le problème"
-      },
-      {
-        "title": "Je décide en général des solutions pour résoudre les problèmes",
-        "subTitle": "Je décide en général des solutions pour résoudre les problèmes"
+        "title": "Expertise Des Sources De Référence Et Produit Des Savoirs Liés À Des Enjeux Stratégiques Et/ Ou Sociétaux"
       }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+    ]
   },
   {
-    "_id": "5c49a277da257d02195bc44f",
-    "title": "Gérer les informations",
+    "_id": "60b65ad643eb9816f1ae67c5",
+    "title": "ASSURER LES PROCÉDURES ET LA QUALITÉ",
+    "type": "reflective",
+    "reference": "608a86725e14d8061297ce5f",
     "niveau": [
+      { "title": "Identifie les règlements associés à son activité" },
+      { "title": "Applique les consignes et procédures liées à son activité" },
+      { "title": "Intègre l'ensemble des consignes et procédures dans l'ensemble de l'activité" },
+      { "title": "Assure et contrôle l'application conforme des consignes et procédures" },
+      { "title": "Contrôle la qualité des services rendus" },
+      { "title": "Pilote la qualité suivant l'évolution de la vision stratégique" },
+      { "title": "Pilote la qualité suivant l'évolution de la vision stratégique" },
+      { "title": "Conçoit une démarche de management par la qualité" }
+    ]
+  },
+  {
+    "_id": "60b65ad643eb9816f1ae67ce",
+    "title": "CONSTRUIRE SON PARCOURS PROFESSIONNEL",
+    "type": "reflective",
+    "reference": "608a86725e14d8061297ce5f",
+    "niveau": [
+      { "title": "Emet une ou plusieurs idées pour son projet professionnel" },
+      { "title": "Confronte son projet professionnel aux réalités des métiers visés" },
+      { "title": "Définit et explique son projet professionnel" },
+      { "title": "Planifie la ou les étapes de mise en œuvre de son parcours professionnel" },
+      { "title": "Fait le bilan de ses compétences au regard de son champ d'action" },
+      { "title": "Mobilise des ressources et des opportunités pour son évolution professionnelle" },
+      { "title": "Analyse et oriente ses choix de carrière au regard de ses compétences" },
+      { "title": "Se positionne sur des postes ou fonctions rattachés à des enjeux sociétaux d'avenir" }
+    ]
+  },
+  {
+    "_id": "60b65ad643eb9816f1ae67d7",
+    "title": "DÉVELOPPER DES COMPÉTENCES",
+    "type": "reflective",
+    "reference": "608a86725e14d8061297ce5f",
+    "niveau": [
+      { "title": "Enonce ses manières habituelles d'apprendre" },
+      { "title": "Envisage des manières d'enrichir et varier ses façons d'apprendre" },
+      { "title": "Met au point de nouvelles stratégies d'apprentissage pour améliorer son action et son projet" },
+      { "title": "Propose de nouvelles manières d'apprendre -pour soi et éventuellement pour son équipe" },
+      { "title": "Met en œuvre une démarche de développement pour soi et son équipe" },
+      { "title": "Construit des plans de développement pour soi et plusieurs équipes" },
       {
-        "title": "J’identifie des informations avec de l’aide",
-        "subTitle": ": notices, annonces, règlements, listes, sites web…"
+        "title": "Elabore des plans de développent adaptés aux stratégies de l'organisation et actualise ses compétences en conséquence"
       },
       {
-        "title": "Je vérifie les informations et je complète",
-        "subTitle": "en cherchant : sites web, réseau d'amis ou professionnels..."
-      },
-      {
-        "title": "Je sélectionne des informations",
-        "subTitle": "de lectures de documents, sites internet, échanges et transmets aux autres"
-      },
-      {
-        "title": "Je contrôle l’information",
-        "subTitle": "et j'organise la circulation par mail, sms, notes écrites, affichages, dossiers..."
+        "title": "Conçoit des politiques de développement en cohérence avec les mutations sociétales et actualise son expertise"
       }
-    ],
-    "type": "default",
-    "reference": "608a86725e14d8061297ce5f"
+    ]
   },
   {
     "_id": "5f2ef890e5ce2e1f1bda49cd",

@@ -1,10 +1,16 @@
-import mongoose, { Schema, Model, Document } from 'mongoose';
-import { themeDomains, ThemeDomain } from 'models/theme.model';
+import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
+import { themeDomains, ThemeDomain, ThemeDocument } from 'models/theme.model';
+import { LevelDocument } from './level.model';
+import { ActivityDocument } from './activity.model';
+import { UserDocument } from './user.model';
+import { CompetenceDocument } from './competence.model';
 export interface Skill {
-  user: Schema.Types.ObjectId;
-  theme: Schema.Types.ObjectId;
-  activities: Schema.Types.ObjectId[];
-  competences: { competence: Schema.Types.ObjectId; value: number; extraActivity: string }[];
+  user: PopulatedDoc<UserDocument>;
+  theme: PopulatedDoc<ThemeDocument>;
+  activities: PopulatedDoc<ActivityDocument>[];
+  extraActivity: string;
+  level: PopulatedDoc<LevelDocument>;
+  competences: PopulatedDoc<CompetenceDocument>[];
   domain: ThemeDomain;
 }
 
@@ -17,13 +23,10 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
     user: { type: Schema.Types.ObjectId, required: true, ref: 'User' },
     theme: { type: Schema.Types.ObjectId, required: true, ref: 'Theme' },
     activities: [{ type: Schema.Types.ObjectId, ref: 'Activity' }],
-    competences: [
-      {
-        competence: { type: Schema.Types.ObjectId, required: true, ref: 'Competence' },
-        value: { type: Number, required: true, min: 1, max: 8 },
-      },
-    ],
+    competences: [{ type: Schema.Types.ObjectId, required: true, ref: 'Competence' }],
+    level: { type: Schema.Types.ObjectId, required: true, ref: 'Level' },
     domain: { type: String, enum: themeDomains, required: true },
+    extraActivity: { type: String, trim: true },
     startDate: { type: Date },
     endDate: { type: Date },
   },

@@ -11,7 +11,7 @@ import Skill from 'models/skill.model';
 import Theme, { ThemeDocument, ThemeScope } from 'models/theme.model';
 import Competence from 'models/competence.model';
 
-import { SkillType, SkillCompetencesInputType } from 'types/skill.type';
+import { SkillType } from 'types/skill.type';
 
 async function validateSkillData(
   args: {
@@ -19,25 +19,27 @@ async function validateSkillData(
     competences: { competence: string; value: number }[];
     startDate: string;
     endDate: string;
+    level: string;
   },
   theme: ThemeDocument,
 ) {
-  if (args.activities.find((activity) => !theme.activities?.find((act) => activity === act.id.toString())))
+  const activities = await theme.activities;
+  const levels = await theme.levels;
+  if (args.activities.find((activity) => activities.find((act) => activity === act.id.toString())))
     throw new GraphQLError('Une ou plusieurs activités invalides');
   const competences = await Competence.find({
     reference: theme.reference,
-    _id: { $in: args.competences.map((c) => c.competence) },
+    _id: { $in: args.competences },
   });
+
+  if (!levels.find((l) => l.id.toString() === args.level)) throw new GraphQLError('Niveau invalide');
 
   if (competences.length !== args.competences.length) throw new GraphQLError('Une ou plusieurs compétences invalides');
 
-  if (args.endDate && !args.startDate) {
-    throw new GraphQLError('Date de début invalide');
-  }
+  if (args.endDate && !args.startDate) throw new GraphQLError('Date de début invalide');
 
-  if (args.startDate && args.endDate && moment(args.endDate).isBefore(args.startDate)) {
+  if (args.startDate && args.endDate && moment(args.endDate).isBefore(args.startDate))
     throw new GraphQLError('La date de début doit être antérieure à la date de fin');
-  }
 }
 
 const createSkillValidation = {
@@ -51,39 +53,28 @@ const createSkillValidation = {
     .required(),
   competences: joi
     .array()
-    .items(
-      joi
-        .object({
-          competence: joi
-            .string()
-            .regex(/^[0-9a-fA-F]{24}$/)
-            .required(),
-          value: joi.number().min(1).max(8).required(),
-        })
-        .required(),
-    )
-    .unique((a, b) => a.competence === b.competence)
+    .items(joi.string().regex(/^[0-9a-fA-F]{24}$/))
+    .unique()
+    .required(),
+  level: joi
+    .string()
+    .regex(/^[0-9a-fA-F]{24}$/)
     .required(),
   startDate: joi.string().isoDate(),
   endDate: joi.string().isoDate(),
+  extraActivity: joi.string(),
 };
 
 const updateSkillValidation = {
   activities: joi.array().items(joi.string().regex(/^[0-9a-fA-F]{24}$/)),
   competences: joi
     .array()
-    .items(
-      joi.object({
-        competence: joi
-          .string()
-          .regex(/^[0-9a-fA-F]{24}$/)
-          .required(),
-        value: joi.number().min(1).max(8).required(),
-      }),
-    )
-    .unique((a, b) => a.competence === b.competence),
+    .items(joi.string().regex(/^[0-9a-fA-F]{24}$/))
+    .unique(),
+  level: joi.string().regex(/^[0-9a-fA-F]{24}$/),
   startDate: joi.string().isoDate(),
   endDate: joi.string().isoDate(),
+  extraActivity: joi.string(),
 };
 
 export default {
@@ -92,7 +83,9 @@ export default {
     {
       theme: { type: GraphQLID, required: true },
       activities: { type: new GraphQLList(GraphQLID), required: true },
-      competences: { type: new GraphQLList(SkillCompetencesInputType), required: true },
+      competences: { type: new GraphQLList(GraphQLID), required: true },
+      level: { type: GraphQLID, required: true },
+      extraActivity: { type: GraphQLString, required: false },
       startDate: { type: GraphQLString, required: false },
       endDate: { type: GraphQLString, required: false },
     },
@@ -117,7 +110,9 @@ export default {
     Skill,
     {
       activities: new GraphQLList(GraphQLID),
-      competences: new GraphQLList(SkillCompetencesInputType),
+      competences: new GraphQLList(GraphQLID),
+      extraActivity: GraphQLString,
+      level: GraphQLID,
       startDate: GraphQLString,
       endDate: GraphQLString,
     },

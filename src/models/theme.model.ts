@@ -1,5 +1,6 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
 import Activity, { ActivityDocument } from './activity.model';
+import Level, { LevelDocument } from './level.model';
 import { ReferenceDocument } from './reference.model';
 import { TagDocument } from './tag.model';
 
@@ -24,10 +25,11 @@ export interface Theme {
   code: string;
   tag: PopulatedDoc<TagDocument>;
   image: string;
-  activities?: ActivityDocument[];
+  activities: Promise<ActivityDocument[]>;
   reference: PopulatedDoc<ReferenceDocument>;
   scope: ThemeScope;
   level: number;
+  levels: Promise<LevelDocument[]>;
 }
 
 export interface ThemeDocument extends Document, Theme {}
@@ -43,7 +45,7 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
     image: { type: String },
     reference: { type: Schema.Types.ObjectId, ref: 'Reference', required: true },
     scope: { type: String, enum: ThemeScope, default: ThemeScope.SKILL },
-    level: { type: Number },
+    level: { type: Number, min: 2, max: 7 },
   },
   {
     timestamps: true,
@@ -51,7 +53,17 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
 );
 
 themeSchema.virtual('activities').get(function (this: ThemeDocument) {
-  return Activity.find({ $or: [{ theme: this._id }, { tag: this.tag }] });
+  const query: Record<string, any>[] = [{ theme: this._id }];
+  if (this.tag) {
+    query.push({ tag: this.tag });
+  }
+  return Activity.find({ $or: query });
+});
+
+themeSchema.virtual('levels').get(function (this: ThemeDocument) {
+  console.log(this.level);
+  if (!this.level) return [];
+  return Level.find({ reference: this.reference, rank: { $gte: this.level - 1, $lte: this.level + 1 } });
 });
 
 export default mongoose.model('Theme', themeSchema);
