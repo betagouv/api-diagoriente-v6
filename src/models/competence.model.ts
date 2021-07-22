@@ -1,9 +1,17 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
 import { ReferenceDocument } from './reference.model';
 
+export enum CompetenceType {
+  ORGANIZATIONAL = 'organizational',
+  COMMUNICATION = 'communication',
+  REFLECTIVE = 'reflective',
+}
+
+export const competenceTypes = [CompetenceType.ORGANIZATIONAL, CompetenceType.COMMUNICATION, CompetenceType.REFLECTIVE];
+
 export interface Competence {
   title: string;
-  type: string;
+  type: CompetenceType;
   levels: { title: string; subTitle: string }[];
   reference: PopulatedDoc<ReferenceDocument>;
 }
@@ -15,7 +23,7 @@ export type CompetenceModel = Model<CompetenceDocument>;
 const competenceSchema = new Schema<CompetenceDocument, CompetenceModel>(
   {
     title: { type: String, required: true, max: 150 },
-    type: { type: String, required: true },
+    type: { type: String, required: true, enum: competenceTypes },
     levels: [{ title: { type: String, max: 180 }, subTitle: { type: String, max: 180 } }],
     reference: { type: Schema.Types.ObjectId, required: true, ref: 'Reference' },
   },

@@ -4,6 +4,7 @@ import { GraphQLDate } from 'graphql-iso-date';
 import { ThemeType, ThemeDomainType } from 'types/theme.type';
 import { ActivityType } from 'types/activity.type';
 import { CompetenceType } from 'types/competence.type';
+import { LevelType } from './level.type';
 
 export const SkillUserType = new GraphQLObjectType({
   name: 'SkillUser',
@@ -27,5 +28,6 @@ export const SkillType = new GraphQLObjectType({
     domain: { type: ThemeDomainType },
     startDate: { type: GraphQLDate },
     endDate: { type: GraphQLDate },
+    levels: { type: new GraphQLList(LevelType) },
   },
 });

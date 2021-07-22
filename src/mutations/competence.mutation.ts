@@ -6,13 +6,16 @@ import update from 'crud/update';
 import remove from 'crud/remove';
 
 import { Role } from 'models/user.model';
-import Competence from 'models/competence.model';
+import Competence, { competenceTypes } from 'models/competence.model';
 
 import { CompetenceType, CompetenceLevelsInputType } from 'types/competence.type';
 
 const createCompetenceValidation = {
   title: joi.string().max(150).required(),
-  type: joi.string().required(),
+  type: joi
+    .string()
+    .required()
+    .valid(...competenceTypes),
   levels: joi.array().items(joi.object({ title: joi.string().max(180), subTitle: joi.string().max(180) })),
   reference: joi
     .string()
@@ -22,7 +25,7 @@ const createCompetenceValidation = {
 
 const updateCompetenceValidation = {
   title: joi.string().max(150),
-  type: joi.string(),
+  type: joi.string().valid(...competenceTypes),
   levels: joi.array().items(joi.object({ title: joi.string().max(180), subTitle: joi.string().max(180) })),
   reference: joi.string().regex(/^[0-9a-fA-F]{24}$/),
 };

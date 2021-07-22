@@ -24,7 +24,7 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
     theme: { type: Schema.Types.ObjectId, required: true, ref: 'Theme' },
     activities: [{ type: Schema.Types.ObjectId, ref: 'Activity' }],
     competences: [{ type: Schema.Types.ObjectId, required: true, ref: 'Competence' }],
-    level: { type: Schema.Types.ObjectId, required: true, ref: 'Level' },
+    levels: [{ type: Schema.Types.ObjectId, required: true, ref: 'Level' }],
     domain: { type: String, enum: themeDomains, required: true },
     extraActivity: { type: String, trim: true },
     startDate: { type: Date },

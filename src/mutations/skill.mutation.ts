@@ -19,7 +19,7 @@ async function validateSkillData(
     competences: { competence: string; value: number }[];
     startDate: string;
     endDate: string;
-    level: string;
+    levels: string[];
   },
   theme: ThemeDocument,
 ) {
@@ -32,7 +32,8 @@ async function validateSkillData(
     _id: { $in: args.competences },
   });
 
-  if (!levels.find((l) => l.id.toString() === args.level)) throw new GraphQLError('Niveau invalide');
+  if (!levels.find((l) => args.levels.find((level) => l.id.toString() === level)))
+    throw new GraphQLError('Un ou plusieurs Niveau invalides');
 
   if (competences.length !== args.competences.length) throw new GraphQLError('Une ou plusieurs compétences invalides');
 
@@ -56,9 +57,9 @@ const createSkillValidation = {
     .items(joi.string().regex(/^[0-9a-fA-F]{24}$/))
     .unique()
     .required(),
-  level: joi
-    .string()
-    .regex(/^[0-9a-fA-F]{24}$/)
+  levels: joi
+    .array()
+    .items(joi.string().regex(/^[0-9a-fA-F]{24}$/))
     .required(),
   startDate: joi.string().isoDate(),
   endDate: joi.string().isoDate(),
@@ -71,7 +72,7 @@ const updateSkillValidation = {
     .array()
     .items(joi.string().regex(/^[0-9a-fA-F]{24}$/))
     .unique(),
-  level: joi.string().regex(/^[0-9a-fA-F]{24}$/),
+  levels: joi.array().items(joi.string().regex(/^[0-9a-fA-F]{24}$/)),
   startDate: joi.string().isoDate(),
   endDate: joi.string().isoDate(),
   extraActivity: joi.string(),
@@ -84,7 +85,7 @@ export default {
       theme: { type: GraphQLID, required: true },
       activities: { type: new GraphQLList(GraphQLID), required: true },
       competences: { type: new GraphQLList(GraphQLID), required: true },
-      level: { type: GraphQLID, required: true },
+      levels: { type: new GraphQLList(GraphQLID), required: true },
       extraActivity: { type: GraphQLString, required: false },
       startDate: { type: GraphQLString, required: false },
       endDate: { type: GraphQLString, required: false },
@@ -112,7 +113,7 @@ export default {
       activities: new GraphQLList(GraphQLID),
       competences: new GraphQLList(GraphQLID),
       extraActivity: GraphQLString,
-      level: GraphQLID,
+      levels: new GraphQLList(GraphQLID),
       startDate: GraphQLString,
       endDate: GraphQLString,
     },
