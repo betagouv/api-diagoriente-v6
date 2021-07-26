@@ -6,6 +6,6 @@ export const InterestType = new GraphQLObjectType({
   fields: {
     id: { type: GraphQLID },
     title: { type: GraphQLString },
-    cursors: { type: new GraphQLList(CursorType) },
+    cursors: { type: new GraphQLList(new GraphQLList(CursorType)) },
   },
 });

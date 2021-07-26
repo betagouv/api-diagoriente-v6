@@ -1,8 +1,9 @@
-import mongoose, { Schema, Model, Document, Types } from 'mongoose';
-
+import mongoose, { Schema, Model, Document } from 'mongoose';
+import { groupBy } from 'lodash';
+import Cursor, { CursorDocument } from './cursor.model';
 export interface Interest {
   title: string;
-  cursors: { _id: Types.ObjectId; title: string }[][];
+  cursors: Promise<CursorDocument[][]>;
 }
 
 export interface InterestDocument extends Document, Interest {}
@@ -18,10 +19,14 @@ const interestSchema = new Schema<InterestDocument, InterestModel>(
   },
 );
 
-interestSchema.virtual('cursors', {
-  ref: 'Cursor',
-  localField: '_id',
-  foreignField: 'interest',
+interestSchema.virtual('cursors').get(async function (this: InterestDocument) {
+  const cursors = await Cursor.find({ interest: this._id });
+  const groupedCursors = groupBy(cursors, (c) => c.index);
+  const result = [];
+  for (let i = 0; i < 5; i += 1) {
+    result.push(groupedCursors[i]);
+  }
+  return result;
 });
 
 export default mongoose.model('Interest', interestSchema);
