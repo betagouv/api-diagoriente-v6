@@ -47,9 +47,18 @@ import Option from 'models/option.model';
 import interests from './interests.json';
 import Interest from 'models/interest.model';
 
+// cursors
+import cursors from './cursors.json';
+import Cursor from 'models/cursor.model';
+
 // level
 import levels from './levels.json';
 import Level from 'models/level.model';
+
+function addThemeLevel(theme: any, i: number) {
+  const level = (i % 5) + 2;
+  return { level, ...theme };
+}
 
 const delay = (ms: number) =>
   new Promise((resolve) => {
@@ -91,9 +100,9 @@ async function generate() {
   }
   await generateDocs(sectors, Sector);
   await generateDocs(tags, Tag);
-  await generateDocs(themesPro, Theme);
-  await generateDocs(themesPerso, Theme);
-  await generateDocs(themesVoluntary, Theme);
+  await generateDocs(themesPro.map(addThemeLevel), Theme);
+  await generateDocs(themesPerso.map(addThemeLevel), Theme);
+  await generateDocs(themesVoluntary.map(addThemeLevel), Theme);
   await generateDocs(activitiesPerso, Activity);
   await generateDocs(ActivitiesVoluntary, Activity);
   await generateDocs(ActivitiesPro, Activity);
@@ -102,6 +111,7 @@ async function generate() {
   await generateDocs(questions, Question);
   await generateDocs(options, Option);
   await generateDocs(interests, Interest);
+  await generateDocs(cursors, Cursor);
   await generateDocs(levels, Level);
   /*** fixtures ***/
 

@@ -1,6 +1,6 @@
 import { isArray } from 'lodash';
 import { SelectionSetNode } from 'graphql';
-import { PopulateOptions, model } from 'mongoose';
+import { PopulateOptions, model, Schema } from 'mongoose';
 
 function findDoc(doc: any): any {
   if (!isArray(doc)) return doc;
@@ -25,10 +25,11 @@ function autoPopulate(
           populate: autoPopulate(model(virtual.options.ref).schema, node.selectionSet, populateCondition),
         });
       } else {
-        let type = doc?.obj[name];
-
+        let type: any;
+        if (doc) {
+          type = doc instanceof Schema ? doc.obj[name] : doc[name];
+        }
         if (isArray(type)) type = findDoc(type);
-
         if (type) {
           if (type.ref) {
             const populateObject: PopulateOptions = {
@@ -44,7 +45,6 @@ function autoPopulate(
       }
     }
   });
-
   return r;
 }
 

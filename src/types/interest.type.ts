@@ -1,18 +1,11 @@
 import { GraphQLID, GraphQLObjectType, GraphQLString, GraphQLList } from 'graphql';
-
-export const InterestCursorType = new GraphQLObjectType({
-  name: 'InterestCursor',
-  fields: {
-    id: { type: GraphQLString },
-    title: { type: GraphQLString },
-  },
-});
+import { CursorType } from './cursor.type';
 
 export const InterestType = new GraphQLObjectType({
   name: 'Interest',
   fields: {
     id: { type: GraphQLID },
     title: { type: GraphQLString },
-    cursors: { type: new GraphQLList(new GraphQLList(InterestCursorType)) },
+    cursors: { type: new GraphQLList(CursorType) },
   },
 });

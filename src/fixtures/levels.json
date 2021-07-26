@@ -1,99 +1,130 @@
 [
   {
+    "_id": "60fe8c993de8480878da9254",
     "title": "Sous supervision permanente sur les tâches confiées.",
     "rank": 1,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da9255",
     "title": "Sous supervision mais avec une autonomie partielle.",
     "rank": 2,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da9256",
     "title": "Réalisation en toute autonomie de l’activité confiée",
     "rank": 3,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da9257",
     "title": "Réalisation en toute autonomie, mais demandant des adaptations à la diversité des situations rencontrées.",
     "rank": 4,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da9258",
     "title": "Coordination et évaluation au sein d’une équipe pour mettre en oeuvre la vision stratégique  de l’institution ou l’entreprise.",
     "rank": 5,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da9259",
     "title": "Exercice d’une  responsabilité dans la mise en place de projets nouveaux entrant dans le champ de l’institution ou l’entreprise.",
     "rank": 6,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da925a",
     "title": "Responsabilité dans la conception  d’une vision stratégique pour l’avenir de l’institution ou l’entreprise.",
     "rank": 7,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
   {
+    "_id": "60fe8c993de8480878da925b",
     "title": "Rôle de représentation ou délégation  d’une ou plusieurs institutions ou entreprises, sur les plans stratégique et communicationnel.",
     "rank": 8,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "responsibility"
+    "type": "responsibility",
+    "competenceTypes": ["organizational"]
   },
-
   {
+    "_id": "60fe8c993de8480878da925c",
     "title": "Informations et interactions liées à l’activité confiée. Messages directs, courts sur l’activité confiée auprès de collègues et tuteurs.",
     "rank": 1,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da925d",
     "title": "Informations sur le poste/métier et interactions sur des sujets familiers auprès de collègues et tuteurs.",
     "rank": 2,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da925e",
     "title": "Informations et interactions sur la réalisation et l’évaluation de l’activité, incluant clients/fournis-eurs/instances de contrôle.",
     "rank": 3,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da925f",
     "title": "Informations d’origine  multiple concernant le projet et l’équipe. Interactions variées avec transformation et adaptation de messages.",
     "rank": 4,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da9260",
     "title": "Multiplicité d’informations à hiérarchiser et gérer auprès d’interlocuteurs très variés : financeurs, décideurs partenaires et opérationnels. Analyse des interactions et des actions entre les personnes et les projets  dont on a la responsabilité.",
     "rank": 5,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da9261",
     "title": "Informations et connaissance du « système » dans lequel on évolue. Participation à des interactions et des actions, à promouvoir en interne et en  externe, pour introduire ou pérenniser l’innovation dans l’institution ou l’entreprise.",
     "rank": 6,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da9262",
     "title": "Veille et gestion d’informations nécessaires à la construction d’une vision stratégique. Interactions à visée stratégique à fort enjeu pour le maintien et le développement de l’activité. Discours élaborés et tenus  au nom de l’institution ou l’entreprise, avec variation de codes socio-culturels.",
     "rank": 7,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   },
   {
+    "_id": "60fe8c993de8480878da9263",
     "title": "Analyse   des facteurs en émergence et des mutations qui affectent et affecteront plus globalement la société et crée/création de modèles nouveaux. Interactions entre des réseaux d’experts reconnus impliqués dans la réflexion sur les mutations de la société et les enjeux sociétaux.",
     "rank": 8,
     "reference": "608a86725e14d8061297ce5f",
-    "type": "complexity"
+    "type": "complexity",
+    "competenceTypes": ["communication", "reflective"]
   }
 ]

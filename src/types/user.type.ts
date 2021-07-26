@@ -14,6 +14,8 @@ import { Role } from 'models/user.model';
 
 import { SkillType } from 'types/skill.type';
 import { VolunteerType } from 'types/volunteer.type';
+import { CursorType } from './cursor.type';
+import { InterestType } from './interest.type';
 
 export const UserGroupType = new GraphQLObjectType({
   name: 'UserGroup',
@@ -53,6 +55,14 @@ export const LocationTypeInput = new GraphQLInputObjectType({
   }),
 });
 
+export const UserInterestType = new GraphQLObjectType({
+  name: 'UserInterest',
+  fields: {
+    interest: { type: InterestType },
+    cursors: { type: new GraphQLList(CursorType) },
+  },
+});
+
 export const UserType: GraphQLObjectType<any, any> = new GraphQLObjectType({
   name: 'User',
   fields: {
@@ -69,5 +79,6 @@ export const UserType: GraphQLObjectType<any, any> = new GraphQLObjectType({
     group: { type: UserGroupType },
     skills: { type: new GraphQLList(SkillType) },
     volunteers: { type: new GraphQLList(VolunteerType) },
+    interests: { type: new GraphQLList(UserInterestType) },
   },
 });

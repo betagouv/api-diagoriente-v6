@@ -61,7 +61,6 @@ themeSchema.virtual('activities').get(function (this: ThemeDocument) {
 });
 
 themeSchema.virtual('levels').get(function (this: ThemeDocument) {
-  console.log(this.level);
   if (!this.level) return [];
   return Level.find({ reference: this.reference, rank: { $gte: this.level - 1, $lte: this.level + 1 } });
 });

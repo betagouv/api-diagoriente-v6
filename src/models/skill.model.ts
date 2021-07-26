@@ -1,15 +1,15 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
 import { themeDomains, ThemeDomain, ThemeDocument } from 'models/theme.model';
-import { LevelDocument } from './level.model';
+import Level, { LevelDocument } from './level.model';
+import Competence, { CompetenceDocument } from './competence.model';
 import { ActivityDocument } from './activity.model';
 import { UserDocument } from './user.model';
-import { CompetenceDocument } from './competence.model';
 export interface Skill {
   user: PopulatedDoc<UserDocument>;
   theme: PopulatedDoc<ThemeDocument>;
   activities: PopulatedDoc<ActivityDocument>[];
   extraActivity: string;
-  level: PopulatedDoc<LevelDocument>;
+  levels: PopulatedDoc<LevelDocument>[];
   competences: PopulatedDoc<CompetenceDocument>[];
   domain: ThemeDomain;
 }
@@ -34,5 +34,18 @@ const skillSchema = new Schema<SkillDocument, SkillModel>(
     timestamps: true,
   },
 );
+
+skillSchema.virtual('ranks').get(async function (this: SkillDocument) {
+  const levels = await Level.find({ _id: { $in: this.levels } });
+  const competences = await Competence.find({ _id: { $in: this.competences } });
+  return competences.map((competence) => {
+    const level = levels.find((l) => l.competenceTypes.find((type) => competence.type === type));
+    return {
+      competence,
+      level,
+      rank: level?.rank || 0,
+    };
+  });
+});
 
 export default mongoose.model('Skill', skillSchema);

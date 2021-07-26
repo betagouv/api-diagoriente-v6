@@ -1,10 +1,19 @@
-import { GraphQLID, GraphQLObjectType, GraphQLList, GraphQLString } from 'graphql';
+import { GraphQLID, GraphQLObjectType, GraphQLList, GraphQLString, GraphQLInt } from 'graphql';
 import { GraphQLDate } from 'graphql-iso-date';
 
 import { ThemeType, ThemeDomainType } from 'types/theme.type';
 import { ActivityType } from 'types/activity.type';
 import { CompetenceType } from 'types/competence.type';
 import { LevelType } from './level.type';
+
+export const SkillRankType = new GraphQLObjectType({
+  name: 'SkillRank',
+  fields: {
+    competence: { type: CompetenceType },
+    level: { type: LevelType },
+    rank: { type: GraphQLInt },
+  },
+});
 
 export const SkillUserType = new GraphQLObjectType({
   name: 'SkillUser',
@@ -24,10 +33,9 @@ export const SkillType = new GraphQLObjectType({
     user: { type: SkillUserType },
     theme: { type: ThemeType },
     activities: { type: new GraphQLList(ActivityType) },
-    competences: { type: new GraphQLList(CompetenceType) },
     domain: { type: ThemeDomainType },
     startDate: { type: GraphQLDate },
     endDate: { type: GraphQLDate },
-    levels: { type: new GraphQLList(LevelType) },
+    ranks: { type: new GraphQLList(SkillRankType) },
   },
 });

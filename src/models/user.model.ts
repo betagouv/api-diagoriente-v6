@@ -5,6 +5,7 @@ import moment from 'moment';
 
 import { env, expirationInterval, accessSecret } from 'config/vars';
 import { GroupDocument } from './group.model';
+import { InterestDocument } from './interest.model';
 
 export enum Role {
   USER = 'user',
@@ -31,6 +32,7 @@ export interface User {
     postCode: string;
   };
   group: PopulatedDoc<GroupDocument>;
+  interests: { interest: PopulatedDoc<InterestDocument>; cursors: string[] }[];
 }
 
 export interface UserDocument extends Document, User {
@@ -101,6 +103,12 @@ const userSchema = new mongoose.Schema<UserDocument, UserModel>(
       type: Schema.Types.ObjectId,
       ref: 'Group',
     },
+    interests: [
+      {
+        interest: { type: Schema.Types.ObjectId, ref: 'Interest' },
+        cursors: [{ type: Schema.Types.ObjectId, ref: 'Cursor' }],
+      },
+    ],
   },
   {
     timestamps: true,
