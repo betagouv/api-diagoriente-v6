@@ -1,5 +1,5 @@
 import mongoose, { Schema, Model, Document, PopulatedDoc } from 'mongoose';
-import Activity, { ActivityDocument } from './activity.model';
+import { ActivityDocument } from './activity.model';
 import Level, { LevelDocument } from './level.model';
 import { ReferenceDocument } from './reference.model';
 import { TagDocument } from './tag.model';
@@ -25,7 +25,7 @@ export interface Theme {
   code: string;
   tag: PopulatedDoc<TagDocument>;
   image: string;
-  activities: Promise<ActivityDocument[]>;
+  activities: PopulatedDoc<ActivityDocument>[];
   reference: PopulatedDoc<ReferenceDocument>;
   scope: ThemeScope;
   level: number;
@@ -52,12 +52,12 @@ const themeSchema = new Schema<ThemeDocument, ThemeModel>(
   },
 );
 
-themeSchema.virtual('activities').get(function (this: ThemeDocument) {
-  const query: Record<string, any>[] = [{ theme: this._id }];
-  if (this.tag) {
-    query.push({ tag: this.tag });
-  }
-  return Activity.find({ $or: query });
+themeSchema.virtual('activities', {
+  ref: 'Activity',
+  localField: (doc: any) => {
+    return doc.tag ? 'tag' : '_id';
+  },
+  foreignField: 'typeId',
 });
 
 themeSchema.virtual('levels').get(function (this: ThemeDocument) {
