@@ -25,7 +25,7 @@ async function validateSkillData(
 ) {
   const activities = await theme.activities;
   const levels = await theme.levels;
-  if (args.activities.find((activity) => activities.find((act) => activity === act.id.toString())))
+  if (!args.activities.find((activity) => activities.find((act) => activity === act.id.toString())))
     throw new GraphQLError('Une ou plusieurs activités invalides');
   const competences = await Competence.find({
     reference: theme.reference,
