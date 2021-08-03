@@ -5,7 +5,9 @@
     "rank": 1,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9255",
@@ -13,7 +15,9 @@
     "rank": 2,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9256",
@@ -21,7 +25,9 @@
     "rank": 3,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9257",
@@ -29,7 +35,9 @@
     "rank": 4,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9258",
@@ -37,7 +45,9 @@
     "rank": 5,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9259",
@@ -45,7 +55,9 @@
     "rank": 6,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925a",
@@ -53,7 +65,9 @@
     "rank": 7,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925b",
@@ -61,7 +75,9 @@
     "rank": 8,
     "reference": "608a86725e14d8061297ce5f",
     "type": "responsibility",
-    "competenceTypes": ["organizational"]
+    "competenceTypes": [
+      "organizational"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925c",
@@ -69,7 +85,10 @@
     "rank": 1,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925d",
@@ -77,7 +96,10 @@
     "rank": 2,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925e",
@@ -85,7 +107,10 @@
     "rank": 3,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da925f",
@@ -93,7 +118,10 @@
     "rank": 4,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9260",
@@ -101,7 +129,10 @@
     "rank": 5,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9261",
@@ -109,7 +140,10 @@
     "rank": 6,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9262",
@@ -117,7 +151,10 @@
     "rank": 7,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
   },
   {
     "_id": "60fe8c993de8480878da9263",
@@ -125,6 +162,73 @@
     "rank": 8,
     "reference": "608a86725e14d8061297ce5f",
     "type": "complexity",
-    "competenceTypes": ["communication", "reflective"]
+    "competenceTypes": [
+      "communication",
+      "reflective"
+    ]
+  },
+  {
+    "_id": "60fe8c993de8480878da9264",
+    "title": "Réalisation partielle de certaines tâches d’un métier",
+    "rank": 1,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da9265",
+    "title": "Réalisation de quelques activités comportant plusieurs tâches",
+    "rank": 2,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da9266",
+    "title": "Réalisation de toutes les activités liées à un métier/ou une fonction assurés",
+    "rank": 3,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da9267",
+    "title": "Réalisation de toutes les activités liées au métier/fonction, y compris dans des situations diversifiées ou fluctuantes",
+    "rank": 4,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da9268",
+    "title": "Fonction de coordination des interactions et actions de plusieurs instances internes",
+    "rank": 5,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da9269",
+    "title": "Fonction de coordination de plusieurs équipes internes et externes chargées de projets",
+    "rank": 6,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da926a",
+    "title": "Fonction de veille  par rapport à la vision stratégique de son institution ou entreprise",
+    "rank": 7,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
+  },
+  {
+    "_id": "60fe8c993de8480878da926b",
+    "title": "Fonction d’expertise et de production de connaissances dépassant largement l’institution ou l’entreprise",
+    "rank": 8,
+    "reference": "608a86725e14d8061297ce5f",
+    "type": "environment",
+    "competenceTypes": []
   }
 ]

@@ -7,7 +7,7 @@ export enum LevelType {
   ENVIRONMENT = 'environment',
 }
 
-export const levelTypes = [LevelType.RESPONSIBILITY, LevelType.COMPLEXITY, LevelType.RESPONSIBILITY];
+export const levelTypes = [LevelType.RESPONSIBILITY, LevelType.COMPLEXITY, LevelType.ENVIRONMENT];
 export interface Level {
   title: string;
   rank: number;
