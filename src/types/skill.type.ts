@@ -37,5 +37,6 @@ export const SkillType = new GraphQLObjectType({
     startDate: { type: GraphQLDate },
     endDate: { type: GraphQLDate },
     ranks: { type: new GraphQLList(SkillRankType) },
+    extraActivity: { type: GraphQLString },
   },
 });
