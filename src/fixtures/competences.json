@@ -13,7 +13,8 @@
       { "title": "Planifie et supervise l'activité d'une ou plusieurs équipes" },
       { "title": "Elabore les orientations stratégiques de l'organisation et garantit leur mise en œuvre" },
       { "title": "conçoit et/ ou valide des perspectives stratégiques globales" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b654c643eb9816f1ae66ad",
@@ -29,7 +30,8 @@
       { "title": "Evalue et entérine des solutions relatives aux situations-problèmes imprévues" },
       { "title": "Elabore des procédures adaptées aux situations exceptionnelles" },
       { "title": "Crée des stratégies d'anticipation et de gestion de risques nouveaux ou émergents" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b6557443eb9816f1ae66c0",
@@ -45,7 +47,8 @@
       { "title": "Assure la coopération entre équipes et concourt à la distribution des rôles" },
       { "title": "Co-construit des méthodologies destinées à améliorer les dispositifs de collaboration" },
       { "title": "Crée des stratégies pour promouvoir la coopération des réseaux internes ou externes" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b6560c43eb9816f1ae66da",
@@ -61,7 +64,8 @@
       { "title": "Analyse et contrôle des données statistiques et budgétaires" },
       { "title": "Elabore de nouvelles formes de traitement des données" },
       { "title": "Conçoit des méthodologies pour le contrôle et le suivi des données" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b657e243eb9816f1ae66fb",
@@ -85,7 +89,8 @@
       {
         "title": "Conçoit des argumentaires adaptés aux objectifs, enjeux et auditoires visés. Mène et arbitre des échanges à forts enjeux stratégiques sociétaux et internationaux"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b657e243eb9816f1ae670d",
@@ -107,7 +112,8 @@
       { "title": "Traite et produit des documents relevant de son domaine d'intervention" },
       { "title": "Elabore des textes à visées multiples ou exposant des connaissances nouvelles" },
       { "title": "Crée et diffuse des textes sur des connaissances inédites ou faisant référence" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b657e243eb9816f1ae6704",
@@ -123,7 +129,8 @@
       { "title": "Formalise des usages en fonction de la diversité des rôles et des contextes" },
       { "title": "Elabore des stratégies pour la prise en compte de contextes culturels variés" },
       { "title": "Valorise la diversité et construit des consensus d'usage" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b6587043eb9816f1ae6737",
@@ -141,7 +148,8 @@
       },
       { "title": "Définit des dispositifs pour accompagner l'impact du numérique dans une organisation" },
       { "title": "Supervise l'élaboration de solutions inédites en lien avec la stratégie" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b6590a43eb9816f1ae6778",
@@ -159,7 +167,8 @@
       {
         "title": "Expertise Des Sources De Référence Et Produit Des Savoirs Liés À Des Enjeux Stratégiques Et/ Ou Sociétaux"
       }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b65ad643eb9816f1ae67c5",
@@ -175,7 +184,8 @@
       { "title": "Pilote la qualité suivant l'évolution de la vision stratégique" },
       { "title": "Pilote la qualité suivant l'évolution de la vision stratégique" },
       { "title": "Conçoit une démarche de management par la qualité" }
-    ]
+    ],
+    "verified": true
   },
   {
     "_id": "60b65ad643eb9816f1ae67ce",
@@ -191,7 +201,8 @@
       { "title": "Mobilise des ressources et des opportunités pour son évolution professionnelle" },
       { "title": "Analyse et oriente ses choix de carrière au regard de ses compétences" },
       { "title": "Se positionne sur des postes ou fonctions rattachés à des enjeux sociétaux d'avenir" }
-    ]
+    ],
+    "verified": false
   },
   {
     "_id": "60b65ad643eb9816f1ae67d7",
@@ -211,7 +222,8 @@
       {
         "title": "Conçoit des politiques de développement en cohérence avec les mutations sociétales et actualise son expertise"
       }
-    ]
+    ],
+    "verified": false
   },
   {
     "_id": "5f2ef890e5ce2e1f1bda49cd",
@@ -223,7 +235,8 @@
       { "title": "Je promeus le sens de l’engagement dans les missions d’intérêt général", "subTitle": "." }
     ],
     "type": "reflective",
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f36e57a36002631420a2a52",
@@ -238,7 +251,8 @@
       },
       { "title": "Je relie les acquis pendant le service civique à la suite de  mon parcours", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f410f0eae230a223e2ed24b",
@@ -253,7 +267,8 @@
       },
       { "title": "J’explique le choix de l’accompa- gnement apporté aux publics", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f4110ceae230a223e2ed264",
@@ -274,7 +289,8 @@
       },
       { "title": "J’explique le choix des codes sociaux et leur adaptation aux différentes situations", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f4110ffae230a223e2ed269",
@@ -289,7 +305,8 @@
       { "title": "Je communique partout, avec les membres de la structure et les publics", "subTitle": "" },
       { "title": "J’explique mes manières de communiquer suivant les enjeux des interactions", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f411124ae230a223e2ed26e",
@@ -307,7 +324,8 @@
       { "title": "Je fais des propositions en tenant compte des avis des membres de l’équipe", "subTitle": "" },
       { "title": "Je co-anime un collectif (réunion, groupes, jeux....)", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f411153ae230a223e2ed273",
@@ -328,7 +346,8 @@
         "subTitle": ""
       }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f411319ae230a223e2ed279",
@@ -352,7 +371,8 @@
         "subTitle": ""
       }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   },
   {
     "_id": "5f41138aae230a223e2ed282",
@@ -367,6 +387,7 @@
       { "title": "J’explique les conditions de réalisation de mes projets", "subTitle": "" },
       { "title": "Je planifie la ou les étapes de mise en œuvre de la suite de mon parcours", "subTitle": "" }
     ],
-    "reference": "608a86725e14d8061297ce60"
+    "reference": "608a86725e14d8061297ce60",
+    "verified": true
   }
 ]

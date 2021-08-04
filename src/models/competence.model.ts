@@ -14,6 +14,7 @@ export interface Competence {
   type: CompetenceType;
   levels: { title: string; subTitle: string }[];
   reference: PopulatedDoc<ReferenceDocument>;
+  verified: boolean;
 }
 
 export interface CompetenceDocument extends Document, Competence {}
@@ -26,6 +27,7 @@ const competenceSchema = new Schema<CompetenceDocument, CompetenceModel>(
     type: { type: String, required: true, enum: competenceTypes },
     levels: [{ title: { type: String, max: 180 }, subTitle: { type: String, max: 180 } }],
     reference: { type: Schema.Types.ObjectId, required: true, ref: 'Reference' },
+    verified: { type: Boolean, default: false },
   },
   {
     timestamps: true,

@@ -1,5 +1,5 @@
 import joi from 'joi';
-import { GraphQLString, GraphQLList, GraphQLID } from 'graphql';
+import { GraphQLString, GraphQLList, GraphQLID, GraphQLBoolean } from 'graphql';
 
 import create from 'crud/create';
 import update from 'crud/update';
@@ -21,6 +21,7 @@ const createCompetenceValidation = {
     .string()
     .regex(/^[0-9a-fA-F]{24}$/)
     .required(),
+  verified: joi.boolean(),
 };
 
 const updateCompetenceValidation = {
@@ -28,6 +29,7 @@ const updateCompetenceValidation = {
   type: joi.string().valid(...competenceTypes),
   levels: joi.array().items(joi.object({ title: joi.string().max(180), subTitle: joi.string().max(180) })),
   reference: joi.string().regex(/^[0-9a-fA-F]{24}$/),
+  verified: joi.boolean(),
 };
 
 export default {
@@ -38,6 +40,7 @@ export default {
       type: { type: GraphQLString, required: true },
       levels: { type: new GraphQLList(CompetenceLevelsInputType), required: false },
       reference: { type: GraphQLID, required: true },
+      verified: { type: GraphQLBoolean, required: false },
     },
     CompetenceType,
     { validateSchema: createCompetenceValidation, authorizationRoles: [Role.ADMIN] },
@@ -49,6 +52,7 @@ export default {
       type: GraphQLString,
       levels: new GraphQLList(CompetenceLevelsInputType),
       reference: GraphQLID,
+      verified: GraphQLBoolean,
     },
     CompetenceType,
     { validateSchema: updateCompetenceValidation, authorizationRoles: [Role.ADMIN] },

@@ -5,6 +5,7 @@ import {
   GraphQLList,
   GraphQLInputObjectType,
   GraphQLEnumType,
+  GraphQLBoolean,
 } from 'graphql';
 
 import { CompetenceType as CompetenceTypeEnum } from 'models/competence.model';
@@ -42,5 +43,6 @@ export const CompetenceType = new GraphQLObjectType({
     type: { type: CompetenceTypeType },
     levels: { type: new GraphQLList(CompetenceLevelsType) },
     reference: { type: GraphQLID },
+    verified: { type: GraphQLBoolean },
   },
 });

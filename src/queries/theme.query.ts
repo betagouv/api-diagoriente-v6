@@ -36,6 +36,10 @@ export default {
 
       return querySearch;
     },
+    populateConditions: () => ({ competences: { verified: true } }),
   }),
-  theme: get(Theme, ThemeType, { authorizationRoles: [Role.ADMIN, Role.USER] }),
+  theme: get(Theme, ThemeType, {
+    authorizationRoles: [Role.ADMIN, Role.USER],
+    populateConditions: () => ({ competences: { verified: true } }),
+  }),
 };
