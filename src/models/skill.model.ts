@@ -48,4 +48,10 @@ skillSchema.virtual('ranks').get(async function (this: SkillDocument) {
   });
 });
 
+skillSchema.virtual('recommendations', {
+  ref: 'Recommendation',
+  localField: '_id',
+  foreignField: 'skill',
+});
+
 export default mongoose.model('Skill', skillSchema);

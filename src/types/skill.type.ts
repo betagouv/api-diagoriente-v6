@@ -5,6 +5,7 @@ import { ThemeType, ThemeDomainType } from 'types/theme.type';
 import { ActivityType } from 'types/activity.type';
 import { CompetenceType } from 'types/competence.type';
 import { LevelType } from './level.type';
+import { RecommendationType } from './recommendation.type';
 
 export const SkillRankType = new GraphQLObjectType({
   name: 'SkillRank',
@@ -38,5 +39,6 @@ export const SkillType = new GraphQLObjectType({
     endDate: { type: GraphQLDate },
     ranks: { type: new GraphQLList(SkillRankType) },
     extraActivity: { type: GraphQLString },
+    recommendations: { type: new GraphQLList(RecommendationType) },
   },
 });
