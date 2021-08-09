@@ -46,9 +46,12 @@ export default {
     {
       validateSchema: createRecommendationValidation,
       authorizationRoles: [Role.USER],
-      pre: async (args: { skill: string }, req: LocalRequest) => {
+      pre: async (args: { skill: string; email: string }, req: LocalRequest) => {
         const skill = await Skill.findOne({ _id: args.skill, user: req.user?.id });
         if (!skill) throw new GraphQLError('Experience introuvable');
+        const recommendation = await Recommendation.findOne({ skill: (args as any).skill, email: args.email });
+        if (recommendation) throw new GraphQLError('La recommandation existe déjà');
+
         const secret = crypto.randomBytes(16).toString('base64').replace('==', '');
 
         return { ...args, secret, status: RecommendationStatus.PENDING };

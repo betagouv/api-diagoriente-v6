@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "610d08a7000e6805b2bdc399",
+    "theme": "60ddf825dc12a40b34825922",
+    "activities": ["60ddf825dc12a40b3482592e", "60ddf825dc12a40b3482592f", "60ddf825dc12a40b34825930"],
+    "user": "60cb627ddca6552b5403f730",
+    "competences": ["60b6502d43eb9816f1ae6693", "60b654c643eb9816f1ae66ad", "60b6560c43eb9816f1ae66da"],
+    "levels": ["60fe8c993de8480878da9264"],
+    "domain": "personal"
+  }
+]

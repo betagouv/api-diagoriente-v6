@@ -100,7 +100,7 @@ async function generate() {
   }
   await generateDocs(sectors, Sector);
   await generateDocs(tags, Tag);
-  await generateDocs(themesPro.map(addThemeLevel), Theme);
+  await generateDocs(themesPro, Theme);
   await generateDocs(themesPerso.map(addThemeLevel), Theme);
   await generateDocs(themesVoluntary.map(addThemeLevel), Theme);
   await generateDocs(activitiesPerso, Activity);

@@ -2,7 +2,7 @@ import { GraphQLNonNull, GraphQLString, GraphQLFloat, GraphQLInt, GraphQLList, G
 import axios from 'axios';
 import apiWrapper from 'crud/apiWrapper';
 
-import { ImmersionType, FormationType, FormationLabelType } from 'types/partenaire.type';
+import { ImmersionType, FormationType, FormationLabelType, MissionListType } from 'types/partenaire.type';
 import generateToken from 'utils/generateToken';
 import { Role } from 'models/user.model';
 
@@ -105,5 +105,26 @@ export default {
       search: { type: GraphQLNonNull(GraphQLString) },
     },
     { authorizationRoles: [Role.USER] },
+  ),
+  missions: apiWrapper(
+    async (args) => {
+      const res = await axios.get('https://api.api-engagement.beta.gouv.fr/v0/mission', {
+        headers: { apiKey: '59d84cba_8043_48cf_8d5a_650014d5e1d5' },
+        params: args,
+      });
+      return res.data;
+    },
+    MissionListType,
+    {
+      departmentName: { type: GraphQLString },
+      country: { type: GraphQLString },
+      activity: { type: GraphQLString },
+      city: { type: GraphQLString },
+      publisher: { type: GraphQLString },
+      domain: { type: GraphQLString },
+      type: { type: GraphQLString },
+      skip: { type: GraphQLString },
+      limit: { type: GraphQLString },
+    },
   ),
 };

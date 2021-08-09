@@ -120,3 +120,81 @@ export const FormationLabelType = new GraphQLObjectType({
     labelsAndRomes: { type: new GraphQLList(FormationLabelAndRomesType) },
   }),
 });
+
+export const MissionModerationType = new GraphQLObjectType({
+  name: 'MissionModeration',
+  fields: {
+    statusCode: { type: GraphQLString },
+    _id: { type: GraphQLString },
+    publisher: { type: GraphQLString },
+    publisherName: { type: GraphQLString },
+    publisherLogo: { type: GraphQLString },
+    statusComment: { type: GraphQLString },
+    author: { type: GraphQLString },
+  },
+});
+
+export const MissionLocationType = new GraphQLObjectType({
+  name: 'MissionLocation',
+  fields: {
+    lat: { type: GraphQLFloat },
+    lon: { type: GraphQLFloat },
+  },
+});
+
+export const MissionType = new GraphQLObjectType({
+  name: 'Mission',
+  fields: {
+    location: { type: MissionLocationType },
+    tasks: { type: GraphQLList(GraphQLString) },
+    audience: { type: GraphQLList(GraphQLString) },
+    soft_skills: { type: GraphQLList(GraphQLString) },
+    remote: { type: GraphQLString },
+    _id: { type: GraphQLString },
+    clientId: { type: GraphQLString },
+    publisherId: { type: GraphQLString },
+    activity: { type: GraphQLString },
+    adresse: { type: GraphQLString },
+    applicationUrl: { type: GraphQLString },
+    city: { type: GraphQLString },
+    country: { type: GraphQLString },
+    createdAt: { type: GraphQLString },
+    departmentCode: { type: GraphQLString },
+    departmentName: { type: GraphQLString },
+    description: { type: GraphQLString },
+    domain: { type: GraphQLString },
+    endAt: { type: GraphQLString },
+    lastSyncAt: { type: GraphQLString },
+    organizationFullAddress: { type: GraphQLString },
+    organizationId: { type: GraphQLString },
+    organizationName: { type: GraphQLString },
+    organizationUrl: { type: GraphQLString },
+    places: { type: GraphQLInt },
+    postalCode: { type: GraphQLString },
+    postedAt: { type: GraphQLString },
+    publisherLogo: { type: GraphQLString },
+    publisherName: { type: GraphQLString },
+    publisherUrl: { type: GraphQLString },
+    startAt: { type: GraphQLString },
+    title: { type: GraphQLString },
+    updatedAt: { type: GraphQLString },
+    region: { type: GraphQLString },
+    jobboard_indeed_status: { type: GraphQLString },
+    deleted: { type: GraphQLString },
+    priority: { type: GraphQLString },
+    organizationDescription: { type: GraphQLString },
+    statusCode: { type: GraphQLString },
+    statusComment: { type: GraphQLString },
+    moderation: { type: GraphQLList(MissionModerationType) },
+  },
+});
+
+export const MissionListType = new GraphQLObjectType({
+  name: 'MissionList',
+  fields: {
+    total: { type: GraphQLInt },
+    limit: { type: GraphQLInt },
+    skip: { type: GraphQLInt },
+    data: { type: new GraphQLList(MissionType) },
+  },
+});
