@@ -1,4 +1,6 @@
-create .env file 
+## Install  
+
+### create .env file 
 ```
 NODE_ENV=development
 PORT=3005
@@ -13,3 +15,10 @@ CLIENT_SECRET=
 SCOPES= 
 API_KEY_SENDINGBLUE= 
 ```
+ * npm install
+ 
+## Start   
+
+
+ * npm run fixtures 
+ * npm start 
