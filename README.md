@@ -1,5 +1,5 @@
 create .env file 
-
+```
 NODE_ENV=development
 PORT=3005
 MONGO_URI=mongodb://localhost:27017/diagoriante
@@ -12,3 +12,4 @@ CLIENT_ID=
 CLIENT_SECRET= 
 SCOPES= 
 API_KEY_SENDINGBLUE= 
+```
